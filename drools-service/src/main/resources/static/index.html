@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drools Rules Engine - Console</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 30px;
+        }
+
+        header {
+            border-bottom: 2px solid #e5e5e5;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .status {
+            display: inline-block;
+            padding: 4px 12px;
+            background: #10b981;
+            color: white;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            color: #555;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .card {
+            background: #f9fafb;
+            border: 1px solid #e5e5e5;
+            border-radius: 6px;
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-card h3 {
+            font-size: 32px;
+            margin-bottom: 5px;
+        }
+
+        .stat-card p {
+            opacity: 0.9;
+            font-size: 14px;
+        }
+
+        .rule-list {
+            list-style: none;
+        }
+
+        .rule-item {
+            padding: 12px;
+            border-left: 4px solid #3b82f6;
+            background: white;
+            margin-bottom: 10px;
+            border-radius: 4px;
+        }
+
+        .rule-name {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .rule-desc {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .test-section {
+            background: #fffbeb;
+            border: 1px solid #fbbf24;
+            padding: 20px;
+            border-radius: 6px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+            font-weight: 500;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #d1d5db;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        button {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background: #2563eb;
+        }
+
+        .result-box {
+            margin-top: 20px;
+            padding: 15px;
+            background: white;
+            border: 1px solid #d1d5db;
+            border-radius: 6px;
+            display: none;
+        }
+
+        .result-box.show {
+            display: block;
+        }
+
+        .result-box pre {
+            background: #f3f4f6;
+            padding: 15px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+
+        .category-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            background: #e0e7ff;
+            color: #3730a3;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔥 Drools Rules Engine Console</h1>
+            <span class="status" id="status">⚫ Checking...</span>
+        </header>
+
+        <div class="stat-grid">
+            <div class="stat-card">
+                <h3 id="totalRules">--</h3>
+                <p>Total Rules</p>
+            </div>
+            <div class="stat-card" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                <h3 id="categories">--</h3>
+                <p>Categories</p>
+            </div>
+            <div class="stat-card" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                <h3 id="executions">0</h3>
+                <p>Executions</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📋 Available Rules</h2>
+            <div class="card">
+                <ul class="rule-list" id="rulesList">
+                    <li class="rule-item">
+                        <div class="rule-name">High Priority - Long Overdue High Value</div>
+                        <div class="rule-desc">
+                            <span class="category-badge">priority</span>
+                            IF overdue > 90 days AND amount > 100,000 THEN priority = 10
+                        </div>
+                    </li>
+                    <li class="rule-item">
+                        <div class="rule-name">Medium Priority - Extended Overdue</div>
+                        <div class="rule-desc">
+                            <span class="category-badge">priority</span>
+                            IF overdue 60-90 days AND amount > 50,000 THEN priority = 7
+                        </div>
+                    </li>
+                    <li class="rule-item">
+                        <div class="rule-name">Compliance Check - Contact Hours</div>
+                        <div class="rule-desc">
+                            <span class="category-badge">compliance</span>
+                            Ensure contacts only during 8 AM - 9 PM HKT
+                        </div>
+                    </li>
+                    <li class="rule-item">
+                        <div class="rule-name">Strategy Assignment - Payment Plan</div>
+                        <div class="rule-desc">
+                            <span class="category-badge">strategy</span>
+                            IF overdue < 60 days AND payment_history = good THEN strategy = payment_plan
+                        </div>
+                    </li>
+                    <li class="rule-item">
+                        <div class="rule-name">Risk Assessment - Legal Escalation</div>
+                        <div class="rule-desc">
+                            <span class="category-badge">risk</span>
+                            IF overdue > 120 days AND contact_failed > 5 THEN escalate_legal = true
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🧪 Test Rules Engine</h2>
+            <div class="test-section">
+                <form id="testForm">
+                    <div class="form-group">
+                        <label>Case ID</label>
+                        <input type="text" id="caseId" value="TEST-001" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Overdue Amount (HK$)</label>
+                        <input type="number" id="overdueAmount" value="85000" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Overdue Days</label>
+                        <input type="number" id="overdueDays" value="127" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Contact Count</label>
+                        <input type="number" id="contactCount" value="3" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Payment History</label>
+                        <select id="paymentHistory">
+                            <option value="excellent">Excellent</option>
+                            <option value="good">Good</option>
+                            <option value="fair" selected>Fair</option>
+                            <option value="poor">Poor</option>
+                        </select>
+                    </div>
+                    <button type="submit">🚀 Execute Rules</button>
+                </form>
+
+                <div class="result-box" id="resultBox">
+                    <h3>Results:</h3>
+                    <pre id="resultContent"></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = 'http://localhost:8081/api/rules';
+
+        // Check health on load
+        async function checkHealth() {
+            try {
+                const response = await fetch(`${API_BASE}/health`);
+                const data = await response.json();
+                document.getElementById('status').textContent = '✅ ' + data.status.toUpperCase();
+                document.getElementById('status').style.background = '#10b981';
+            } catch (error) {
+                document.getElementById('status').textContent = '❌ OFFLINE';
+                document.getElementById('status').style.background = '#ef4444';
+            }
+        }
+
+        // Load rules info
+        async function loadRules() {
+            try {
+                const response = await fetch(`${API_BASE}/list`);
+                const data = await response.json();
+                document.getElementById('totalRules').textContent = data.total_rules;
+                document.getElementById('categories').textContent = data.categories.length;
+            } catch (error) {
+                console.error('Failed to load rules:', error);
+            }
+        }
+
+        // Handle form submission
+        document.getElementById('testForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const facts = {
+                caseId: document.getElementById('caseId').value,
+                overdueAmount: parseFloat(document.getElementById('overdueAmount').value),
+                overdueDays: parseInt(document.getElementById('overdueDays').value),
+                contactCount: parseInt(document.getElementById('contactCount').value),
+                paymentHistory: document.getElementById('paymentHistory').value
+            };
+
+            try {
+                const response = await fetch(`${API_BASE}/evaluate`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(facts)
+                });
+
+                const result = await response.json();
+
+                document.getElementById('resultContent').textContent = JSON.stringify(result, null, 2);
+                document.getElementById('resultBox').classList.add('show');
+
+                // Increment execution counter
+                const execCount = parseInt(document.getElementById('executions').textContent) + 1;
+                document.getElementById('executions').textContent = execCount;
+            } catch (error) {
+                document.getElementById('resultContent').textContent = 'Error: ' + error.message;
+                document.getElementById('resultBox').classList.add('show');
+            }
+        });
+
+        // Initialize
+        checkHealth();
+        loadRules();
+    </script>
+</body>
+</html>

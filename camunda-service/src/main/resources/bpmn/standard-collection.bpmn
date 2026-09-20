@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL"
+                  xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI"
+                  xmlns:dc="http://www.omg.org/spec/DD/20100524/DC"
+                  xmlns:di="http://www.omg.org/spec/DD/20100524/DI"
+                  xmlns:camunda="http://camunda.org/schema/1.0/bpmn"
+                  id="Definitions_1"
+                  targetNamespace="http://bpmn.io/schema/bpmn">
+
+  <bpmn:process id="standard_collection" name="Standard Collection Process" isExecutable="true">
+
+    <bpmn:startEvent id="start_event" name="Case Created"/>
+
+    <bpmn:sequenceFlow sourceRef="start_event" targetRef="initial_contact"/>
+
+    <bpmn:userTask id="initial_contact" name="Initial Contact"
+                   camunda:assignee="${assignee}">
+      <bpmn:extensionElements>
+        <camunda:formData>
+          <camunda:formField id="contact_outcome" label="Contact Outcome" type="enum">
+            <camunda:value id="reached" name="Customer Reached"/>
+            <camunda:value id="no_answer" name="No Answer"/>
+            <camunda:value id="voicemail" name="Left Voicemail"/>
+          </camunda:formField>
+        </camunda:formData>
+      </bpmn:extensionElements>
+    </bpmn:userTask>
+
+    <bpmn:sequenceFlow sourceRef="initial_contact" targetRef="send_letter"/>
+
+    <bpmn:serviceTask id="send_letter" name="Send Reminder Letter"
+                      camunda:class="com.capco.camunda.delegate.SendLetterDelegate"/>
+
+    <bpmn:sequenceFlow sourceRef="send_letter" targetRef="wait_response"/>
+
+    <bpmn:intermediateCatchEvent id="wait_response" name="Wait 7 Days">
+      <bpmn:timerEventDefinition>
+        <bpmn:timeDuration>P7D</bpmn:timeDuration>
+      </bpmn:timerEventDefinition>
+    </bpmn:intermediateCatchEvent>
+
+    <bpmn:sequenceFlow sourceRef="wait_response" targetRef="response_gateway"/>
+
+    <bpmn:exclusiveGateway id="response_gateway" name="Response Received?"/>
+
+    <bpmn:sequenceFlow sourceRef="response_gateway" targetRef="payment_plan"
+                       name="Yes">
+      <bpmn:conditionExpression>${response == 'yes'}</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+
+    <bpmn:sequenceFlow sourceRef="response_gateway" targetRef="follow_up"
+                       name="No">
+      <bpmn:conditionExpression>${response == 'no'}</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+
+    <bpmn:userTask id="payment_plan" name="Negotiate Payment Plan"
+                   camunda:assignee="${assignee}"/>
+
+    <bpmn:sequenceFlow sourceRef="payment_plan" targetRef="end_resolved"/>
+
+    <bpmn:userTask id="follow_up" name="Follow-up Call"
+                   camunda:assignee="${assignee}"/>
+
+    <bpmn:sequenceFlow sourceRef="follow_up" targetRef="escalation_gateway"/>
+
+    <bpmn:exclusiveGateway id="escalation_gateway" name="Resolved?"/>
+
+    <bpmn:sequenceFlow sourceRef="escalation_gateway" targetRef="end_resolved"
+                       name="Yes">
+      <bpmn:conditionExpression>${resolved == true}</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+
+    <bpmn:sequenceFlow sourceRef="escalation_gateway" targetRef="escalate"
+                       name="No">
+      <bpmn:conditionExpression>${resolved == false}</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+
+    <bpmn:serviceTask id="escalate" name="Escalate to Supervisor"
+                      camunda:class="com.capco.camunda.delegate.EscalateDelegate"/>
+
+    <bpmn:sequenceFlow sourceRef="escalate" targetRef="end_escalated"/>
+
+    <bpmn:endEvent id="end_resolved" name="Case Resolved"/>
+
+    <bpmn:endEvent id="end_escalated" name="Case Escalated"/>
+
+  </bpmn:process>
+
+</bpmn:definitions>

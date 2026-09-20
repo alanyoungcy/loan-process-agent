@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:zeebe="http://camunda.org/schema/zeebe/1.0" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_standard_collection" targetNamespace="http://bpmn.io/schema/bpmn">
+  <bpmn:process id="standard-collection-process" name="Standard Collection Process" isExecutable="true">
+    <bpmn:documentation>Standard 30-60-90 day collection workflow</bpmn:documentation>
+
+    <bpmn:startEvent id="StartEvent_1" name="Case Overdue">
+      <bpmn:outgoing>Flow_1</bpmn:outgoing>
+    </bpmn:startEvent>
+
+    <bpmn:sequenceFlow id="Flow_1" sourceRef="StartEvent_1" targetRef="Activity_CheckCompliance" />
+
+    <bpmn:businessRuleTask id="Activity_CheckCompliance" name="Check Compliance">
+      <bpmn:extensionElements>
+        <zeebe:calledDecision decisionId="complianceCheck" resultVariable="complianceResult" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_1</bpmn:incoming>
+      <bpmn:outgoing>Flow_2</bpmn:outgoing>
+    </bpmn:businessRuleTask>
+
+    <bpmn:sequenceFlow id="Flow_2" sourceRef="Activity_CheckCompliance" targetRef="Gateway_CanContact" />
+
+    <bpmn:exclusiveGateway id="Gateway_CanContact" name="Can Contact?">
+      <bpmn:incoming>Flow_2</bpmn:incoming>
+      <bpmn:outgoing>Flow_Yes</bpmn:outgoing>
+      <bpmn:outgoing>Flow_No</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+
+    <bpmn:sequenceFlow id="Flow_Yes" name="Yes" sourceRef="Gateway_CanContact" targetRef="Activity_CalculatePriority">
+      <bpmn:conditionExpression>= complianceResult.canContact = true</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+
+    <bpmn:sequenceFlow id="Flow_No" name="No" sourceRef="Gateway_CanContact" targetRef="Activity_ScheduleLater">
+      <bpmn:conditionExpression>= complianceResult.canContact = false</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+
+    <bpmn:serviceTask id="Activity_ScheduleLater" name="Schedule for Later">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="schedule-contact" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_No</bpmn:incoming>
+      <bpmn:outgoing>Flow_End1</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <bpmn:businessRuleTask id="Activity_CalculatePriority" name="Calculate Priority">
+      <bpmn:extensionElements>
+        <zeebe:calledDecision decisionId="priorityScoring" resultVariable="priorityResult" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_Yes</bpmn:incoming>
+      <bpmn:outgoing>Flow_3</bpmn:outgoing>
+    </bpmn:businessRuleTask>
+
+    <bpmn:sequenceFlow id="Flow_3" sourceRef="Activity_CalculatePriority" targetRef="Activity_DetermineStrategy" />
+
+    <bpmn:serviceTask id="Activity_DetermineStrategy" name="Determine Contact Strategy">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="determine-strategy" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_3</bpmn:incoming>
+      <bpmn:outgoing>Flow_4</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <bpmn:sequenceFlow id="Flow_4" sourceRef="Activity_DetermineStrategy" targetRef="Activity_SendNotification" />
+
+    <bpmn:serviceTask id="Activity_SendNotification" name="Send Collection Notice">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="send-notification" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_4</bpmn:incoming>
+      <bpmn:outgoing>Flow_5</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <bpmn:sequenceFlow id="Flow_5" sourceRef="Activity_SendNotification" targetRef="Activity_LogAction" />
+
+    <bpmn:serviceTask id="Activity_LogAction" name="Log Collection Action">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="log-action" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_5</bpmn:incoming>
+      <bpmn:outgoing>Flow_6</bpmn:outgoing>
+    </bpmn:serviceTask>
+
+    <bpmn:sequenceFlow id="Flow_6" sourceRef="Activity_LogAction" targetRef="EndEvent_1" />
+    <bpmn:sequenceFlow id="Flow_End1" sourceRef="Activity_ScheduleLater" targetRef="EndEvent_1" />
+
+    <bpmn:endEvent id="EndEvent_1" name="Action Completed">
+      <bpmn:incoming>Flow_6</bpmn:incoming>
+      <bpmn:incoming>Flow_End1</bpmn:incoming>
+    </bpmn:endEvent>
+  </bpmn:process>
+
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="standard-collection-process">
+      <bpmndi:BPMNShape id="StartEvent_1_di" bpmnElement="StartEvent_1">
+        <dc:Bounds x="180" y="100" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_CheckCompliance_di" bpmnElement="Activity_CheckCompliance">
+        <dc:Bounds x="280" y="78" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_CanContact_di" bpmnElement="Gateway_CanContact" isMarkerVisible="true">
+        <dc:Bounds x="445" y="93" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_ScheduleLater_di" bpmnElement="Activity_ScheduleLater">
+        <dc:Bounds x="420" y="200" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_CalculatePriority_di" bpmnElement="Activity_CalculatePriority">
+        <dc:Bounds x="560" y="78" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_DetermineStrategy_di" bpmnElement="Activity_DetermineStrategy">
+        <dc:Bounds x="720" y="78" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_SendNotification_di" bpmnElement="Activity_SendNotification">
+        <dc:Bounds x="880" y="78" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_LogAction_di" bpmnElement="Activity_LogAction">
+        <dc:Bounds x="1040" y="78" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="EndEvent_1_di" bpmnElement="EndEvent_1">
+        <dc:Bounds x="1200" y="100" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_1_di" bpmnElement="Flow_1">
+        <di:waypoint x="216" y="118" />
+        <di:waypoint x="280" y="118" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_2_di" bpmnElement="Flow_2">
+        <di:waypoint x="380" y="118" />
+        <di:waypoint x="445" y="118" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_Yes_di" bpmnElement="Flow_Yes">
+        <di:waypoint x="495" y="118" />
+        <di:waypoint x="560" y="118" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_No_di" bpmnElement="Flow_No">
+        <di:waypoint x="470" y="143" />
+        <di:waypoint x="470" y="200" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_3_di" bpmnElement="Flow_3">
+        <di:waypoint x="660" y="118" />
+        <di:waypoint x="720" y="118" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_4_di" bpmnElement="Flow_4">
+        <di:waypoint x="820" y="118" />
+        <di:waypoint x="880" y="118" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_5_di" bpmnElement="Flow_5">
+        <di:waypoint x="980" y="118" />
+        <di:waypoint x="1040" y="118" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_6_di" bpmnElement="Flow_6">
+        <di:waypoint x="1140" y="118" />
+        <di:waypoint x="1200" y="118" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_End1_di" bpmnElement="Flow_End1">
+        <di:waypoint x="520" y="240" />
+        <di:waypoint x="1218" y="240" />
+        <di:waypoint x="1218" y="136" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

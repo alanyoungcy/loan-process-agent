@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL"
+                  xmlns:camunda="http://camunda.org/schema/1.0/bpmn"
+                  id="Definitions_early"
+                  targetNamespace="http://bpmn.io/schema/bpmn">
+
+  <bpmn:process id="early_stage" name="Early Stage Collection" isExecutable="true">
+
+    <bpmn:startEvent id="start" name="1-15 Days Overdue"/>
+    <bpmn:sequenceFlow sourceRef="start" targetRef="send_sms"/>
+
+    <bpmn:serviceTask id="send_sms" name="Send SMS Reminder"
+                      camunda:class="com.capco.camunda.delegate.SendSMSDelegate"/>
+    <bpmn:sequenceFlow sourceRef="send_sms" targetRef="wait_3_days"/>
+
+    <bpmn:intermediateCatchEvent id="wait_3_days" name="Wait 3 Days">
+      <bpmn:timerEventDefinition>
+        <bpmn:timeDuration>P3D</bpmn:timeDuration>
+      </bpmn:timerEventDefinition>
+    </bpmn:intermediateCatchEvent>
+    <bpmn:sequenceFlow sourceRef="wait_3_days" targetRef="payment_check"/>
+
+    <bpmn:exclusiveGateway id="payment_check" name="Payment Received?"/>
+
+    <bpmn:sequenceFlow sourceRef="payment_check" targetRef="end_paid" name="Yes">
+      <bpmn:conditionExpression>${paid == true}</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+
+    <bpmn:sequenceFlow sourceRef="payment_check" targetRef="send_email" name="No">
+      <bpmn:conditionExpression>${paid == false}</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+
+    <bpmn:serviceTask id="send_email" name="Send Email Reminder"
+                      camunda:class="com.capco.camunda.delegate.SendEmailDelegate"/>
+    <bpmn:sequenceFlow sourceRef="send_email" targetRef="end_continued"/>
+
+    <bpmn:endEvent id="end_paid" name="Payment Received"/>
+    <bpmn:endEvent id="end_continued" name="Continue Monitoring"/>
+
+  </bpmn:process>
+
+</bpmn:definitions>

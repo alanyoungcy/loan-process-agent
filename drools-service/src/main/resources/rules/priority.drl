@@ -1,0 +1,44 @@
+package com.capco.drools.rules;
+
+import com.capco.drools.model.CaseFacts;
+
+// Priority Scoring Rules - Determine case priority
+
+rule "High Value Priority Boost"
+    salience 80
+    when
+        $case: CaseFacts(overdueAmount != null, overdueAmount > 10000)
+    then
+        $case.adjustPriority(2);
+        $case.addRecommendation("High value case - prioritize");
+end
+
+rule "Very High Value Priority"
+    salience 85
+    when
+        $case: CaseFacts(overdueAmount != null, overdueAmount > 50000)
+    then
+        $case.adjustPriority(3);
+        $case.addRecommendation("Very high value - immediate attention required");
+        $case.addTag("high_value");
+end
+
+rule "Long Overdue Priority"
+    salience 80
+    when
+        $case: CaseFacts(overdueDays != null, overdueDays > 90)
+    then
+        $case.adjustPriority(3);
+        $case.addRecommendation("Long overdue - escalate strategy");
+        $case.addTag("long_overdue");
+end
+
+rule "VIP Customer Priority"
+    salience 75
+    when
+        $case: CaseFacts(customerSegment != null, customerSegment == "VIP")
+    then
+        $case.adjustPriority(2);
+        $case.addRecommendation("VIP customer - handle with care");
+        $case.addTag("vip");
+end

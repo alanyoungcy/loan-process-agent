@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:zeebe="http://camunda.org/schema/zeebe/1.0" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_payment_plan" targetNamespace="http://bpmn.io/schema/bpmn">
+  <bpmn:process id="payment-plan-management" name="Payment Plan Management" isExecutable="true">
+    <bpmn:documentation>Workflow for setting up and monitoring payment plans</bpmn:documentation>
+
+    <bpmn:startEvent id="StartEvent" name="Payment Plan Request">
+      <bpmn:outgoing>Flow_1</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:sequenceFlow id="Flow_1" sourceRef="StartEvent" targetRef="Task_ValidateEligibility" />
+
+    <bpmn:serviceTask id="Task_ValidateEligibility" name="Validate Eligibility">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="validate-eligibility" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_1</bpmn:incoming>
+      <bpmn:outgoing>Flow_2</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="Flow_2" sourceRef="Task_ValidateEligibility" targetRef="Task_CreatePlan" />
+
+    <bpmn:serviceTask id="Task_CreatePlan" name="Create Payment Plan">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="create-payment-plan" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_2</bpmn:incoming>
+      <bpmn:outgoing>Flow_3</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="Flow_3" sourceRef="Task_CreatePlan" targetRef="Task_SendConfirmation" />
+
+    <bpmn:serviceTask id="Task_SendConfirmation" name="Send Confirmation">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="send-confirmation" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_3</bpmn:incoming>
+      <bpmn:outgoing>Flow_4</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="Flow_4" sourceRef="Task_SendConfirmation" targetRef="Task_ScheduleMonitoring" />
+
+    <bpmn:serviceTask id="Task_ScheduleMonitoring" name="Schedule Monitoring">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="schedule-monitoring" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_4</bpmn:incoming>
+      <bpmn:outgoing>Flow_5</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="Flow_5" sourceRef="Task_ScheduleMonitoring" targetRef="EndEvent" />
+
+    <bpmn:endEvent id="EndEvent" name="Plan Activated">
+      <bpmn:incoming>Flow_5</bpmn:incoming>
+    </bpmn:endEvent>
+  </bpmn:process>
+</bpmn:definitions>

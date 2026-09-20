@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL"
+                  xmlns:camunda="http://camunda.org/schema/1.0/bpmn"
+                  id="Definitions_payment_plan"
+                  targetNamespace="http://bpmn.io/schema/bpmn">
+
+  <bpmn:process id="payment_plan" name="Payment Plan Management" isExecutable="true">
+
+    <bpmn:startEvent id="start" name="Payment Plan Requested"/>
+    <bpmn:sequenceFlow sourceRef="start" targetRef="assess_ability"/>
+
+    <bpmn:serviceTask id="assess_ability" name="Assess Payment Ability"
+                      camunda:class="com.capco.camunda.delegate.AssessAbilityDelegate"/>
+    <bpmn:sequenceFlow sourceRef="assess_ability" targetRef="approval_gateway"/>
+
+    <bpmn:exclusiveGateway id="approval_gateway" name="Approved?"/>
+
+    <bpmn:sequenceFlow sourceRef="approval_gateway" targetRef="create_plan" name="Yes">
+      <bpmn:conditionExpression>${approved == true}</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+
+    <bpmn:sequenceFlow sourceRef="approval_gateway" targetRef="reject" name="No">
+      <bpmn:conditionExpression>${approved == false}</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+
+    <bpmn:userTask id="create_plan" name="Create Payment Plan"
+                   camunda:assignee="${assignee}"/>
+    <bpmn:sequenceFlow sourceRef="create_plan" targetRef="monitor_payments"/>
+
+    <bpmn:serviceTask id="monitor_payments" name="Monitor Payments"
+                      camunda:class="com.capco.camunda.delegate.MonitorPaymentsDelegate"/>
+    <bpmn:sequenceFlow sourceRef="monitor_payments" targetRef="end_success"/>
+
+    <bpmn:userTask id="reject" name="Reject and Escalate"/>
+    <bpmn:sequenceFlow sourceRef="reject" targetRef="end_rejected"/>
+
+    <bpmn:endEvent id="end_success" name="Plan Active"/>
+    <bpmn:endEvent id="end_rejected" name="Plan Rejected"/>
+
+  </bpmn:process>
+
+</bpmn:definitions>

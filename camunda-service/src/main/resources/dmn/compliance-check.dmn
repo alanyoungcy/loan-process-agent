@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:camunda="http://camunda.org/schema/1.0/dmn" id="compliance-rules" name="Compliance Check Rules" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.0.0">
+  <decision id="complianceCheck" name="Compliance Check">
+    <decisionTable id="decisionTable" hitPolicy="COLLECT">
+      <input id="input1" label="Current Hour" camunda:inputVariable="currentHour">
+        <inputExpression id="inputExpression1" typeRef="integer">
+          <text>currentHour</text>
+        </inputExpression>
+      </input>
+      <input id="input2" label="Daily Contact Count" camunda:inputVariable="dailyContactCount">
+        <inputExpression id="inputExpression2" typeRef="integer">
+          <text>dailyContactCount</text>
+        </inputExpression>
+      </input>
+      <input id="input3" label="Current Day" camunda:inputVariable="currentDay">
+        <inputExpression id="inputExpression3" typeRef="string">
+          <text>currentDay</text>
+        </inputExpression>
+      </input>
+      <input id="input4" label="Risk Level" camunda:inputVariable="riskLevel">
+        <inputExpression id="inputExpression4" typeRef="string">
+          <text>riskLevel</text>
+        </inputExpression>
+      </input>
+      <output id="output1" label="Can Contact" name="canContact" typeRef="boolean" />
+      <output id="output2" label="Violation" name="violation" typeRef="string" />
+      <output id="output3" label="Recommendation" name="recommendation" typeRef="string" />
+      <output id="output4" label="Tag" name="tag" typeRef="string" />
+      <rule id="rule1">
+        <inputEntry id="inputEntry1">
+          <text>&lt; 8</text>
+        </inputEntry>
+        <inputEntry id="inputEntry2">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="inputEntry3">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="inputEntry4">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="outputEntry1">
+          <text>false</text>
+        </outputEntry>
+        <outputEntry id="outputEntry2">
+          <text>"outside_contact_hours"</text>
+        </outputEntry>
+        <outputEntry id="outputEntry3">
+          <text>"Schedule contact between 8:00-21:00 HKT"</text>
+        </outputEntry>
+        <outputEntry id="outputEntry4">
+          <text></text>
+        </outputEntry>
+      </rule>
+      <rule id="rule2">
+        <inputEntry id="inputEntry5">
+          <text>&gt; 21</text>
+        </inputEntry>
+        <inputEntry id="inputEntry6">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="inputEntry7">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="inputEntry8">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="outputEntry5">
+          <text>false</text>
+        </outputEntry>
+        <outputEntry id="outputEntry6">
+          <text>"outside_contact_hours"</text>
+        </outputEntry>
+        <outputEntry id="outputEntry7">
+          <text>"Schedule contact between 8:00-21:00 HKT"</text>
+        </outputEntry>
+        <outputEntry id="outputEntry8">
+          <text></text>
+        </outputEntry>
+      </rule>
+      <rule id="rule3">
+        <inputEntry id="inputEntry9">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="inputEntry10">
+          <text>&gt;= 3</text>
+        </inputEntry>
+        <inputEntry id="inputEntry11">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="inputEntry12">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="outputEntry9">
+          <text>false</text>
+        </outputEntry>
+        <outputEntry id="outputEntry10">
+          <text>"excessive_frequency"</text>
+        </outputEntry>
+        <outputEntry id="outputEntry11">
+          <text>"Maximum 3 contacts per day reached"</text>
+        </outputEntry>
+        <outputEntry id="outputEntry12">
+          <text></text>
+        </outputEntry>
+      </rule>
+      <rule id="rule4">
+        <inputEntry id="inputEntry13">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="inputEntry14">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="inputEntry15">
+          <text>"saturday","sunday"</text>
+        </inputEntry>
+        <inputEntry id="inputEntry16">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="outputEntry13">
+          <text></text>
+        </outputEntry>
+        <outputEntry id="outputEntry14">
+          <text></text>
+        </outputEntry>
+        <outputEntry id="outputEntry15">
+          <text>"Weekend contact - use SMS or email only"</text>
+        </outputEntry>
+        <outputEntry id="outputEntry16">
+          <text></text>
+        </outputEntry>
+      </rule>
+      <rule id="rule5">
+        <inputEntry id="inputEntry17">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="inputEntry18">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="inputEntry19">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="inputEntry20">
+          <text>"high"</text>
+        </inputEntry>
+        <outputEntry id="outputEntry17">
+          <text></text>
+        </outputEntry>
+        <outputEntry id="outputEntry18">
+          <text></text>
+        </outputEntry>
+        <outputEntry id="outputEntry19">
+          <text>"Review compliance checklist before contact"</text>
+        </outputEntry>
+        <outputEntry id="outputEntry20">
+          <text>"high_risk"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+</definitions>

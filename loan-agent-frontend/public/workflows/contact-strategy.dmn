@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:camunda="http://camunda.org/schema/1.0/dmn" id="strategy-rules" name="Contact Strategy Rules" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.0.0">
+  <decision id="contactStrategy" name="Contact Strategy">
+    <decisionTable id="decisionTable" hitPolicy="FIRST">
+      <input id="input1" label="Overdue Days" camunda:inputVariable="overdueDays">
+        <inputExpression id="inputExpression1" typeRef="integer">
+          <text>overdueDays</text>
+        </inputExpression>
+      </input>
+      <input id="input2" label="Overdue Amount" camunda:inputVariable="overdueAmount">
+        <inputExpression id="inputExpression2" typeRef="double">
+          <text>overdueAmount</text>
+        </inputExpression>
+      </input>
+      <input id="input3" label="Customer Segment" camunda:inputVariable="customerSegment">
+        <inputExpression id="inputExpression3" typeRef="string">
+          <text>customerSegment</text>
+        </inputExpression>
+      </input>
+      <output id="output1" label="Recommended Channel" name="recommendedChannel" typeRef="string" />
+      <output id="output2" label="Recommended Script" name="recommendedScript" typeRef="string" />
+      <output id="output3" label="Recommendation" name="recommendation" typeRef="string" />
+      <rule id="rule1">
+        <inputEntry id="inputEntry1">
+          <text></text>
+        </inputEntry>
+        <inputEntry id="inputEntry2">
+          <text>&gt;= 50000</text>
+        </inputEntry>
+        <inputEntry id="inputEntry3">
+          <text>"VIP","premium"</text>
+        </inputEntry>
+        <outputEntry id="outputEntry1">
+          <text>"call"</text>
+        </outputEntry>
+        <outputEntry id="outputEntry2">
+          <text>"high_value_negotiation"</text>
+        </outputEntry>
+        <outputEntry id="outputEntry3">
+          <text>"Personal call with negotiation approach"</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule2">
+        <inputEntry id="inputEntry4">
+          <text>&lt;= 15</text>
+        </inputEntry>
+        <inputEntry id="inputEntry5">
+          <text>&lt; 10000</text>
+        </inputEntry>
+        <inputEntry id="inputEntry6">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="outputEntry4">
+          <text>"sms"</text>
+        </outputEntry>
+        <outputEntry id="outputEntry5">
+          <text>"early_reminder"</text>
+        </outputEntry>
+        <outputEntry id="outputEntry6">
+          <text>"Use SMS for gentle early reminder"</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule3">
+        <inputEntry id="inputEntry7">
+          <text>[30..60)</text>
+        </inputEntry>
+        <inputEntry id="inputEntry8">
+          <text>&lt; 20000</text>
+        </inputEntry>
+        <inputEntry id="inputEntry9">
+          <text></text>
+        </inputEntry>
+        <outputEntry id="outputEntry7">
+          <text>"email"</text>
+        </outputEntry>
+        <outputEntry id="outputEntry8">
+          <text>"payment_reminder"</text>
+        </outputEntry>
+        <outputEntry id="outputEntry9">
+          <text>"Email with payment link and options"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+</definitions>

@@ -1,0 +1,14 @@
+package com.capco.drools.rules;
+
+import com.capco.drools.model.CaseFacts;
+
+global org.slf4j.Logger logger;
+
+// Simple test rule to verify Drools is working
+rule "Test Rule"
+    when
+        $case: CaseFacts()
+    then
+        System.out.println("Drools rule executed for case: " + $case.getCaseId());
+        $case.addRecommendation("Rule engine is working");
+end

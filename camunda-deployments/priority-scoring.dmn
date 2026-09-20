@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20191111/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:camunda="http://camunda.org/schema/1.0/dmn" id="priority-rules" name="Priority Scoring Rules" namespace="http://camunda.org/schema/1.0/dmn" exporter="Camunda Modeler" exporterVersion="5.0.0">
+  <decision id="priorityScoring" name="Priority Scoring">
+    <decisionTable id="decisionTable" hitPolicy="COLLECT">
+      <input id="input1" label="Overdue Amount" camunda:inputVariable="overdueAmount">
+        <inputExpression id="inputExpression1" typeRef="double">
+          <text>overdueAmount</text>
+        </inputExpression>
+      </input>
+      <input id="input2" label="Overdue Days" camunda:inputVariable="overdueDays">
+        <inputExpression id="inputExpression2" typeRef="integer">
+          <text>overdueDays</text>
+        </inputExpression>
+      </input>
+      <input id="input3" label="Customer Segment" camunda:inputVariable="customerSegment">
+        <inputExpression id="inputExpression3" typeRef="string">
+          <text>customerSegment</text>
+        </inputExpression>
+      </input>
+      <output id="output1" label="Priority Adjustment" name="priorityAdjustment" typeRef="integer" />
+      <output id="output2" label="Recommendation" name="recommendation" typeRef="string" />
+      <output id="output3" label="Tag" name="tag" typeRef="string" />
+      <rule id="rule1">
+        <inputEntry id="inputEntry1">
+          <text>&gt; 50000</text>
+        </inputEntry>
+        <inputEntry id="inputEntry2">
+          <text>-</text>
+        </inputEntry>
+        <inputEntry id="inputEntry3">
+          <text>-</text>
+        </inputEntry>
+        <outputEntry id="outputEntry1">
+          <text>3</text>
+        </outputEntry>
+        <outputEntry id="outputEntry2">
+          <text>"Very high value - immediate attention required"</text>
+        </outputEntry>
+        <outputEntry id="outputEntry3">
+          <text>"high_value"</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule2">
+        <inputEntry id="inputEntry4">
+          <text>&gt; 10000</text>
+        </inputEntry>
+        <inputEntry id="inputEntry5">
+          <text>-</text>
+        </inputEntry>
+        <inputEntry id="inputEntry6">
+          <text>-</text>
+        </inputEntry>
+        <outputEntry id="outputEntry4">
+          <text>2</text>
+        </outputEntry>
+        <outputEntry id="outputEntry5">
+          <text>"High value case - prioritize"</text>
+        </outputEntry>
+        <outputEntry id="outputEntry6">
+          <text>-</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule3">
+        <inputEntry id="inputEntry7">
+          <text>-</text>
+        </inputEntry>
+        <inputEntry id="inputEntry8">
+          <text>&gt; 90</text>
+        </inputEntry>
+        <inputEntry id="inputEntry9">
+          <text>-</text>
+        </inputEntry>
+        <outputEntry id="outputEntry7">
+          <text>3</text>
+        </outputEntry>
+        <outputEntry id="outputEntry8">
+          <text>"Long overdue - escalate strategy"</text>
+        </outputEntry>
+        <outputEntry id="outputEntry9">
+          <text>"long_overdue"</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule4">
+        <inputEntry id="inputEntry10">
+          <text>-</text>
+        </inputEntry>
+        <inputEntry id="inputEntry11">
+          <text>-</text>
+        </inputEntry>
+        <inputEntry id="inputEntry12">
+          <text>"VIP"</text>
+        </inputEntry>
+        <outputEntry id="outputEntry10">
+          <text>2</text>
+        </outputEntry>
+        <outputEntry id="outputEntry11">
+          <text>"VIP customer - handle with care"</text>
+        </outputEntry>
+        <outputEntry id="outputEntry12">
+          <text>"vip"</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+</definitions>

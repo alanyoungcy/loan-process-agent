@@ -1,0 +1,14 @@
+{
+  "districts": [
+    "Central", "Admiralty", "Wan Chai", "Causeway Bay", "North Point", "Quarry Bay",
+    "Tsim Sha Tsui", "Mong Kok", "Yau Ma Tei", "Jordan", "Sham Shui Po",
+    "Sha Tin", "Tai Po", "Fanling", "Sheung Shui", "Tuen Mun", "Yuen Long", "Tin Shui Wai",
+    "Tsuen Wan", "Kwai Chung", "Tsing Yi", "Tung Chung", "Discovery Bay"
+  ],
+  "streets": [
+    "Nathan Road", "Canton Road", "Argyle Street", "Waterloo Road", "Prince Edward Road",
+    "Hennessy Road", "Lockhart Road", "Queen's Road", "Des Voeux Road", "Connaught Road",
+    "Castle Peak Road", "Tuen Mun Road", "Castle Peak Bay Road", "Shatin Road",
+    "Tai Po Road", "Fanling Highway", "Yuen Long Highway"
+  ]
+}

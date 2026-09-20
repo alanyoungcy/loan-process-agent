@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" id="compliance-rules" name="Compliance Check Rules" namespace="http://camunda.org/schema/1.0/dmn">
+  <decision id="complianceCheck" name="Compliance Check">
+    <decisionTable id="decisionTable" hitPolicy="FIRST">
+      <input id="input1" label="Current Hour">
+        <inputExpression id="inputExpression1" typeRef="number">
+          <text>currentHour</text>
+        </inputExpression>
+      </input>
+      <output id="output1" label="Can Contact" name="canContact" typeRef="boolean" />
+      <output id="output2" label="Violation" name="violation" typeRef="string" />
+      <rule id="rule1">
+        <inputEntry id="inputEntry1">
+          <text>&lt; 8</text>
+        </inputEntry>
+        <outputEntry id="outputEntry1">
+          <text>false</text>
+        </outputEntry>
+        <outputEntry id="outputEntry2">
+          <text>"outside_contact_hours"</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule2">
+        <inputEntry id="inputEntry2">
+          <text>&gt; 21</text>
+        </inputEntry>
+        <outputEntry id="outputEntry3">
+          <text>false</text>
+        </outputEntry>
+        <outputEntry id="outputEntry4">
+          <text>"outside_contact_hours"</text>
+        </outputEntry>
+      </rule>
+      <rule id="rule3">
+        <inputEntry id="inputEntry3">
+          <text>[8..21]</text>
+        </inputEntry>
+        <outputEntry id="outputEntry5">
+          <text>true</text>
+        </outputEntry>
+        <outputEntry id="outputEntry6">
+          <text>null</text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+</definitions>

@@ -1,0 +1,42 @@
+package com.capco.drools.rules;
+
+import com.capco.drools.model.CaseFacts;
+
+// Assignment Rules - Determine who should handle the case
+
+rule "VIP to Senior Collector"
+    salience 80
+    when
+        $case: CaseFacts(customerSegment != null, customerSegment == "VIP", assignedTo == null)
+    then
+        modify($case) {
+            setAssignedTo("senior_collector")
+        }
+        $case.adjustPriority(1);
+        $case.addRecommendation("Assign to senior collector for VIP handling");
+end
+
+rule "High Value to Experienced Collector"
+    salience 75
+    when
+        $case: CaseFacts(overdueAmount != null, overdueAmount > 100000, assignedTo == null)
+    then
+        modify($case) {
+            setAssignedTo("experienced_collector")
+        }
+        $case.adjustPriority(1);
+        $case.addRecommendation("Assign to experienced collector for high value");
+end
+
+rule "Standard Case Assignment"
+    salience 50
+    when
+        $case: CaseFacts(assignedTo == null,
+                        overdueAmount != null, overdueAmount < 50000,
+                        overdueDays != null, overdueDays < 90)
+    then
+        modify($case) {
+            setAssignedTo("collector")
+        }
+        $case.addRecommendation("Standard collector assignment");
+end

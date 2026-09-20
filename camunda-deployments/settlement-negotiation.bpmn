@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:zeebe="http://camunda.org/schema/zeebe/1.0" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_settlement" targetNamespace="http://bpmn.io/schema/bpmn">
+  <bpmn:process id="settlement-negotiation" name="Settlement Negotiation" isExecutable="true">
+    <bpmn:documentation>Workflow for negotiating debt settlement</bpmn:documentation>
+
+    <bpmn:startEvent id="StartEvent" name="Settlement Request">
+      <bpmn:outgoing>Flow_1</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:sequenceFlow id="Flow_1" sourceRef="StartEvent" targetRef="Task_AssessFinancial" />
+
+    <bpmn:serviceTask id="Task_AssessFinancial" name="Assess Financial Situation">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="assess-financial" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_1</bpmn:incoming>
+      <bpmn:outgoing>Flow_2</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="Flow_2" sourceRef="Task_AssessFinancial" targetRef="Task_CalculateOffer" />
+
+    <bpmn:serviceTask id="Task_CalculateOffer" name="Calculate Settlement Offer">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="calculate-offer" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_2</bpmn:incoming>
+      <bpmn:outgoing>Flow_3</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="Flow_3" sourceRef="Task_CalculateOffer" targetRef="Task_ReviewOffer" />
+
+    <bpmn:userTask id="Task_ReviewOffer" name="Review and Approve Offer">
+      <bpmn:incoming>Flow_3</bpmn:incoming>
+      <bpmn:outgoing>Flow_4</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:sequenceFlow id="Flow_4" sourceRef="Task_ReviewOffer" targetRef="Task_SendOffer" />
+
+    <bpmn:serviceTask id="Task_SendOffer" name="Send Settlement Offer">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="send-offer" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_4</bpmn:incoming>
+      <bpmn:outgoing>Flow_5</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="Flow_5" sourceRef="Task_SendOffer" targetRef="Task_WaitForResponse" />
+
+    <bpmn:intermediateCatchEvent id="Task_WaitForResponse" name="Wait for Response">
+      <bpmn:incoming>Flow_5</bpmn:incoming>
+      <bpmn:outgoing>Flow_6</bpmn:outgoing>
+      <bpmn:timerEventDefinition>
+        <bpmn:timeDuration>P7D</bpmn:timeDuration>
+      </bpmn:timerEventDefinition>
+    </bpmn:intermediateCatchEvent>
+    <bpmn:sequenceFlow id="Flow_6" sourceRef="Task_WaitForResponse" targetRef="Task_ProcessResponse" />
+
+    <bpmn:serviceTask id="Task_ProcessResponse" name="Process Response">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="process-response" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_6</bpmn:incoming>
+      <bpmn:outgoing>Flow_7</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="Flow_7" sourceRef="Task_ProcessResponse" targetRef="EndEvent" />
+
+    <bpmn:endEvent id="EndEvent" name="Negotiation Complete">
+      <bpmn:incoming>Flow_7</bpmn:incoming>
+    </bpmn:endEvent>
+  </bpmn:process>
+</bpmn:definitions>

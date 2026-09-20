@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; }
+        .header { background-color: #28A745; color: white; padding: 20px; }
+        .content { padding: 30px; }
+        .offer-box { background-color: #d4edda; border: 2px solid #28a745; padding: 20px; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>SETTLEMENT OFFER</h1>
+    </div>
+
+    <div class="content">
+        <p>{{ date|date }}</p>
+
+        <p>{{ customer.name }}<br>
+        {{ customer.address }}</p>
+
+        <p><strong>RE: Settlement Offer - Account #{{ case.case_id }}</strong></p>
+
+        <p>Dear {{ customer.name }},</p>
+
+        <p>We are pleased to offer you an opportunity to settle your outstanding debt at a reduced amount.</p>
+
+        <div class="offer-box">
+            <h2 style="margin-top: 0;">LIMITED TIME OFFER</h2>
+            <p><strong>Original Debt:</strong> {{ original_amount|currency }}</p>
+            <p><strong>Settlement Amount:</strong> <span style="font-size: 24px; color: #28a745;">{{ settlement_amount|currency }}</span></p>
+            <p><strong>YOU SAVE:</strong> {{ discount_percentage|round(1) }}%</p>
+            <p><strong>Offer Expires:</strong> {{ expiry_date|date }}</p>
+        </div>
+
+        <h3>Settlement Terms:</h3>
+        <ul>
+            <li>Payment must be received by {{ expiry_date|date }}</li>
+            <li>Payment must be in the full settlement amount</li>
+            <li>Upon receipt of payment, the account will be marked "Settled"</li>
+            <li>No further collection activity will occur</li>
+            <li>This offer is for settlement purposes only</li>
+        </ul>
+
+        <h3>How to Accept This Offer:</h3>
+        <ol>
+            <li>Contact us to confirm acceptance</li>
+            <li>Make payment of {{ settlement_amount|currency }} by {{ expiry_date|date }}</li>
+            <li>Obtain written confirmation of settlement</li>
+        </ol>
+
+        <p><strong>Contact Information:</strong></p>
+        <ul>
+            <li>Phone: {{ company.phone }}</li>
+            <li>Address: {{ company.address }}</li>
+        </ul>
+
+        <p><strong>IMPORTANT:</strong> This offer is time-sensitive and will expire on {{ expiry_date|date }}.
+        After this date, the full amount will be due.</p>
+
+        <p>We encourage you to take advantage of this opportunity to resolve your debt.</p>
+
+        <p>Sincerely,<br>
+        Settlement Department<br>
+        {{ company.name }}</p>
+    </div>
+</body>
+</html>

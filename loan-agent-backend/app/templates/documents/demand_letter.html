@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; }
+        .header { background-color: #DC3545; color: white; padding: 20px; }
+        .content { padding: 30px; }
+        .urgent { background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 15px; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>FINAL DEMAND LETTER</h1>
+    </div>
+
+    <div class="content">
+        <p>{{ date|date }}</p>
+        <p>CERTIFIED MAIL - RETURN RECEIPT REQUESTED</p>
+
+        <p>{{ customer.name }}<br>
+        {{ customer.address }}</p>
+
+        <p><strong>RE: FINAL DEMAND - Account #{{ case.case_id }}</strong></p>
+
+        <div class="urgent">
+            <h3>⚠️ URGENT - IMMEDIATE ACTION REQUIRED</h3>
+        </div>
+
+        <p>Dear {{ customer.name }},</p>
+
+        <p>This is a <strong>FINAL DEMAND</strong> for payment of your outstanding debt.</p>
+
+        <h3>Account Details:</h3>
+        <ul>
+            <li><strong>Account Number:</strong> {{ case.case_id }}</li>
+            <li><strong>Amount Due:</strong> {{ case.overdue_amount|currency }}</li>
+            <li><strong>Days Overdue:</strong> {{ case.overdue_days }}</li>
+            <li><strong>Deadline for Payment:</strong> {{ deadline|date }} ({{ deadline_days }} days)</li>
+        </ul>
+
+        <p>Despite our previous attempts to resolve this matter, your account remains unpaid.</p>
+
+        <h3>YOU MUST TAKE ONE OF THE FOLLOWING ACTIONS BY {{ deadline|date }}:</h3>
+        <ol>
+            <li>Pay the full amount due: <strong>{{ case.overdue_amount|currency }}</strong></li>
+            <li>Contact us immediately to arrange payment</li>
+        </ol>
+
+        <h3>CONSEQUENCES OF NON-PAYMENT:</h3>
+        <p>If payment is not received by the deadline, we will have no choice but to:</p>
+        <ul>
+            <li>Report this delinquency to credit bureaus</li>
+            <li>Refer your account to legal counsel</li>
+            <li>Initiate legal proceedings to recover the debt</li>
+            <li>Seek judgment for the full amount plus interest, fees, and court costs</li>
+        </ul>
+
+        <p><strong>Contact us immediately:</strong></p>
+        <ul>
+            <li>Phone: {{ company.phone }}</li>
+            <li>Address: {{ company.address }}, {{ company.city }}, {{ company.state }} {{ company.zip }}</li>
+        </ul>
+
+        <p>This is your final opportunity to resolve this matter without legal action.</p>
+
+        <p>Sincerely,<br>
+        Legal Collections Department<br>
+        {{ company.name }}</p>
+    </div>
+</body>
+</html>

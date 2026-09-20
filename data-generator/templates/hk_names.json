@@ -1,0 +1,19 @@
+{
+  "english_surnames": [
+    "Chan", "Wong", "Leung", "Ng", "Cheung", "Tang", "Lau", "Li", "Chow", "Tsang",
+    "Ho", "Yu", "Law", "Fong", "Kwan", "Tam", "Yip", "Mak", "Poon", "Chu"
+  ],
+  "english_given_names": [
+    "Alex", "Amy", "Ben", "Chloe", "David", "Emily", "Felix", "Grace", "Henry", "Iris",
+    "Jason", "Karen", "Leo", "Michelle", "Oscar", "Polly", "Ryan", "Sophia", "Thomas", "Vivian",
+    "William", "Zoe", "Alan", "Betty", "Charles", "Diana", "Edward", "Fiona", "George", "Helen"
+  ],
+  "cantonese_surnames": [
+    "陳", "黃", "梁", "吳", "張", "鄧", "劉", "李", "周", "曾",
+    "何", "余", "羅", "方", "關", "譚", "葉", "麥", "潘", "朱"
+  ],
+  "cantonese_given_names": [
+    "志明", "小紅", "家豪", "嘉玲", "偉強", "詠詩", "建華", "美玲", "俊傑", "雅文",
+    "永康", "慧敏", "國強", "淑芬", "文傑", "秀珍", "明輝", "麗華", "子豪", "婉儀"
+  ]
+}

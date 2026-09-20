@@ -1,0 +1,3385 @@
+
+
+===== PAGE 1 =====
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Code of Practice 
+September 2018 
+
+===== PAGE 2 =====
+
+CODE OF MONEY LENDING PRACTICE 
+ 
+Table of Contents 
+PART I – INTRODUCTION .................................................................................................... 1 
+1 Status of the Code of Money Lending Practice .......................................... 1 
+2 General Principles ...................................................................................... 1 
+3 Objectives................................................................................................... 4 
+4 Enquiries .................................................................................................... 5 
+PART II - RECOMMENDATIONS ON MONEY LENDING PRACTICE ....................................... 6 
+Chapter 1 –RELATIONSHIP BETWEEN MEMBERS AND CUSTOMERS .......................... 6 
+5 Terms and Conditions................................................................................. 6 
+6 Debt Recovery Expenses ............................................................................ 8 
+7 Collection, Use, Holding and Erasure of Customer Information ................ 8 
+8 Personal Referees ........................................................................................ 10 
+9 Equal Opportunity .................................................................................... 11 
+10 Member Marketing .............................................................................. 11 
+11 Annual Percentage Rates ..................................................................... 12 
+12 Handling Customer Complaints ........................................................... 12 
+13 Additional Licensing Conditions of Money Lenders Licence and 
+New/Revised Sample Forms…………………………………………………………… 13 
+Chapter 2 -LOANS ..................................................................................................... 15 
+14 Loans .................................................................................................... 15 
+15 Residential Mortgage Lending ............................................................. 17 
+16 Other Secured Lending ........................................................................ 19 
+17 Guarantees and Third Party Securities ................................................. 20 
+Chapter 3–RECOVERY OF LOANS AND ADVANCES ..................................................... 23 
+18 Application ........................................................................................... 23 
+19 Debt Collection Activities ..................................................................... 23 
+20 Management of Debt Collection Agencies .......................................... 26 
+USEFUL DEFINITIONS ............................................................................................... 29 
+Appendix 1(a) Money Lenders Licence – Additional Licensing Conditions…………………....32 
+Appendix 1(b) Guidelines on Additional Licensing Conditions  of  Money  Lenders 
+Licence ........................................................................................................................... ..36 
+Appendix 1(c) Money Lenders Licence – Licensing Conditions…………………………………… 76 
+Appendix 1(d) Sample form on disclosure of the existence of third parties by     
+intending borrower…………………………………………………………………………………………….……….80 
+ 
+
+===== PAGE 3 =====
+
+Appendix 1(e) Sample form on recording the particulars of appointed third party 
+involved in a loan agreement …………………………………………………………………………………….83 
+Appendix 1(f) Sample form for recording explanation of terms of loan agreement    
+given to intending borrower…………………………………………………..…………………………………..85 
+
+===== PAGE 4 =====
+
+1 
+ 
+PART I – INTRODUCTION 
+ 
+1 Status of the Code of Money Lending Practice 
+ 
+1.1 This Code of Money Lending Pract ice (“Code”) is issued by the Hong 
+Kong S.A.R. Licensed Money Lenders Association Limited (“LMLA”). 
+ 
+1.2 This is a non -statutory Code issued on a voluntary basis. It is to be 
+observed by members of the LMLA (“members”) in dealing with their 
+personal customers.  It covers specifically money lending services. 
+However, the principles of the Code apply to the overall relationship 
+between members and their customers in Hong Kong. 
+ 
+1.3 LMLA expects their respective members to comply with the Code. 
+ 
+1.4 The recommendations set  out in this Code are supplementary to and 
+do not supplant any relevant legislation, in particular, the Money 
+Lenders Ordinance (Cap.163). 
+ 
+1.5 The Code is subject to review and revision from time to time. Unless 
+otherwise shown, this revised edition is effective from September 2018. 
+Members should take active steps to comply with the revised provisions.  
+ 
+2 General Principles 
+ 
+2.1 Equitable and Fair Treatment of Customers 
+ 
+Members should treat all customers equitably, honestly and fairly at all 
+stages of their relationship with the members. Treating customers fairly 
+should be an integral part of the good governance and corporate 
+culture of all members and their authorized agents. 
+ 
+2.2 Disclosure and Transparency 
+
+===== PAGE 5 =====
+
+2 
+ 
+ 
+Members and their authorized agents should set out and ex plain clearly 
+the key features, risks and terms of the products, fees or charges 
+applicable, possible consequences for any default in repayment, and 
+make available the details of these to customers. Additional disclosures, 
+including appropriate warnings, s hould be developed to provide 
+information commensurate with the nature and risks of the products 
+and services. They should also provide information on conflicts of 
+interest associated with the use by members of their authorized agents 
+through which any pro duct is sold. Appropriate information should be 
+provided at all stages of the relationship with the customer. All financial 
+promotional material should be accurate, honest, understandable and 
+not misleading. Standardised pre -contractual disclosure practice s 
+should be adopted where applicable and practicable to allow 
+comparisons between products and services of the same nature.  
+[Amended in September 2018] 
+ 
+Where advice is provided, the advice should be as objective as possible 
+and should in general be based on the customer’s profile considering 
+the complexity of the product, the risks associated with it as well as the 
+customer’s financial objectives, knowledge, capabilities and experience. 
+Members should inform customers that it is important to provide 
+members with relevant, accurate and available information. 
+ 
+2.3 Financial Education and Awareness 
+ 
+Recognising that customers have their responsibilities in enhancing 
+financial literacy, members should join force with the government, 
+regulatory bodies and other rele vant stakeholders to promote financial 
+education and awareness and help existing and future customers to 
+develop the knowledge, skills and confidence appropriately to 
+understand risks, including financial risks and opportunities, make 
+informed choices, kno w where to go for assistance, and take effective 
+action to improve their own financial well -being. The provision of broad 
+based financial education and information to deepen customers’ 
+financial knowledge and capability should be promoted. Clear 
+information on consumer protection, rights and responsibilities should 
+be easily accessible by customers. 
+
+===== PAGE 6 =====
+
+3 
+ 
+2.4 Responsible Business Conduct of Members and Authorized Agents 
+ 
+Members and their authorized agents should have as an objective, to 
+work in the best interest of  their customers and be responsible for 
+upholding financial consumer protection. Members should also be 
+responsible and accountable for the actions of their authorized agents 
+and third party service providers. Depending on the nature of the 
+transaction and based on information primarily provided by customers, 
+members should assess the financial capabilities and needs of their 
+customers before offering them a product, advice or service. Staff 
+(especially those who interact directly with customers) should be 
+properly trained and qualified. Members and their authorized agents 
+should endeavour to avoid conflicts of interest. When this cannot be 
+avoided, they should ensure proper disclosure, or have in place internal 
+mechanisms to manage such conflicts, or declin e to provide the 
+product, advice or service. The remuneration structure for staff of 
+members and, where appropriate, their authorized agents should be 
+designed to encourage responsible business conduct, fair treatment of 
+customers and to avoid conflicts of interest. 
+ 
+In relation to any fees charged by any authorised agents or any other 
+third parties, members should pay attention to the Additional Licensing 
+Conditions, in particular, conditions 2  and 4 thereof (i.e. the equivalent 
+conditions 2 and 4 of the M erged Licensing Conditions) . [Added in 
+September 2018] 
+ 
+2.5 Protection of Consumer Data and Privacy 
+ 
+Members should have in place appropriate control and protection 
+mechanisms to protect customers’ financial and personal information. 
+These mechanisms should co mply with all applicable legislation and in 
+particular should define the purposes for which the data may be 
+collected, processed, held, used and disclosed. The mechanisms should 
+also acknowledge the rights of customers to be informed about data -
+sharing, to access data and to obtain the prompt correction and/or 
+deletion of inaccurate, or unlawfully collected or processed data. 
+ 
+2.6 Complaints Handling and Redress 
+ 
+Members and, where appropriate, their authorized agents should 
+
+===== PAGE 7 =====
+
+4 
+ 
+maintain and monitor proper systems and procedures for handling 
+complaints and provide customers with reasonable channels to submit 
+claims, make complaints and seek redress that are accessible, fair, 
+accountable, timely and efficient. Such channels should not impose 
+unreasonable cost, delays  or burdens on  customers. [Amended in 
+September 2018] 
+ 
+2.7 Competition 
+ 
+Members should allow customers to search, compare and, where 
+appropriate, switch between products and members easily and at 
+reasonable and disclosed costs. 
+ 
+2.8 Internal Control 
+ 
+Members shoul d establish and maintain proper systems and 
+procedures to ensure their partners, employers, employees, principals 
+or agents, any persons acting for them and  any appointed third parties 
+are informed of and observe the licensing conditions and the provisions 
+of the Money Lenders Ordinance. [Added in September 2018] 
+ 
+2.9 Books and records 
+ 
+All books, records and documents of the money lending business of 
+members must be kept on the premises specified in the ir money 
+lenders licence. [Added in September 2018] 
+ 
+2.10 Responsibility statement 
+ 
+Members should keep abreast of any updates on laws and regulations 
+governing their conduct. LMLA disclaims any liability whatsoever for 
+any loss howsoever arising from or in reliance upon the whole or any 
+part of the contents of the Code. [Added in September 2018] 
+ 
+3 Objectives 
+ 
+3.1 The Code is intended - 
+ 
+(a) to promote good money lenders practices by setting out the   
+minimum standards which members should follow in their 
+dealings with customers; 
+
+===== PAGE 8 =====
+
+5 
+ 
+ 
+(b) to increase transparency in the provision of mon ey lending 
+services so as to enhance the understanding of customers of 
+what they can reasonably expect of the services provided by  
+members; 
+ 
+(c)      to promote a stronger culture of treating customers fairly 
+which will ensure customers’ interests are taken in to account 
+by members in their business dealings with customers; and 
+ 
+(d) through the above, to foster customer confidence in the 
+money lending industry. 
+ 
+3.2 The above objectives are to be achieved - 
+ 
+(a) having regard to the need for members to conduct business in 
+accordance with prudential standards in order to preserve the 
+stability of the money lending industry ; and 
+ 
+(b) while striking a reasonable balance between customer rights 
+and efficiency of money lending operations. 
+ 
+4 Enquiries 
+ 
+Enquiries about the Code should be addressed to the LMLA. Its current address and 
+contact details are as follows - 
+ 
+The Hong Kong S.A.R. Licensed Money Lenders Association Limited 
+21/F., Allied Kajima Building 
+138 Gloucester Road 
+Wanchai 
+Hong Kong Tel: 
+2827 8281 
+Fax: 2827 8292 
+Website: www.lmla.com.hk 
+Email: enquiry@lmla.com.hk 
+ 
+The Code can be viewed or downloaded from the websites of LMLA. All members will 
+make copies of the Code available to customers or inform them how to obtain. 
+
+===== PAGE 9 =====
+
+6 
+ 
+PART II - RECOMMENDATIONS ON MONEY LENDING PRACTICE 
+ 
+Chapter 1 –RELATIONSHIP BETWEEN MEMBERS AND CUSTOMERS 
+ 
+5 Terms and Conditions 
+ 
+5.1 Members should make readily available to customers or prospective 
+customers written terms a nd conditions of a money lending service. 
+Members should be prepared to answer any queries of customers or 
+prospective customers relating to terms and conditions. In cases where 
+the query relates to a service provided by a third party service provider, 
+members may, where necessary, refer the query to the relevant third 
+party service provider after obtaining the customer’s consent or direct 
+the customer to contact the third party service provider. Members 
+should thereafter provide assistance to the customer if the customer so 
+requests. 
+ 
+5.2 Members should provide written terms and conditions of a money 
+lending service to prospective customers upon application of the 
+money lending service as far as possible. Where the provision of 
+written terms and conditions is n ot practicable at the point of sale, 
+members should provide key terms and conditions orally to prospective 
+customers and provide a full set of the terms and conditions to the 
+customers as soon as practicable afterwards. Where the provision of 
+written or or al terms and conditions is not practicable at the point of 
+sale, members should inform prospective customers where they can 
+find the terms and conditions (including providing a link to the 
+member’s website) and advise them to read and understand the terms 
+and conditions before applying for the money lending service and 
+provide a full set of terms and conditions as soon as practicable 
+afterwards. 
+ 
+5.3 The terms and conditions should provide a fair and balanced 
+description of the relationship between the customer and the member. 
+ 
+5.4 The terms and conditions should be available in both Chinese and 
+English unless the money lending service is governed by law other  than 
+that of Hong Kong or there is little or no demand for bilingual 
+information. Members should use plain language and avoid complex 
+legal and technical terms wherever practicable. Where legal and 
+
+===== PAGE 10 =====
+
+7 
+ 
+technical language is used, appropriate explanation should be provided 
+where practicable. The terms and conditions should be presented in a 
+reasonable layout and font size that is readily readable. 
+ 
+5.5 The terms and conditions should, where applicable, highlight any fees, 
+charges, relevant interest rates and total amount of interest payable (or 
+the basis on which these will be determined) , periodic amount of  and 
+total re payment, possible consequence s for any default in repayment  
+and the customer’s liabilities and obligations in the use of a money 
+lending service. [Amended in September 2018] 
+ 
+5.6 In drawing up terms and conditions for money lending services, 
+members should hav e due regard to applicable laws in Hong Kong, 
+including, in particular, the Money Lenders Ordinance (Cap. 163), the 
+Personal Data (Privacy) Ordinance (Cap. 486), the Control of Exemption 
+Clauses Ordinance (Cap.71), the Unconscionable Contracts Ordinance 
+(Cap. 458), and the Supply of Services (Implied Terms) Ordinance (Cap. 
+457) and any other prevailing consumer protection legislation. 
+ 
+5.7 The terms and conditions should be consistent with this Code. 
+Members should keep terms and conditions under review to ensu re 
+they are consistent with this Code. 
+ 
+5.8 Members should advise customers to read and understand the terms 
+and conditions when applying for money lending services. 
+ 
+5.9 Members should give customers 30 days’ notice before any variation of 
+the terms and condition s which affects fees and charges and the 
+liabilities or obligations of customers takes effect. For all other variation, 
+members should give customers reasonable notice before such variation 
+takes effect. 
+ 
+5.10 Where the variation involves substantial changes to  existing terms and 
+conditions or the changes are very complicated, the member should 
+provide a written summary of the key features of the revised terms and 
+conditions. 
+
+===== PAGE 11 =====
+
+8 
+ 
+ 
+5.11 Members should issue a full version of the revised terms and conditions 
+to customers if there are sufficient changes to warrant it, regardless of 
+the nature of the changes. 
+ 
+6 Debt Recovery Expenses 
+ 
+6.1 Any cost indemnity provision contained in the terms and conditions 
+should only provide for the recovery of costs and expenses which are of 
+reasonable amount and were reasonably incurred. 
+ 
+6.2 At the request of customers, members should provide a detailed 
+breakdown of the costs and expenses for which customers are required 
+to indemnify the members. 
+ 
+7 Collection, Use, Holding and Erasure of Customer Information 
+ 
+7.1 Members should treat their customers’ (and former customers’) money 
+lending affairs as private and confidential. 
+ 
+7.2 Members should at all times comply with the Personal Data (Privacy) 
+Ordinance (Cap. 486) (“PDPO”) in the collection, use, holding an d 
+erasure of customers’ information. They should also comply with any 
+relevant codes of practice issued or approved by the Privacy 
+Commissioner for Personal Data giving practical guidance on 
+compliance with the PDPO. 
+ 
+7.3 On or before collecting customers’ per sonal information, members 
+should notify customers as specifically as possible of the classes of 
+person to whom they may wish to make disclosure of customers’ 
+information and the purpose of such disclosure. Classes of person 
+about which customers should be  specifically notified include among 
+others - 
+ 
+(a) debt collection agencies; 
+ 
+(b) data processors to which the processing of personal information 
+
+===== PAGE 12 =====
+
+9 
+ 
+is to be, or may be, outsourced; 
+ 
+(c) credit reference agencies; 
+ 
+(d) subject to section 7.4 below, persons to whom customers ’ 
+contact details may be disclosed for marketing purposes including, 
+related companies within the same group and other persons 
+(classified in specific terms, such as co -branding partners of the 
+member or third party loyalty programme providers which in 
+each case should be shown in application forms/leaflets for the 
+relevant services or products provided to customers); and 
+ 
+(e) such other persons to whom disclosure may be required by 
+applicable laws or regulatory guidelines issued from time to time. 
+ 
+7.4 Members sho uld not, without the prescribed consent of their 
+customers, provide credit references in respect of a customer. A 
+member that intends to use customer information for direct marketing 
+purposes shall comply with the PDPO and any relevant codes of 
+practice. 
+ 
+7.5 Where personal information is used by a member for its own marketing 
+purposes for the first time, the member should inform the customer 
+that the member will, without charge to the customer, cease to so use 
+the personal information if the customer so requests. 
+ 
+7.6 Members should remind customers at least once every year or by 
+including a standard notice in their marketing materials of the right to 
+make the request referred to in section 7.5 above. 
+ 
+7.7 When a customer objects to the disclosure of the information referred 
+to in section 7.3(d) above or refuses to give the consent or an indication 
+of no objection or withdraws any consent or indication of no objection 
+required under the PDPO, the member concerned should give effect to 
+such objection, refusal or withdraw al and should not refuse to provide 
+that customer with money lending services. 
+ 
+7.8 Where personal information is transferred to a third party service 
+
+===== PAGE 13 =====
+
+10 
+ 
+provider, for example, as part of an outsourcing arrangement, members 
+should satisfy themselves that such in formation will be treated as 
+confidential and adequately safeguarded by that service provider and 
+adopt contractual or other means to prevent any information 
+transferred to that service provider from being the subject of 
+unauthorized or accidental access, processing, use, erasure or loss or 
+kept longer than is necessary for the purposes stipulated in the 
+outsourcing agreement. Members should remain accountable to 
+customers for any complaints arising out of the handling of customer 
+information by service pro viders and should not attempt to disclaim 
+responsibility for any breach of customer confidentiality by service 
+providers. 
+ 
+7.9  In the course of handling personal data, members should be aware of 
+their obligations under condition 5 of the Additional Licens ing 
+Conditions (i.e. condition 6 of the Merged Licensing Condition s). 
+[Added in September 2018] 
+ 
+8 Personal Referees 
+ 
+8.1 Members may require applicants for money lending services to provide 
+in the application forms for such services the names and particulars of  
+persons who have agreed to act as referees for the applicant. 
+ 
+8.2 The role of referees is confined to providing, on a voluntary basis and 
+upon request by the member, information about the applicant in 
+respect of the money lending service specified in the app lication form. 
+Referees have no legal or moral obligation to repay to the member 
+liabilities of a customer unless they have entered into a formal 
+agreement to guarantee the liabilities of that customer. 
+ 
+8.3 Members should require applicants for money lending services to 
+confirm that they have obtained the prior consent of the referees for 
+their names to be used. If the applicant fails to give such confirmation, 
+members should not approach the referees. In such cases, members 
+should decide on their own judgment  whether to continue to process 
+the application. 
+ 
+8.4 Members should not attempt to seek, directly or indirectly, repayment 
+of debt from a customer’s referees who are not acting as guarantors. 
+
+===== PAGE 14 =====
+
+11 
+ 
+Related to this, members should not pass information about referees 
+(or third parties other than debtors or guarantors) to their debt 
+collection agencies. If a referee is to be approached for information  to 
+help locate a debtor or guarantor, this should be done, without causing 
+nuisance to the referee, by staff of the member. 
+ 
+ 
+9 Equal Opportunity 
+ 
+9.1 Members should at all times comply with the relevant ordinances for 
+the promotion of equal opportunity and any codes issued under these 
+ordinances in the provision of money lending services. 
+ 
+9.2 In respect of customers with a disabil ity, members should adopt a 
+helpful approach to making available to them appropriate means to 
+access money lending services. In particular, members are encouraged 
+to install specialised machines or software and to provide physical 
+access to facilitate the provision of money lending services to persons 
+with a disability. 
+ 
+9.3 In addition to the statutory requirements, members should not 
+discriminate against any customers simply on the ground of family 
+status (for example, single parents), sexuality, age or race in the 
+provision of money lending services and in the quality and terms of 
+services provided. 
+ 
+9.4 Members should provide suitable training to front -line staff to raise 
+awareness of the principles and guidelines relating to equal opportunity 
+and the provision of assistance to customers with a disability. 
+ 
+10 Member Marketing 
+ 
+10.1 Members should exercise care in the use of direct mail and in particular 
+should exercise restraint and be selective - 
+ 
+(a) where customers are minors; and 
+ 
+(b) when promoting loans. 
+ 
+10.2 Members should e nsure that all advertising and promotional materials 
+
+===== PAGE 15 =====
+
+12 
+ 
+are fair and reasonable, do not contain misleading information and 
+comply with all relevant legislation, codes and rules. Where benefits are 
+subject to conditions, such conditions should be clearly displ ayed in the 
+advertising materials wherever practicable. Where there are limitations 
+as to space, e.g. in poster advertisements and television commercials, 
+the advertisement should include reference to the means by which 
+further information may be obtained. 
+ 
+10.3 In relation to any advertisement issued or published by members for 
+their business, members should be aware of its obligations under 
+condition 9 of the Additional Licensing Conditions  (i.e. condition 9 of 
+the Merged Licensing Conditions) and refer to the  Guidelines on 
+Additional Licensing Conditions of Money Lenders Licence issued by the 
+Companies Registry for the requirements. [Added in September 2018] 
+ 
+10.4 In any marketing process and advertising and promotional material for 
+a money lending service, members should indicate the interest rate and 
+relevant fees and charges normally incurred, where appropriate, in a 
+clear and prominent manner and that full details of the relevant terms 
+and conditions are available on request. Where reference is made to an 
+interest rate, members should also indicate the APR upon request. 
+ 
+10.5 Members should exercise restraint in making unsolicited (that is, cold) 
+calls to customers. 
+ 
+11 Annual Percentage Rates 
+ 
+11.1 In verbal and written discussions with prospective customers 
+concerning inter est rates, members should be prepared to quote the 
+APRs for loan products to facilitate comparison between different 
+charging structures. 
+ 
+11.2 Members should be prepared to respond to inquiries from customers 
+concerning APRs and the methods of calculation. 
+ 
+12 Handling Customer Complaints 
+ 
+12.1 Members should establish procedures for handling customer 
+complaints in a fair and speedy manner. The complaint procedures 
+should take into account the following criteria - 
+
+===== PAGE 16 =====
+
+13 
+ 
+ 
+(a) transparency - the applicable procedures should be documented; 
+ 
+(b) accessibility - the procedures should be easily invoked by 
+customers; and 
+ 
+(c) effectiveness - the procedures should provide for the speedy 
+resolution of disputes in a fair and equitable manner. 
+ 
+12.2 Details of how to invoke complaint procedures should b e made 
+available to customers and other interested parties such as personal 
+referees and guarantors so that they know what steps to take if they 
+wish to make a complaint. 
+ 
+12.3 Members should ensure that all their staff who deal directly with 
+customers are made aware of the complaint procedures and are able to 
+help customers by giving correct information about these procedures. 
+ 
+12.4 Members should send an acknowledgment to the complainant within 7 
+days upon receiving a written complaint (where the complaint cannot 
+be resolved within 7 days) and a written response to the complaint 
+within a reasonable period, normally not exceeding 30 days. 
+Correspondence with the complainant should be sent in Chinese or 
+English in accordance with the language of the complaint. 
+ 
+13 Additional Licensing Conditions  of Money Lenders Licence  and New  / Revised 
+Sample Forms 
+ 
+13.1 The Companies Registry has introduced 10 additional licensing 
+conditions (“Additional Licensing Conditions”) to, among other things, 
+further elucidate the relationship betwe en a money lender and 
+intermediaries in a loan transaction, ensure effective enforcement of 
+the ban on separate fee charging, ensure better regulation, and 
+promote prudent money lending practice. [Added in September 2018 
+with reference to the Companies Registry’s Money Lenders Licence - 
+Additional Licensing Conditions which took effect from  1 December  
+2016] 
+  
+13.2 The full text of the Additional Licensing Conditions, which had taken 
+effect from 1 December 2016, and the Guidelines on Additional 
+Licensing Conditions of Money Lenders Licence are at Appendix 1(a) and 
+
+===== PAGE 17 =====
+
+14 
+ 
+1(b) respectively. [Added in September 2018] 
+ 
+13.3 For money lenders licences granted or renewed after 1 December 2016, 
+the Additional Licensing Conditions are incorporated into the existing 
+licensing conditions (i.e. the Merged Licensing Conditions) which are set 
+out in Appendix 1(c). [Added in September 2018] 
+ 
+13.4 The Company Registry has introduced a revised sample form on 8 June 
+2018 for Licensing Condition 1 (b) on disclosure of the existence of third 
+parties by intending borrower, which is set out in Appendix 1 (d), to 
+ensure that the intending borrower honestly discloses any involvement 
+of third party. [Added in September 2018] 
+ 
+13.5 The Company Registry has introduced two new sample forms on 8 June 
+2018 for Lice nsing Conditions 1 (c) (ii) on recording the particulars of 
+appointed third party involved in a loan agreement and for Licensing 
+Condition 5 for recording explanation of terms of loan agreement given 
+to intending borrower , which are set out in Appendix 1 (e) and 1 (f) 
+respectively, t o set out clearly the necessary information to be 
+recorded and  kept by licensed money lenders . [Added in September 
+2018]
+
+===== PAGE 18 =====
+
+15 
+ 
+Chapter 2 -LOANS 
+ 
+14 Loans 
+ 
+14.1 Approval of loans is subject to members’ credit assessment which 
+should take into account the applicants’ ability to repay. In doing so, 
+members may have regard to such factors as - 
+ 
+(a) prior knowledge of the customer’s financial affairs gained from 
+past dealings; 
+ 
+(b) the customer’s income and expenditure; 
+ 
+(c) the customer’s assets and liabilities; 
+ 
+(d) information obtained from credit reference agencies; and 
+ 
+(e) other relevant information supplied by the applicant. 
+ 
+14.2 Members should explain to  a prospective borrower all the terms and 
+conditions of any borrowing arrangement, and keep written or video or 
+audio records . [Amended in September 2018]  The following 
+information should be provided upon application for a loan or, where 
+relevant, in a subsequent offer, and on request- 
+ 
+(a) the rate of interest and the total amount of interest for the loan, 
+and whether it may be varied over the period of the  loan; 
+[Amended in September 2018] 
+ 
+(b) a brief explanation of the basis on which interest will be 
+determined and when it will be payable, including where relevant 
+the APRs (see section 11 above); 
+ 
+(c) all fees and charges which  will apply, and a brief explanation of 
+the basis on which such fees and charges will be determined and 
+when they will be payable; 
+ 
+(d) the specified period during which the loan offer may be accepted 
+by the prospective borrower; 
+
+===== PAGE 19 =====
+
+16 
+ 
+ 
+(e) details of terms of repaymen t, periodically and in total, including 
+the loan tenor and, where relevant , the instalments payable by 
+the customer; [Amended in September 2018] 
+ 
+(f) the possible consequences for any default in payment, including (i) 
+the taking into possession and sale of any  security involved; and (ii) 
+any overriding right to demand immediate  repayment; [Amended 
+in September 2018] 
+ 
+(g) other significant features such as security requirements and late 
+payment charges, and a brief description of the basis of the late 
+payment charge s and the borrower’s right to make early 
+repayment. 
+ 
+14.3 In addition to the information set out in section 14.2  above, the 
+following information on instalment loans (i.e. loans repayable by equal 
+instalments) should be provided to customers upon application fo r a 
+loan or in a subsequent offer, and on request - 
+ 
+(a) where applicable, the loan balance used as the basis 
+forcalculating the fees and charges under sections 14.2(c) and 
+14.2(g) above and the timing when the loan balance is 
+determined; and 
+ 
+(b) the apportionmen t of interest and principal for each loan  
+repayment throughout the loan tenor and the method of 
+apportionment. 
+ 
+14.4 For loans with a specified maturity date, members should, upon 
+request, quote the APRs for different tenors which are commonly 
+selected by customers. 
+ 
+14.5 For loans which are revolving in nature, members should, upon request, 
+quote the APR. 
+ 
+14.6 Where there is more than one applicable interest rate during the loan 
+period, members should, upon request, quote an APR which takes into 
+account all the applicab le interest rates for different parts of the loan 
+period. 
+ 
+14.7 Where the rate of interest for a loan is based on a reference rate, for 
+
+===== PAGE 20 =====
+
+17 
+ 
+example, best lending rate, members should notify customers of any 
+changes in the reference rate as soon as practicable, unl ess such 
+changes have been widely publicized in the media. 
+ 
+ 
+14.8 Default interest rate should be expressly stated in the terms and 
+conditions. Members should also state the circumstances where default 
+interest would be charged and the calculation method. If cu stomers fail 
+to make repayments without prior agreement, members may, in 
+accordance with the relevant terms and conditions, charge simple 
+interest on the sum payable to the member under the agreement, 
+whether in respect of principal or interest, from the d ate of default 
+until payment, at a rate not exceeding the normal rate under the 
+agreement. Members should advise customers in advance of their right 
+to charge such interest and inform customers promptly after exercising 
+such right. 
+ 
+14.9 Members should advise c ustomers to inform them as soon as possible 
+of any difficulty in repaying or servicing the loan over the credit period. 
+ 
+15 Residential Mortgage Lending 
+ 
+15.1 This section applies to any mortgage loan secured on a residential 
+property / car park regardless of the purpose of the loan or the location 
+of the residential property/car park. In the case of an individual 
+providing (or proposing to provide) a residential property / car park as 
+third party security, section 17 below will apply. 
+ 
+ 15.1A     Members shall not  accept a subsidi sed flat provided by the Hong Kong 
+Housing Authority as collateral for the loan to the borrower unless (a) 
+the Hong Kong Housing Authority confirms that the necessary premium 
+for removing the restrictions on alienation on the said flat has  been 
+fully paid; or (b) the Director of Housing approves to mortgage or 
+charge the said flat. [Added in September 2018] 
+ 
+15.2 Members should provide customers and prospective customers with 
+information similar to that in section 14.2 above upon application for  a 
+mortgage loan secured on a residential property / car park or, where 
+relevant, in a subsequent offer and on request. In addition, members 
+should warn customers that the mortgage loan is secured on the 
+property in question and that default may result in the member taking 
+
+===== PAGE 21 =====
+
+18 
+ 
+possession of, and selling, the property. 
+ 
+15.3 In the case of an “All Monies” mortgage (i.e. a mortgage which will 
+secure all amounts payable by the borrowers) involving more than one 
+borrower, the amount secured under the mortgage should not  exceed 
+the amount of money, obligations and liabilities owing or incurred at any 
+time by the co -borrowers jointly. This does not restrict a co -borrower 
+acting as surety from separately guaranteeing or securing the other’s 
+obligations in a transparent mann er which complies with the provisions 
+of section 17 below. 
+ 
+ 
+15.4 Members should provide customers with revised particulars of 
+instalments payable by the customer after every adjustment of the 
+interest rate. 
+ 
+15.5 Members should also inform customers or prospective customers that 
+they have the right to employ separate solicitors for themselves, and 
+the cost implications of doing so. 
+ 
+15.6 Customers may, from members’ approved lists, appoint solicitors to 
+represent both themselves and the members (unless it is the member’s  
+policy to require separate legal representation) and employ insurers 
+which they think fit to insure the properties against fire or other serious 
+damage. The coverage of such approved lists should be sufficiently wide 
+to allow customers to make a choice. I n the case of insurers, the 
+approved list should include insurers which are not related to the 
+member. 
+ 
+15.7 Members should inform customers and prospective customers that they 
+may employ solicitors not on the approved lists of members (a) to 
+represent themselv es, and, (b) if the members’ policy so allows to 
+represent both themselves and the members, and if they do so, the 
+procedures involved, the nature and amount of the fees and charges 
+levied by the members, and the nature of any extra fees that may be 
+charged by the solicitors which are known to the members including the 
+costs for the additional work for each solicitor in reviewing the other 
+solicitor’s documentation under scenario (a). 
+ 
+15.8 If it is the members’ policy to require separate legal representation or to 
+
+===== PAGE 22 =====
+
+19 
+ 
+employ only solicitors on the approved lists to represent the members, 
+this should be highlighted to customers and  prospective customers. 
+Members should also inform customers and prospective customers of 
+the cost implications as a result. 
+ 
+15.9 Members should inform customers and prospective customers that they 
+may employ insurers not on the approved lists of members, and if they 
+do so, the procedures involved, any criteria to be fulfilled by the 
+insurers (e.g. any minimum policy cover), any fees charged by the 
+members, and any extra costs involved. Any criteria imposed should be 
+reasonable. 
+ 
+15.10 The amount and the nature of risks to be insured during the term of  the 
+loan should be reasonable and should be a matter of mutual agreement 
+between members and their cu stomers. Members should provide an 
+option for the customers or prospective customers to choose whether 
+the insured amount should be based on the original loan value and the 
+current loan value (provided it is not below the cost of reinstating the 
+property), and should inform them of any extra costs or fees involved 
+(for example, annual valuation fees) for the latter option. 
+ 
+15.11 On receipt of a request from customers for discharge of a mortgage, 
+members should as soon as reasonably practicable release title deed s 
+and any relevant documents (other than the mortgage itself) to the 
+solicitor representing the customer against the solicitor’s undertaking to 
+return the documents on demand as appropriate. Unless members 
+encounter any practical difficulties, this process  should normally be 
+completed within 21 days. If members are unable to meet this industry 
+standard, they should promptly inform the customer. 
+ 
+15.12 Members should guard against fraud by person misrepresenting 
+themselves as the owner(s) of the property. 
+ 
+16 Other Secured Lending 
+ 
+In the case of a security document other than a residential mortgage involving more 
+than one borrower, the amount secured under the security document should not 
+exceed the amount of money, obligations and liabilities owing or incurred at any time 
+by the co-borrowers jointly. This does not restrict a co-borrower acting as surety 
+
+===== PAGE 23 =====
+
+20 
+ 
+from separately guaranteeing or securing the other’s obligations in a transparent 
+manner which complies with the provisions of section 17 below. 
+ 
+17 Guarantees and Third Party Securities 
+ 
+17.1 Subject to the consent of the borrower as required under section 17.9 
+below, members should provide an individual proposing to give a 
+guarantee or third party security (the “surety”) with a copy or summary 
+of the contract evidencing the obligations to be guaranteed or secured. 
+ 
+17.2 Members should in writing (in printed form) advise the surety - 
+ 
+(a) that by giving the guarantee or third party security, the surety 
+might become liable instead of or as well as the borrower; 
+ 
+(b) whether the guarantee o r third party security is unlimited as to 
+amount (that is to say that the member may agree to extend 
+further facilities to the borrower without the consent of the 
+surety) and, if so, the implications of such liability (for example, 
+that the surety will be liable for all the actual and contingent 
+liabilities of the borrower, whether now or in future including for 
+further facilities extended to the borrower) and if this is not the 
+case, what the limit of the liability will be; 
+ 
+(c) whether the liabilities under t he guarantee or the third party 
+security are payable on demand; 
+ 
+(d) under what circumstances the surety would be called upon to 
+honour his or her obligations; 
+ 
+(e) under what circumstances, and the timing within which, it would 
+be possible for the surety to extin guish his or her liability to a 
+member; and 
+ 
+(f) that the surety should seek independent legal advice before 
+entering into the guarantee or providing third party security. 
+ 
+17.3 A clear and prominent notice regarding the provisions in section 17.2 
+
+===== PAGE 24 =====
+
+21 
+ 
+above should be included in or attached to the guarantees and other 
+third party security documentation. 
+ 
+17.4 Members should provide a surety with an option to choose whether 
+the guarantee or third party security should be limited or unlimited in 
+amount (as described in section 17.2(b) above). 
+ 
+17.5 For the purpose of section 17.4  above, a limited guarantee or third 
+party security may include one which is either - 
+ 
+(a) limited in amount in respect of principal; or 
+ 
+(a) unlimited in amount but is limited to secure one or more specific 
+facilities. 
+ 
+and may, with the consent of the surety (and only with the consent of 
+the surety), secure additional amounts, further facilities or changed 
+facilities (in the case of (a)) or further or changed facilities (in the case 
+of (b)) beyond those originally secured. 
+ 
+17.6 Where a guarantee or third party security is unlimited in amount (as 
+described in section 17.2(b) above), members should give notice to the 
+surety as soon as reasonably practicable when further facilities are 
+extended to the borrower or when the  nature of the facilities extended 
+to the borrower is changed. 
+ 
+17.7 Subject to the consent of the borrower as required under section 17.9 
+below, members should provide the surety with a copy of any formal 
+demand for overdue payment that is sent to the borrower  who has 
+failed to settle the overdue amount following a customary reminder. 
+ 
+17.8 Subject to the consent of the borrower as required under section 17.9 
+below, members should provide, upon request by the surety, a copy of 
+the latest statement of account provided to the borrower, if any. 
+ 
+17.9 Before accepting a guarantee or a third party security, members should 
+obtain the prescribed consent of the borrower to provide the surety 
+with the documents mentioned in sections 17.1, 17.7 and 17.8 above. If 
+
+===== PAGE 25 =====
+
+22 
+ 
+the borrower does  not give consent, the member should inform the 
+surety of this in advance so that he or she can decide whether to 
+provide the guarantee or the security. 
+
+===== PAGE 26 =====
+
+23 
+ 
+ 
+Chapter 3–RECOVERY OF LOANS AND ADVANCES 
+ 
+18 Application 
+ 
+This chapter applies to debt collection activities of members, whether undertaken 
+directly by members or through third party debt collection agencies. 
+ 
+19 Debt Collection Activities 
+ 
+19.1 It is essential that debt collectors, no matter whether they are the staff 
+of the members who are assigned the duty of deb t collection or the 
+staff of third party debt collection agencies appointed by the members 
+to collect debts on their behalf, should act within the law, refrain from 
+action prejudicial to the business, integrity, reputation or goodwill of 
+the members for whom they are acting and observe a strict duty of 
+confidentiality in respect of customer information. 
+ 
+19.2 With reference to condition 10 of the Merged Licensing Condition s, 
+debt collectors must not resort to intimidation or violence, either oral 
+or physical, ag ainst any person in their debt recovery actions.  
+[Amended in September 2018]  In addition, they should not employ 
+harassment or improper debt collection tactics such as the following - 
+ 
+(a) Harassment tactics 
+ 
+(i) putting up posters or writing on the walls of the d ebtor’s 
+residence or other actions designed to humiliate the 
+debtor publicly; 
+ 
+(ii)  pestering the debtor with persistent phone calls; 
+ 
+(iii)  making telephone calls at unreasonable hours; and 
+ 
+(iv) pestering the debtor’s referees, family members and 
+friends for information about the debtor’s whereabouts. 
+ 
+(b) Adopt other unlawful or improper tactics or debt collection 
+practices [Amended in September 2018] 
+ 
+(i)  using false names to communicate with the debtor; 
+
+===== PAGE 27 =====
+
+24 
+ 
+ 
+(ii) making anonymous calls and sending unidentifiable notes 
+to the debtor; 
+ 
+(iii)  making abusive or threatening remarks to the debtor; and 
+ 
+(iv) making false or misleading representation with an intent to 
+induce the debtor to make a payment. 
+ 
+19.3 Members and their debt collection agencies should not try to recover 
+debts, whether directly or indirectly, from anyone unless such person is 
+in law indebted to them. Members and their debt collection agencies 
+should not try to recover debts, directly or indirectly, from third parties 
+including referees, family members or friends of the debtors if t hese 
+persons have not entered into a formal contractual agreement with the 
+members to guarantee the liabilities of the debtors. Members should 
+issue written instructions to their debt collection agencies, or include a 
+clause in the contract with their debt  collection agencies, to this effect. 
+[Amended in September 2018] 
+ 
+19.4 Members should enter into a formal, contractual relationship with their 
+third party debt collection agencies. Members should specify, either in 
+the contract or by means of written instructi ons, that the debt 
+collectors employed by the debt collection agencies should, among 
+other things, observe the requirements stated in sections 19.1, 19.2 and 
+19.3 above. 
+ 
+19.5 The contract between members and their debt collection agencies 
+should make it clear that the relationship between the member and the 
+debt collection agency is one of principal and agent. Members should 
+remain accountable to customers for any complaints arising out of debt 
+collection by third party debt collection agencies and should not 
+disclaim responsibility for misconduct on the part of the debt collection 
+agencies. Members should specify in their contract with debt collection 
+agencies that the debt collection agencies should not subcontract the 
+collection of debts to any other third parties. 
+ 
+19.6 Members intending to use third party debt collection agencies should 
+specify in the terms and conditions of credit facilities that they may 
+employ third party agencies to collect overdue amounts owed by the 
+customers. Members which reserve the right to require customers to 
+
+===== PAGE 28 =====
+
+25 
+ 
+indemnify them, in whole or in part, for the costs and expenses they 
+incur in the debt recovery process should include a warning clause to 
+that effect in the terms and conditions. 
+ 
+19.7 Members should not pass information about referees or third parties 
+other than debtors or guarantors to their debt collection agencies. If 
+the referee is to be approached for information to help locate the 
+debtor or guarantor, this should be done, without causing nuisance to 
+such third parties, by staff of the member. 
+ 
+19.8 Members should give the customer advance written notice (sent to the 
+last known address of the customer) of their intention to commission a 
+debt collection agency to collect an overdue amount owed to the 
+member. The written notice should include the following information - 
+ 
+(a) the overdue amount repayable by the customer; 
+ 
+(b) the length of time the customer has been in default; 
+ 
+(c) the contact telephone number of the member’s debt recovery 
+unit which is responsible for overseeing the collection of th e 
+customer’s debt to the member; 
+ 
+(d) the extent to which the customer will be liable to reimburse the 
+member the costs and expenses incurred in the debt recovery 
+process (if the member requires the customer to indemnify it for 
+such costs and expenses); and 
+ 
+(e) that the customer should in the first instance report improper 
+debt recovery actions taken by the debt collection agency to the 
+member. 
+ 
+19.9 Members should not engage more than one debt collection agency to 
+pursue the same debt in one jurisdiction at the same time. 
+ 
+19.10 Members should require their debt collection agencies, when collecting 
+debts, to identify themselves and the member for whom they are 
+acting. Members should issue authorization documents with no 
+
+===== PAGE 29 =====
+
+26 
+ 
+account details to their debt collection agencies whic h should be 
+presented to the debtor upon request for identification purposes. 
+ 
+19.11 Members should promptly update the amount of repayment(s) made 
+by customers and establish effective communication with their debt 
+collection agencies to update so that the debt collection agencies will 
+stop immediately all recovery actions once the debts are settled in full 
+by the customers. 
+ 
+19.12 If a customer owes several debts to more than one member that are 
+being collected by the same debt collection agency, the customer has 
+the right to give instructions to apply repayment to a particular debt. 
+ 
+19.13 Members should stop their debt collection activities on a debtor once 
+they become aware that a bankruptcy order has been issued in relation 
+to the debtor. 
+ 
+19.14 Where the debt collection proce ss is ongoing, the member should as 
+far as practicable provide periodic reminders to the customer 
+concerned of the overdue amount repayable by the customer. 
+ 
+20 Management of Debt Collection Agencies 
+ 
+20.1 Members should have proper systems and procedures in place  for the 
+selection of third party debt collection agencies and the monitoring of 
+their performance. These systems and procedures should be subject to 
+regular review and should consist of the following essential elements - 
+ 
+(a) a review of the background inform ation of the debt collection 
+agency including a company search to identify the owners and 
+directors of the debt collection agency; 
+ 
+(b) a basic assessment of the financial soundness of the debt 
+collection agency; 
+ 
+(c) a site visit to ascertain the business address of the debt collection 
+agency; 
+
+===== PAGE 30 =====
+
+27 
+ 
+(d) an evaluation of the operation of the debt collection agency; and 
+ 
+(e) in the case of appointing a new debt collection agency, a 
+procedure to obtain references from at least two of the existing 
+clients (preferably members) of the agency. 
+ 
+20.2 Members should encourage their debt collection agencies to aspire to 
+the highest professional standards and, where appropriate, to invest in 
+suitable systems and technology. 
+ 
+20.3 Debt collection agencies should not be given a free hand as to recove ry 
+procedures. Members should establish effective procedures to monitor 
+continuously the performance of their debt collection agencies, 
+particularly to ensure compliance with the provisions in sections 19.1, 
+19.2 and 19.3 above. 
+ 
+20.4 Members should evaluate on a regular basis whether the charges of the 
+debt collection agencies employed by them are reasonable having 
+regard to the prevailing market practices. They should assess the 
+reasonableness of any charge before passing it on to the customer 
+concerned. 
+ 
+20.5 Members should keep updated and accurate records of the debt 
+collection activities of their debt collection agencies. Members should 
+require debt collection agencies to inform customers that all telephone 
+communication with customers will be audio recorded and  the purpose 
+of doing so, and to keep records of all other contacts with customers. 
+Such records should include information on the debt collector making 
+the contact; the date, time and place of contact; and a report on the 
+contact. Both the audio and the r ecords should be kept for a minimum 
+of 30 days after the contact is made. [Amended in September 2018] 
+ 
+20.6 Members should make unscheduled visits to the agencies to inspect 
+their professionalism, operational integrity, the involvement of suitably 
+trained perso nnel and the adequacy of resources to cope with the 
+business volumes assigned to them and to ensure agencies’ compliance 
+with their contractual undertakings. 
+ 
+20.7 Members should have established procedures to handle complaints 
+received from debtors. They should carry out a careful and diligent 
+
+===== PAGE 31 =====
+
+28 
+ 
+inquiry into the complaint to check whether there is any misconduct on 
+the part of the debt collection agency and whether there is any 
+violation of the requirements contained in this Code. Members should 
+require debt collection agencies to take appropriate remedial actions if 
+necessary. 
+ 
+20.8 Members should maintain a register of complaints about improper 
+actions taken by their debt collection agencies and should respond 
+promptly to the complainants after investigation. 
+ 
+20.9 Members should not delegate authority to debt collection agencies to 
+institute legal proceedings against customers without the members’ 
+formal approval. 
+ 
+20.10 Where members are aware that their debt collection agencies perform 
+similar functions for other members, th e sharing of information as to 
+their performance, approach, attitude, behaviour etc. is encouraged. 
+ 
+20.11 Members should bring apparently illegal behaviour by debt collection 
+agencies to the attention of the Police. Members should also consider 
+whether to termi nate the relationship with a debt collection agency if 
+they are aware of unacceptable practices of that agency or breaches of 
+its contractual undertakings. 
+
+===== PAGE 32 =====
+
+29 
+ 
+USEFUL DEFINITIONS 
+ 
+These definitions explain the meaning of words and terms used in the Code. They are 
+not precise legal or technical definitions. 
+ 
+Additional Licensing Conditions 
+ 
+Additional Licensing Conditions of Money Lenders Licence introduced by the 
+Companies Registry which took effect from 1 December 2016.  
+ 
+Annual Percentage Rate or APR – 
+ 
+The true annual percentage rate of interest calculated in accordance with Schedule 2 
+of the Money Lenders Ordinance (Cap. 163). 
+ 
+Authorized agents - 
+ 
+Agents authorized by a member to deal with customers to provide services on its 
+behalf in relation to the prov ision of money lending services, when acting in their 
+capacity as agents for a member. 
+ 
+Credit references - 
+ 
+A credit reference is an opinion about a particular customer’s ability to enter into or 
+repay a financial commitment. It is given by a member, to a n enquirer, with the 
+prescribed consent of the customer concerned. Typically, the reference will cover 
+information confirming that an account is held and how long for. It indicates the 
+customer’s financial position but is not intended to be conclusive proo f of the 
+customer’s position. 
+ 
+Credit reference agencies - 
+ 
+Any data user who carries on a business of compiling and disseminating personal 
+information, of a factual nature, about the credit history of individuals, whether or 
+not that business is the role or principal activity of that data user. 
+ 
+Customer - 
+ 
+A private individual who - 
+ 
+
+===== PAGE 33 =====
+
+30 
+ 
+(a) maintains an account in Hong Kong with, a member; or 
+ 
+(b) acts as guarantor or provider of third party security (whether or not the 
+guarantor or provider of third party security is a customer of the member) for a 
+borrower who is an individual or otherwise. 
+ 
+Day - 
+ 
+Day means calendar day if not otherwise specified. 
+ 
+Guarantee - 
+ 
+An undertaking given by a person called the guarantor promising to pay the debts of 
+another person if that other person fails to do so. 
+ 
+Members - 
+ 
+Members of the Hong Kong S.A.R. Licensed Money Lenders Association Limited. 
+ 
+Merged Licensing Conditions 
+ 
+The licensing conditions for money lenders licences granted or renewed after 1 
+December 2016, comprising the then existing licensing conditions and the Additional 
+Licensing Conditions.  
+ 
+Prescribed consent - 
+ 
+Express consent of a customer given voluntarily. 
+ 
+Promotional material - 
+ 
+Any literature or information which is designed to help sell a product or servi ce to a 
+customer. This does not include information relating to service enhancements and 
+changes to customers’ existing accounts which need to be sent to the customers to 
+meet legislative and regulative requirements or which may be sent where it is in the 
+interest of customers. 
+ 
+Related companies - 
+ 
+This refers to a member’s subsidiary, holding company or a subsidiary of the holding 
+company. 
+
+===== PAGE 34 =====
+
+31 
+ 
+ 
+Security - 
+ 
+A word used to describe the mortgaging or charging of assets as support for loans 
+granted to customers. If the loans are not repaid the member’s position is “secured” 
+which means that it can sell the assets to meet the amount outstanding on the loan. 
+ 
+Third party security - 
+ 
+Security provided by a person who is not the borrower. 
+
+===== PAGE 35 =====
+
+32 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Appendix 1(a): 
+Money Lenders Licence - Additional Licensing 
+Conditions 
+
+===== PAGE 36 =====
+
+33 
+ 
+The following additional licensing conditions took effect from 1 December 2016. 
+ 
+ 
+MONEY LENDERS LICENCE 
+ADDITIONAL LICENSING CONDITIONS 
+ 
+1. Before entering into any agreement for loan, the money lender 
+(a) shall ask the intending borrower to state whether or not he has entered into or 
+signed any agreement (“the third party agreement”) with any person (“third party”) 
+for or in relation to the procuring, negotiation, obtaining or application of the loan, 
+guaranteeing or securing the repayment of the loan (other than an agreement with 
+solicitors instructed by the intending borrower for the provision of legal services 
+solely); 
+(b) shall state in writing the intending borrower’s reply in relation to Condition 1(a) 
+above in the loan agreement; and 
+(c) if the intending borrower’s reply in relation to Condition 1(a) above is in the 
+affirmative, shall further 
+(i) obtain from the intending borrower the name and address of the third party; 
+(ii) state in writing in the loan agreement the name and address of the third party 
+and whether the money lender is in any way related to the third party and the 
+nature of such relationship; 
+(iii) ask the intending borrower to personally provide a copy of the third party 
+agreement; and 
+(iv) attach the third party agreement to the loan agreement. 
+ 
+2. The money lender shall not grant or agree to grant any loan to any intending borrower if 
+the intending borrower’s reply in relation to Condition 1(a) above is in the affirmative, 
+unless the third party as identified in Condition 1(c) above: 
+(a) is a person appointed by the money lender (“appointed third party”) for or  in 
+relation to granting a loan to any intending borrower or any specified class of 
+intending borrower, whether as to the procuring, negotiation, obtaining, appli cation, 
+guaranteeing or securing the repayment of such a loan; and 
+(b) has, specifically in respect of the loan, confirmed in writing to the money lender that 
+(i) he has not charged, recovered, demanded or received and will not  charge, 
+recover, demand or receive any fees, charges, reward or consideration, however 
+named, from such intending borrower for or in relation to the procuring, 
+negotiation, obtaining or application of the loan or guaranteeing or securing the 
+repayment of the loan; and 
+(ii) he has not otherwise ag reed with the intending borrower that the intending 
+borrower pays or would pay any fees, charges, reward or consideration, 
+however named, to any other party whether for the purchase of any goods or 
+services or not. 
+
+===== PAGE 37 =====
+
+34 
+ 
+3. For the purposes of Condition 2, 
+(a) the money lender shall provide in writing to the satisfaction of the Commissioner of 
+Police and the Registrar of Money Lenders the name, address and identification 
+number (including identification card/passport, business registration and company 
+number as applicable) of any appointed third party; and 
+(b) the third party as identified in Condition 1(c) above is not considered as an 
+appointed third party until after the name and address of the appointed third party 
+appear on the Register kept by the Registrar of Money Lenders. 
+ 
+4. (a) The money lender shall not knowingly allow or permit any person, whether the 
+money lender, or his partner, employer, employee, principal or agent or any person 
+acting for him or any appointed third party, to charge, recover, demand or receive 
+any fees, charges, reward or consideration, however named, from any borrower or 
+intending borrower for or in relation to the procuring, negotiation, obtaining or 
+application of a loan or guaranteeing or securing the repayment of a loan. 
+(b) The prohibition  in Condition 4(a) above also covers any fees, charges, reward or 
+consideration, however named, to be paid by the borrower or intending borrower to 
+the appointed third party or any other person as agreed between the 
+borrower/intending borrower and the appointed third party, whether for the purchase 
+of any goods or services or not. 
+ 
+5. The money lender shall not obtain or collect personal data of any person from another 
+person or use such personal data obtained or collected from another person for the 
+purpose o f or in relation to the money lender’s business (a) without the written 
+confirmation from that other person that the disclosure/provision of such personal data 
+by that other person for such use of the money lender is not in contravention of the 
+provisions of the Personal Data (Privacy) Ordinance, Cap. 486; or (b) when the money 
+lender has knowledge, or has reasonable grounds to believe, that the disclosure/provision 
+of the personal data by that other person for such use of the money lender is likely to be 
+in contravention of the provisions of the Personal Data (Privacy) Ordinance, Cap. 486. 
+The money lender must also keep records which show that he complies with this 
+requirement and the provisions of the Personal Data (Privacy) Ordinance. 
+ 
+6. Before entering into any agreement for loan, the money lender must give explanation to 
+the intending borrower of all the terms of the agreement, in particular the terms in 
+relation to repayment, namely, 
+(a) the interest rate expressed as a rate per cent per annum and the total amount of 
+interest payable under the agreement; 
+(b) amounts of repayments, periodically and in total, under the agreement; 
+(c) the possible consequences for any default in repayment, including – 
+(i) the taking into possession and sale of any security involved (includi ng the 
+property charged, if any); and 
+(ii) any overriding right of the money lender to demand an immediate repayment. 
+The money lender must also keep written or video or audio records which show that he 
+complies with the requirements under this condition. 
+
+===== PAGE 38 =====
+
+35 
+ 
+7. The money lender shall provide information relating to his money lending business 
+during the term of the licence as may be required by the Registrar of Money Lenders or 
+the Commissioner of Police and such information shall be provided within such time as 
+the Registrar of Money Lenders or the Commissioner of Police may specify. 
+ 
+8. The money lender shall not accept a subsidized flat provided by the Hong Kong Housing 
+Authority as collateral for the loan to the borrower unless the borrower has produced to 
+the money lender either– 
+(a) a written confirmation from the Hong Kong Housing Authority that the necessary 
+premium for removing the restrictions on alienation on the said flat has been fully 
+paid; or 
+(b) the written approval of the Director of Housing granting approval to m ortgage or 
+charge the said flat. 
+ 
+9. Any advertisement in relation to the money lending business of a money lender issued 
+or published by the money lender, in his own name or through any other person, whether 
+in textual, audio or visual form, must contain the  money lender’s telephone hotline for 
+handling complaints and a risk warning statement (in the same language as that of the 
+advertisement or the relevant part thereof) as set out below, both of which must be 
+prominent and easily legible in the written or v isual part of the advertisement. The risk 
+warning statement must also be clearly audible in the audio part of the advertisement: 
+ 
+- “忠告: 借錢梗要還，咪俾錢中介” 
+- “Warning: You have to repay your loans. Don’t pay any intermediaries.” 
+ 
+10. The money lender must establish and maintain proper systems and procedures to ensure 
+that the money lender, or his partners, employers, employees, principals or agents, any 
+persons acting for him and any appointed third parties shall be informed of and observe 
+the licensing conditions and the provisions of the Money Lenders Ordinance. 
+
+===== PAGE 39 =====
+
+36 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Appendix 1(b):  
+Guidelines on Additional Licensing Conditions 
+of Money Lenders Licence 
+
+===== PAGE 40 =====
+
+37 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Guidelines on 
+Additional Licensing Conditions 
+of Money Lenders Licence 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+November 2016 
+
+
+===== PAGE 41 =====
+
+38 
+ 
+Contents 
+Introduction 
+ 
+Conditions 1, 2, 3, 4 and 6 
+Condition 5 
+Condition 7 
+Condition 8 
+Condition 9 
+Condition 10 
+ 
+Annex 
+ 
+1. Sample form on disclosure of the existence of third parties 
+by intending borrowers 
+ 
+2. Sample form on confirmation by appointed third party on the 
+charging of fees 
+ 
+3. Sample form on reporting by licensees of particulars or 
+changes in particulars of or termination of appointment of 
+appointed third parties of licensees 
+ 
+4. Guidance for meeting the requirements on the display / 
+broadcast of risk warni ng statement for different types of 
+advertisements 
+
+===== PAGE 42 =====
+
+39 
+ 
+Introduction 
+ 
+ 
+Under the Money Lenders Ordinance (Cap. 163) (“MLO”), no person 
+shall carry on business as a money lender without a licence granted 
+under section 11 of the MLO. A licence shall be subject t o such 
+conditions as the licensing court may impose. 
+ 
+In recent years, there have been increasing public concerns that 
+deceptive tactics are being used by fraudsters who claim themselves 
+to be financial intermediaries for money lending to induce intending 
+borrowers to engage them for arranging loans with money lenders and 
+charge very high fees under different pretexts in the process. 
+ 
+To combat the problem, the additional licensing conditions imposed 
+on money lenders seek to facilitate effective enforcement  of the 
+statutory ban on separate fee charging by money lenders and their 
+connected parties, ensure better protection of privacy of intending 
+borrowers, enhance transparency and disclosure, and promote the 
+importance of prudent borrowing. The additional li censing conditions 
+will be applicable with effect from 1 December 2016. 
+ 
+This set of Guidelines aim to provide guidance for money lender 
+licensees on the requirements of the additional licensing conditions. 
+They are without prejudice to the requirements of  the MLO and 
+licensees should continue to comply with all the provisions of the 
+MLO and all other laws in Hong Kong as are applicable to them. 
+ 
+In cases of doubts, licensed money lenders are advised to seek 
+independent legal advice as they see fit. 
+ 
+ 
+ 
+Registrar of Money Lenders 
+October 2016 
+
+===== PAGE 43 =====
+
+40 
+ 
+Conditions 1, 2, 3, 4 and 6 1 
+ 
+ 
+ 
+Condition 1 
+ 
+Before entering into any agreement for loan, the money lender 
+(a) shall ask the intending borrower to state whether or not he has 
+entered into or  signed any agreement (“the third party 
+agreement”) with any person (“third party”) for or in relation to 
+the procuring, negotiation, obtaining or application of the loan, 
+guaranteeing or securing the repayment of the loan (other than 
+an agreement with sol icitors instructed by the intending 
+borrower for the provision of legal services solely); 
+(b) shall state in writing the intending borrower’s reply in relation 
+to Condition 1(a) above in the loan agreement; and 
+(c) if the intending borrower’s reply in relation to Condition 1(a) 
+above is in the affirmative, shall further 
+(i) obtain from the intending borrower the name and address  
+of the third party; 
+(ii) state in writing in the loan agreement the name and address 
+of the third party and whether the money lender is in any 
+way related to the third party and the nature of such 
+relationship; 
+(iii) ask the intending borrower to personally provide a copy of 
+the third party agreement; and 
+(iv) attach the third party agreement to the loan agreement. 
+ 
+ 
+ 
+ 
+1 References in the additional licensing conditions and this Guideline to  the  
+masculine gender include the feminine gender. 
+ 
+Condition 2 
+ 
+The money lender shall not grant or agree to grant any loan to any 
+intending borrower if the intending borrower’s reply in relation to 
+Condition 1(a) above is in the affirmative, unless the third party as 
+identified in Condition 1(c) above: 
+ 
+(a) is a person appointed by the money lender (“appointed third 
+party”) for or in relation to granting a loan to any intending 
+
+===== PAGE 44 =====
+
+41 
+ 
+ 
+ 
+ 
+borrower or any specified class of intending borrower, whether 
+as to the procuring, negotiation, obtaining, application, 
+guaranteeing or securing the repayment of such a loan; and 
+ 
+has, specifically in respect of the loan, confirmed in writing to 
+the money lender that 
+ 
+he has not charged, recovered, demanded or received and 
+will not charge, recover, demand or receive any fees, 
+charges, reward or consideration, however named, from 
+such intending borrower for or rel ating to the procuring, 
+negotiation, obtaining or application of the loan or 
+guaranteeing or securing the repayment of the loan; and 
+he has not otherwise agreed with the intending borrower 
+that the intending borrower pay or would pay any fees, 
+charges, rew ard or consideration, however named, to any 
+other party whether for the purchase of any goods or 
+services or not. 
+ 
+Condition 3 
+ 
+For the purposes of Condition 2, 
+ 
+the money lender shall provide in writing to the satisfaction of 
+the Commissioner of Police a nd the Registrar of Money 
+Lenders the name, address and identification number (including 
+identification card/passport, business registration and company 
+number as applicable) of any appointed third party; and 
+the third party as identified in Condition 1(c)  above is not 
+considered as an appointed third party until after the name and 
+address of the appointed third party appear on the Register kept 
+by the Registrar of Money Lenders. 
+ 
+Condition 4 
+ 
+(a) The money lender shall not knowingly allow or permit any pe rson, 
+whether the money lender, or his partner, employer, employee, 
+principal or agent or any person acting for him or any appointed 
+third party, to charge, recover, demand or receive any fees, 
+
+===== PAGE 45 =====
+
+42 
+ 
+ 
+ 
+ 
+1. Conditions 1, 2, 3, 4 and 6 set out the obligations of licensees to 
+undertake due diligence checks before entering into a loan agreement 
+with an intending borrower. 
+charges, reward or consideration, however named, from any 
+borrower or intending borrower for or relating to the procuring, 
+negotiation, obtaining or application of a loan or guaranteeing or 
+securing the repayment of a loan. 
+(b) The prohibition in Condition 4(a) above also covers any fees, 
+charges, reward or consider ation, however named, to be paid by  
+the borrower or intending borrower to the appointed third party or 
+any other person as agreed between the borrower/intending 
+borrower and the appointed third party, whether for the purchase of 
+any goods or services or not. 
+ 
+Condition 6 
+ 
+Before entering into any agreement for loan, the money lender must give 
+explanation to the intending borrower of all the terms of the agreement, 
+in particular the terms in relation to repayment, namely, 
+ 
+the interest rate expressed as a rate per cent per annum and the 
+total amount of interest payable under the agreement; 
+amounts of repayments, periodically and in total, under the 
+agreement; 
+the possible consequences for any default in repayment, 
+including – 
+the taking into possession and sale of any security involved 
+(including the property charged, if any); and 
+any overriding right of the money lender to demand an 
+immediate repayment. 
+ 
+The money lender must also keep written or video or audio records 
+which show that he complies with the requirements under this condition. 
+
+===== PAGE 46 =====
+
+43 
+ 
+Pre-contractual explanation to intending borrowers 
+2. Before entering into any loan agreement, the licensee should clearly 
+explain to the intending borrower all the terms and conditions of the 
+loan agreement, in particular the terms of repayment, including: 
+(a) the interest rate expressed as a rate per cent per annum; 
+(b) the maximum amount of interest payable under the agreement; 
+(c) the amounts of repayments periodically under the agreement; 
+(d) the amount of repayment in total (sum of the principal and 
+maximum amount of interest payable) under the agreement; 
+(e) all the possible consequences for any default in repayment, in 
+particular the licensee’s taking into possession and sale of any 
+security involved (including the property charged, if any); and 
+(f) the o verriding right (if any) of the licensee to demand an 
+immediate repayment. 
+ 
+ 
+ 
+ 
+ 
+3. Even where the intending borrower states that there is no need for an 
+explanation, the licensee should still comply with the requirement to 
+provide an explanation before entering into any loan agreement. 
+4. Licensees should keep records which show their compliance with the 
+requirement of giving explanation to the intending borrowers of all 
+the terms and conditions of the agreement.  The records can be kept  
+in either one of the th ree formats: written, video or audio form. The 
+records should show in details what have been explained to the 
+intending borrowers. A mere acknowledgement by the intending 
+borrower that the terms of the agreement have been explained to him 
+is not sufficient. 
+Explanatory note 
+This is to ensure that the intending borrower understands the 
+terms and conditions of the loan agreement so that he is able to 
+make a conscious decision whether to sign the loan agreement. 
+
+===== PAGE 47 =====
+
+44 
+ 
+ 
+ 
+ 
+ 
+Ascertaining the existence of third parties for or in relation to the loan 
+5. Before entering into any loan agreement, a licensee should ascertain 
+from an intending borrower as to the existence of any third party 
+involved in a loan transaction. 
+6. The li censee should ask the intending borrower whether he has 
+entered into or signed any agreement, (“third party agreement”) with 
+any third party (“third party”) for or in relation to the procuring, 
+negotiation, obtaining or application of the loan, guaranteein g or 
+securing the repayment of the loan. 
+7. The licensee should explain to the intending borrower that whether 
+one will be regarded as a third party will depend on whether the 
+intending borrower has entered into or signed any agreement with this 
+party for or in relation to the procuring, negotiation, obtaining or 
+application of the loan, guaranteeing or securing the repayment of the 
+loan. To help the intending borrower understand the question, the 
+licensee may specifically enquire if there is any of the follow ing 
+persons involved in any way in connection with the loan transaction: 
+agreement have been explained to him. 
+The licensee may prepare a document with notes of the 
+explanations given to the intending borrower with the date, time, 
+and venue when the explanation takes place duly recorded, and a 
+copy of the document signed by the licensee and the intending 
+borrower should be given to the latter for retention and reference. 
+an 
+the 
+acknowledgement simply declaring that the terms of 
+Illustrative example for reference 
+If a licensee chooses to keep written records to show compliance 
+with the requirement of explaining to an intending borrower, he 
+should not ask the intending borrower to sign 
+
+===== PAGE 48 =====
+
+45 
+ 
+ 
+(a) a person who claims to provide professional (e.g. accounting or 
+legal) or financial assessment services (e.g. stress test, debt 
+restructuring, property valuation or improving credit  records, etc.) 
+for facilitating the intending borrower to arrange the loan; 
+(b) a person who claims to be a representative of a bank or a money 
+lender who can arrange a loan for the intending borrower; 
+(c) a person who requests the intending borrower to d eposit a portion 
+of the loan that would be obtained from the licensee with him for 
+custody (whether as proof of the intending borrower’s cash flow 
+allegedly to help improve the latter’s credit record for increasing 
+the chance of arranging a low-interest loan later or otherwise); or 
+(d) a person who requests the intending borrower to pay a portion of 
+the loan that would be obtained from the licensee to him or any 
+other party under different pretexts allegedly for the purchase of 
+goods or services, e.g. purch asing an “investment fund”, or 
+otherwise. 
+The above list is not exhaustive, and licensees are encouraged to seek 
+other necessary clarification from the borrower as appropriate. 
+8. The licensee should explain to the intending borrower that the 
+disclosure of th e existence of any third party is to protect the 
+intending borrower’s interests, as this is one of the measures to help 
+ensure that the intending borrower would not be subject to separate 
+fee charging by any third party. 
+9. Licensees must not do any act to di ssuade or deter an intending 
+borrower from disclosing the existence of a third party involved in the 
+loan transaction. 
+
+===== PAGE 49 =====
+
+46 
+ 
+ 
+Illustrative examples for reference 
+ 
+ 
+Case 1 – car dealers 
+If a car dealer introduces and refers vehicle loans provided by a 
+licensee to an intending borrower and has entered into or signed an 
+agreement for the purpose with the latter, he will be considered a 
+third party even if the car dealer only receives a commission from 
+the licensee and does not charge the intending borrower any fee . 
+The licensee will have an obligation to register this car dealer with 
+the Registrar of Money Lenders. On the other hand, if the car 
+dealer does not enter into any separate agreement with the 
+intending borrower for or in relation to the loan, he will not be 
+considered as a third party under the new licensing Conditions. 
+ 
+ 
+Case 2 – friends and relatives 
+If the intending borrower is referred to the licensee by his friend or 
+relative where the borrower has entered into any agreement with 
+his friend or relative for or in relation to the  procuring, negotiation, 
+obtaining or application of the loan or guaranteeing or securing the 
+repayment of the loan, such agreement should be regarded as a 
+third party agreement and his friend or relative will be regarded as 
+a third party under the conditions. 
+ 
+ 
+Case 3 – authorised sales agents of licensees 
+A licensee may have employed sales agents for soliciting business 
+for them. If the sales agent does not enter into or sign  any  
+separate agreement between himself and the int ending borrower 
+for or in relation to the procuring, negotiation, obtaining or 
+application of the loan or guaranteeing or securing the repayment 
+of the loan with the licensee concerned, that sales agent is not to 
+be considered as a third party. 
+
+===== PAGE 50 =====
+
+47 
+ 
+ 
+ 
+ 
+10. An agr eement between the intending borrower and a solicitor in 
+connection with the loan agreement is not regarded as a third party 
+agreement if the solicitor is instructed by the intending borrower to 
+solely provide legal services (e.g. vetting of the loan docum entation). 
+But if the solicitor also provides an intermediary service in relation to 
+the granting of the loan, he is a third party and licensees must follow 
+the required steps as stated in paragraphs 13 - 25  below.  The  
+licensee should explain this clearly to the intending borrower. 
+11. The intending borrower’s response to the above question should be 
+stated in writing and form part of the loan agreement. For easy 
+reference, a sample form on the disclosure of the existence of any 
+third party in relation to the loan can be found at Annex 1. 
+ 
+ 
+Where no third parties are involved 
+12. Where the intending borrower confirms that he has not entered into or 
+signed any relevant agreement with any third parties, the licensee 
+should state this in writing in the loan agreemen t. If a licensee has 
+done any act to dissuade or deter an intending borrower from 
+ 
+ 
+Case 4 – multiple referrals 
+In some cases, more than one third parties may be involved (e.g. 
+an intending borrower engages Person A in applying for a loan. 
+Person A then refers the case to Person B. Person B eventually 
+refers the borrower’s application to the licensee.). As long as any 
+party has entered into an agreement with the intending borrower 
+for or in relation to the procuring, negotiation, obtaining o r 
+application of the loan or guaranteeing or securing the repayment 
+of the loan, he will be regarded as a third party. For instance, if 
+only Person A enters into an agreement with the intending 
+borrower while Person B has never entered into any agreement 
+with the intending borrower, only Person A will be considered as a 
+third party. 
+
+===== PAGE 51 =====
+
+48 
+ 
+disclosing the existence of a third party, the licensee may be regarded 
+as having breached Condition 1. 
+ 
+ 
+Third parties disclosed by intending borrowers 
+13. If the intending bor rower confirms that he has entered into or signed 
+an agreement with a third party for or in relation to the loan, the 
+licensee should ask the intending borrower to personally provide a 
+copy of the third party agreement. 
+ 
+ 
+ 
+ 
+14. The licensee should explain to the intending borrower that such third 
+party agreement should be personally provided by the latter (and must 
+not be through the appointed third party or any person connected with 
+the third party), and that this is to ensure that the intending borrower 
+is in full picture of what he has agreed with the third party. 
+15. The licensee should withhold from entering into a loan agreement 
+with the intending borrower if the intending borrower fails to 
+personally provide a copy of the third party agreement to the licensee 
+so that he is unable to attach a copy of the third party agreement to the 
+loan agreement. 
+16. A licensee should carefully check the name and address of the third 
+party shown on the third party agreement provided by the intending 
+borrower against the list of appointed third parties maintained by the 
+Registrar of Money Lenders (“the Registrar”) [see paragraphs 26 to 
+33]. 
+Explanatory note 
+This is to ensure that the licensee can take appropriate steps to 
+ascertain that the third party involved is his appointed third party 
+who is registered with t he Registrar of Money Lenders and that 
+the third party agreement does not contain any clause that 
+breaches the requirement on no separate fee charging. 
+
+===== PAGE 52 =====
+
+49 
+ 
+17. If the third party as shown on the third party agreement is not an 
+appointed third party of the licensee whose appointment has been 
+registered by the Registrar and appears in the Register kept by the 
+Registrar, the licensee shall not enter into any loan agreement with the 
+intending borrower. 
+18. Where the third party involved is an appointed third party of the 
+licensee, the licensee should state in writing in the loan agreement: 
+(a) the name and address of the third party; 
+(b) whether the licensee is in any way related to the third party; and 
+(c) the nature of relationship between the licensee and the third party. 
+(e.g. appointed third parties and, wher e applicable, parent 
+company, subsidiary, fellow subsidiary etc.). 
+The third party agreement obtained should then be attached to the 
+loan agreement. In this regard, licensees should ensure that their 
+appointed third parties are aware of this requirement and adopt proper 
+practice in their course of dealings with intending borrowers so that 
+there will not be any difficulty for intending borrowers to obtain and 
+provide to the licensees a copy of the third party agreement. 
+ 
+ 
+Prohibition of fee charging by licensee’s staff, agents and appointed third 
+parties etc. 
+19. A licensee should not allow or permit any person, whether the 
+licensee, his staff, agents, appointed third parties and other persons 
+acting for the licensee to charge, recover, demand or receive any fees , 
+charges, reward or consideration, however named, from any borrower 
+or intending borrower for or in relation to the procuring, negotiation, 
+obtaining or application of a loan or guaranteeing or securing the 
+repayment of a loan. 
+20. Nor should a licensee allow or permit any appointed third party to, for 
+or in relation to the loan, enter into or sign an agreement with the 
+borrower or intending borrower under which the borrower or 
+intending borrower shall pay any fees, charges, reward or 
+consideration to any party, whether for the purchase of goods or 
+services or not. 
+
+===== PAGE 53 =====
+
+50 
+ 
+ 
+21. A licensee should not simply adopt a passive stance without taking 
+appropriate steps to ascertain compliance with the licensing 
+conditions and the MLO by his appointed third parties. In particular,  
+he should check and ensure that there is no fee charging provision in 
+the third party agreement provided by the intending borrower. He 
+should also ensure that his appointed third parties are aware of and 
+comply with the prohibition on charging prospective  borrowers any 
+fees under the licensing conditions and the MLO. 
+22. A licensee should not enter into the loan agreement with the borrower 
+if the third party agreement contains any term/provision which shows 
+that the third party has charged or intends to charge  the borrower any 
+fee (under whatever pretexts and however the fee is named), whether 
+it is for the purchase of goods or services from the third party or 
+another party. If a licensee is aware that an intending borrower has 
+been charged any fees by his appo inted third party, he should liaise 
+with the appointed third party concerned for rectifying the problem 
+and such third party agreement should be  rescinded.  If  the  
+appointed third party refuses, the licensee should terminate the 
+appointment and bring the matter to the attention of Police and report 
+the termination of appointment to the Registrar. 
+ 
+ 
+ 
+ 
+23. For each proposed loan transaction, a licensee should, before entering 
+into the relevant loan agreement, obtain a written confirmation from 
+the appointed third party involved that the appointed third party: 
+(a) has not charged, recovered, demanded or received and will not 
+charge, recover, demand or receive any fees, charges, reward or 
+Illustrative example for reference 
+If the borrower is required by the third party to make a payment 
+to another party after the loan has been granted, say, for the 
+purchase of an investment fund unit, a licensee should not enter 
+into a loan agreement with the borrower, and review whether the 
+third party should continue to be appointed by him. 
+
+===== PAGE 54 =====
+
+51 
+ 
+consideration, however named, from the intending borrower for 
+or in relation to the procuring, negotiation, obtaining or 
+application of the loan or guaranteeing or securing the 
+repayment of the loan; and 
+(b) has not otherwise agreed with the intending borrower that the 
+intending borrower pay or would pay any fees, charges, 
+rewards or c onsideration, however named, to any other party 
+whether for the purchase of any goods or services or not. 
+24. In addition to the requirement under paragraph 23 above, a licensee 
+should check and ensure there is no fee charging provision in the third 
+party agreement. 
+25. For ready reference, a sample form on the written confirmation to be 
+provided by the appointed third party can be found at Annex 2. 
+ 
+ 
+Reporting of appointed third parties 
+26. Licensees should keep an updated list of all their appointed third 
+parties. 
+27. The Registrar has provided the following forms for use by licensees 
+to report about their appointed third parties: 
+(a) Notice of Particulars of Third Party Appointed by Licensed 
+Money Lenders in relation to Granting of Loans 
+(Form ML-ATP-1); 
+(b) Notice of Changes in  Particulars of Appointed Third Party of 
+Licensed Money Lenders (Form ML-ATP-2); 
+(c) Notice of Termination of Appointment of Appointed Third 
+Party of Licensed Money Lenders (Form ML-ATP-3) 
+Samples of these forms can be found at Annex 3. 
+28. All forms should be properly completed and signed by the licensees. 
+29. For the purpose of reporting, a licensee should provide the name, 
+address and identification number of any person appointed by him for 
+or in relation to the granting of loans. 
+
+===== PAGE 55 =====
+
+52 
+ 
+ 
+30. For an appointed third party who is an individual, a copy of his Hong 
+Kong Identity Card or Passport (in the absence of a Hong Kong 
+Identity Card) should be provided together with the relevant form. 
+31. Particulars of appointed third party reported to the Registrar will 
+generally be registere d in two working days after receipt of the 
+relevant form. Completed forms should therefore be delivered to the 
+Registrar for registration as early as possible. A licensee should not 
+grant a loan to an intending borrower if the loan involves an 
+appointed third party whose particulars have not yet appeared on the 
+Register kept by the Registrar. 
+32. Any subsequent changes in the particulars of an appointed third party 
+should also be reported in writing to the Registrar within 21 days after 
+the change by using Form  ML-ATP-2 and the Registrar may in 
+respect of any such change enter such particulars, or alter any 
+particulars entered, in the Register as the Registrar thinks fit. 
+33. It will be in the licensees’ own interest to report any cessation of their 
+appointment of a ny third party to the Registrar as soon as possible, 
+and in any case the licensee should report to the Registrar within 21 
+days after the cessation takes place by using Form ML-ATP-3. The 
+Registrar will then update the list of appointed third parties of 
+licensees kept in the Register of Money Lenders. 
+
+===== PAGE 56 =====
+
+53 
+ 
+Condition 5 
+ 
+ 
+ 
+ 
+ 
+ 
+34. For the purpose of the money lending business, if licensees want to 
+obtain or collect the personal data of any person from another party or 
+use such data, they must: 
+(a) obtain written confirmation from that party that the disclosure / 
+provision of such personal data by that party for such use of the 
+licensee is not in contravention of the provisions of the 
+Personal Data (Privacy) Ordinance (Cap. 486) 
+ 
+Condition 5 
+ 
+The money lender shall not obtain or collect personal data of any person 
+from another person or use such personal data obtained or collected from 
+another person for the purpose of or in re lation to the money lender’s 
+business (a) without the written confirmation from that other person that 
+the disclosure/provision of such personal data by that other person for  
+such use of the money lender is not in contravention of the provisions of 
+the Personal Data (Privacy) Ordinance, Cap. 486; or (b) when the money 
+lender has knowledge, or has reasonable grounds to believe, that the 
+disclosure/provision of the personal data by that other person for such use 
+of the money lender is likely to be in contrav ention of the provisions of  
+the Personal Data (Privacy) Ordinance, Cap. 486.  The  money  lender 
+must also keep records which show that he complies with this requirement 
+and the provisions of the Personal Data (Privacy) Ordinance. 
+Explanatory note 
+The additional condition requires licensees to take steps to ensure 
+that when collecting or receiving personal data from another 
+person, they will not take part in any unlawful disclosure or use of 
+personal data. 
+
+===== PAGE 57 =====
+
+54 
+ 
+ 
+AND 
+(b) satisfy themselves that there is no r easonable ground to believe 
+that the disclosure / provision of the personal data by that party 
+for such use of the licensee is likely to be in contravention of 
+the provisions of the Personal Data (Privacy) Ordinance. 
+35. For compliance with Condition 5(b), lic ensees must not merely rely 
+on the written confirmation provided by that party without going 
+through a proper procedure to satisfy themselves that the disclosure or 
+provision of the personal data is not likely to be in contravention of 
+the provisions of th e Personal Data (Privacy) Ordinance. Generally 
+speaking, licensees should, among other things – 
+(a) request that party to explain how the personal data are obtained; 
+(b) ascertain whether that party may have access to the personal 
+data in his current or previous employment(s); 
+(c) if so, ask that party to provide appropriate proof showing that 
+the latter has been duly authorised to disclose or provide the 
+personal data to the licensees; and 
+(d) if in doubt, licensees should contact the relevant employer(s) of 
+the party to verify. 
+36. Licensees should be particularly vigilant if the party providing the 
+personal data appear to be employed or has been employed by 
+telecommunication service providers or financial institutions (such as 
+banks, insurance companies and securities brokers). 
+37. For the purpose of Condition 5(a), licensees may accept a 
+confirmation from the other parties covering the full duration of their 
+service contracts instead of requiring a written confirmation from the 
+other parties each time they collect or receive per sonal data from 
+them. 
+
+===== PAGE 58 =====
+
+55 
+ 
+ 
+38. Licensees must keep record of the written confirmation obtained and 
+any other records which show their compliance with Condition 5 and 
+the provisions of the Personal Data (Privacy) Ordinance. On record -
+keeping, licensees may refer t o paragraphs 56 to 57 under Condition 
+10 for more practical guidance. 
+ 
+ 
+ 
+Illustrative example for reference 
+When a licensee is offered or provided with bulk personal data by 
+a person who is a former employee of a bank, he should take 
+reasonable steps to ascertain that person has the right to access 
+and transfer the personal data concerned, e.g. ask that person for 
+an appropri ate proof of authorisation by the bank or consents 
+given by the relevant customers of the bank to the disclosure or 
+use of their personal data by the licensee. 
+
+===== PAGE 59 =====
+
+56 
+ 
+Condition 7 
+ 
+ 
+ 
+ 
+39. Licensees must provide information relating to their money lending 
+businesses as required by the Registrar or the Commissioner of Police 
+during the term of the respective licences. 
+40. Licensees must provide the required information within such time as 
+specified by the Registrar or the Commissioner of Police. 
+ 
+Condition 7 
+ 
+The money lender shall provide information relating to his money 
+lending business during the term of the licence as may be required by the 
+Registrar of Money Lenders or the Commissioner of Police and such 
+information shall be provided within such time as the Registrar of Money 
+Lenders or the Commissioner of Police may specify. 
+
+===== PAGE 60 =====
+
+57 
+ 
+Condition 8 
+ 
+ 
+ 
+ 
+ 
+ 
+41. Before entering into a loan agreement which involves accepting a 
+subsidized flat as collatera l, the licensee must obtain from the 
+borrower either of the following: 
+(a) a written confirmation from the Hong Kong Housing Authority 
+that the necessary premium for removing the restrictions on 
+alienation on the relevant flat has been fully paid; or 
+(b) the written approval of the Director of Housing to mortgage or 
+charge the relevant flat. 
+The use or acceptance of a subsidized flat provided by Hong Kong 
+Housing Authority as collateral without first removing the restrictions 
+on alienation on the flat or obtaining the Director of Housing’s 
+relevant prior approval would render the licensee and the intending 
+borrower liable to prosecution for an offence under the Housing 
+Ordinance (Cap. 283) and the charge or mortgage concerned shall be 
+void. 
+ 
+Condition 8 
+ 
+The money lender shall not accept a subsidized flat provided  by the 
+Hong Kong Housing Authority as collateral unless the borrower has 
+produced to the money lender either– 
+ 
+a written confirmation from the Hong Kong Housing Authority that 
+the necessary premium for removing the restrictions on alienation 
+on the said flat has been fully paid; or 
+ 
+the written approval of the Director of Housing to mortgage or 
+charge the said flat. 
+
+===== PAGE 61 =====
+
+58 
+ 
+Condition 9 
+ 
+ 
+ 
+Content of the advertisement 
+42. Any advertisement in relation to the money lending business of a 
+licensee issued or published by the licensee, in his own name or 
+through any other person (including but not limited to the licensee’s 
+agents and appointed third parties), must contain: 
+(a) the licensee’s telephone hotline for handling complaints; and 
+(b) a risk warning statement : 
+[“忠告: 借錢梗要還，咪俾錢中介”] 
+ 
+[“Warning: You have to repay your loans. Don’t pay 
+any intermediaries”] 
+43. In particular, if the licensee asks any other person, e.g. the licensee’s 
+agents or appointed third parties, to issue an advertisement about the 
+licensee’s money len ding business, irrespective of whether or  not 
+such advertisement is issued in the name of the licensee, the 
+requirement under Condition 9 will still apply to such advertisement 
+and the licensee should ensure compliance with the Condition. 
+ 
+Condition 9 
+ 
+Any advertisement in relation to the money lending business  of a money 
+lender issued or published by the money lender, in his own name or 
+through any other person, whether in textual, audio or visual form, must 
+contain the money lender’s telephone hotline for handling complaints 
+and a risk warning statement (in th e same language as that of the 
+advertisement or the relevant part thereof) as set out below, both of 
+which must be prominent and easily legible in the written or visual part 
+of the advertisement. The risk warning statement must also be clearly 
+audible in the audio part of the advertisement: 
+ 
+"忠告: 借錢梗要還，咪俾錢中介" 
+"Warning: You have to repay your loans. Don’t pay any 
+intermediaries." 
+
+===== PAGE 62 =====
+
+59 
+ 
+ 
+44. The display or  broadcast of the required information as stated in 
+paragraph 42 must be prominent and easily legible in the written or 
+visual part of the advertisement and clearly audible in the audio part of 
+an advertisement (as the case may be). 
+45. The risk warning statem ent must be displayed or broadcast in the  
+same language as that of the advertisement itself (or the relevant part 
+thereof). The use of a single language for display or broadcast of 
+warning statement is acceptable for monolingual advertisements. 
+46. Practical guidance as to how the risk warning statement should be 
+displayed or broadcast in different forms of advertisements so as to 
+meet the requirements is set out in Annex 4. 
+47. For the telephone hotline for handling complaints, it should be 
+displayed (but not necessarily read out) in audio-visual advertisements. 
+However, for audio advertisement with no visual display, such 
+telephone hotline should be audible and clearly read out in a  voice -
+over in the same pace as the other contents of the advertisement. 
+
+===== PAGE 63 =====
+
+60 
+ 
+Condition 10 
+ 
+ 
+ 
+ 
+ 
+ 
+48. Licensees should establish and maintain proper systems and 
+procedures to ensure that they themselves, their employees, agents, 
+any persons acting for them and any appointed third parties are 
+informed of and observe the licensing conditions and  the provisions 
+of the MLO. 
+ 
+ 
+Management and supervision 
+49. Detailed policies and procedures pertaining to authorisations and 
+approvals, as well as the authority of key positions for the compliance 
+of statutory obligations should be clearly defined and commun icated 
+to and followed by staff, agents, appointed third parties and any 
+persons acting for the licensees. 
+50. Reporting lines should be clearly identified with supervisory and 
+reporting responsibilities assigned to appropriate staff members. 
+51. Licensees should establish procedures to ensure the proper handling 
+of customers’ complaints and that appropriate remedial actions are 
+taken. They should ensure that all their staff, agents, appointed third 
+parties and other persons acting for them who deal with intending 
+borrowers or borrowers are aware of the complaint procedures and  
+are able to provide customers with correct information about the 
+procedures. 
+ 
+Condition 10 
+ 
+The money lender must establish and maintain proper systems and 
+procedures to ensure that the money lender, or his partners, employers, 
+employees, princ ipals or agents, any persons acting for him and any 
+appointed third parties shall be informed of and observe the licensing 
+conditions and the provisions of the Money Lenders Ordinance. 
+
+===== PAGE 64 =====
+
+61 
+ 
+ 
+Personnel and training 
+52. Appropriate personnel recruitment and training policies should be 
+established with adequ ate consideration given to training needs to 
+ensure compliance with the licensee’s operational and internal control 
+policies and procedures and all applicable legal and regulatory 
+requirements to which the licensee is subject. In particular:- 
+(a) Licensees sho uld ensure that, for compliance with the MLO 
+and the licensing conditions, adequate training suitable for the 
+specific duties which their staff perform is provided to these 
+persons both before they commence their duties and on an 
+ongoing basis. Their staff  should be made aware of how the 
+licensing conditions apply to their duties, the licensee’s 
+statutory obligations and the possible consequences for failure 
+to comply with the licensing conditions or statutory 
+requirements. 
+(b) Managerial staff should have spec ific training on their 
+responsibilities for supervising or managing staff, agents, 
+appointed third parties and other persons acting for the licensee 
+and performing random checks in the daily operations of the 
+licensee to ensure compliance with the licensing conditions and 
+relevant statutory provisions. 
+53. Licensees should also take appropriate steps to ensure that their 
+agents, appointed third parties and other persons acting for them are 
+aware of how the licensing conditions apply to their duties, the 
+licensee’s statutory obligations and the possible consequences for 
+failure to comply with the licensing conditions or statutory 
+requirements before they commence their duties. 
+54. Licensees are encouraged to consider using a mix of training 
+techniques and tools in delivering training, depending on the available 
+resources and learning needs of their staff, agents, appointed third 
+parties and other persons acting for them.  These  techniques  and 
+tools may include on -line learning systems, focused classroom 
+training, vi deos as well as paper -based or intranet -based procedural 
+manuals. 
+
+===== PAGE 65 =====
+
+62 
+ 
+ 
+Review of appointed third parties 
+55. Licensees should from time to time ascertain the appointed third 
+parties’ continuous compliance with the relevant requirements for the 
+purposes of the lic ensees’ continuous compliance with the licensing 
+conditions and the provisions of the MLO, in particular should ensure 
+that the appointed third parties do not charge borrowers or intending 
+borrowers any fees for or in relation to the loans granted by licensees. 
+ 
+Record keeping 
+56. Licensees should keep adequate and up -to-date documentation 
+regarding the licensees’ compliance with licensing conditions and the 
+statutory provisions of the MLO. 
+57. In particular, licensees should maintain proper records as required 
+under the various licensing conditions including but not limited to: 
+(a) Particulars of their appointed third parties; 
+(b) Appointed third parties’ written confirmations on not charging 
+borrowers or intending borrowers any fees for or in relation to 
+loans granted by licensees; 
+(c) Written confirmations from any party from which personal data 
+is obtained or collected that the disclosure / provision of such 
+personal data is not in contravention of the provisions of the 
+Personal Data (Privacy) Ordinance; 
+(d) Records which show t he licensees’ compliance with the 
+requirement on providing explanations to intending borrowers 
+of the terms of the loan agreements; 
+(e) Written confirmations or approvals by the relevant authorities 
+produced by borrowers for loan agreements involving the 
+acceptance of subsidized flats as collateral. 
+
+===== PAGE 66 =====
+
+63 
+ 
+Annex 1 – Sample form on disclosure of the existence of third 
+parties by intending borrowers 
+ 
+ 
+ 
+Confirmation from [ ] (intending borrower) 
+To: (Name of licensee) 
+I / We, (Name of the intending borrower ), holder of  [Hong Kong 
+Identity Card No.  ] / [BR Certificate No.  ] / 
+[Company Number   ] * at ( address) refer to my / our 
+application to you for a loan and hereby confirm that: 
+ 
+(1) I / We 
+* [ have entered into or signed an agreement with a third party] 
+* [ have not entered into or signed any agreement with any third 
+party] 
+for or in relation to the procuring, negotiation, obtaining or 
+application of the loan, guaranteeing or securing the repayment of 
+the loan (other than any agreement with solicitors instructed by 
+me / us for the provision of legal services solely); 
+ 
+(2) The name and address of the third party are as follows: 
+ 
+Name of third party 1:   
+ 
+Address of third party 1 :   
+ 
+ 
+Name of third party 2:   
+ 
+Address of third party 2 :   
+ 
+ 
+(Please set out particulars of ot her third parties on a separate sheet 
+signed by the intending borrower bearing the same date if there are 
+more than two third parties) 
+
+===== PAGE 67 =====
+
+64 
+ 
+ 
+ 
+ 
+ 
+I / We hereby provide a copy of each of the agreement with the thir d 
+party or parties and understand that such agreement(s) will be attached  
+to the loan agreement. 
+ 
+ 
+Signature
+: 
+ 
+Name: 
+ 
+Date: 
+ 
+ 
+*Delete where appropriate 
+
+===== PAGE 68 =====
+
+65 
+ 
+ 
+Annex 2 – Sample form on confirmation by appointed third 
+party on the charging of fees 
+ 
+ 
+ 
+Confirmation from appointed third party 
+To: (Name of licensee) 
+I / We  (Name of appointed third party) refer to the application   
+of (Name of intending borrower) (“the intending borrower”) for a 
+loan from you and hereby confirm that: 
+ 
+(a) I / We have not charged, recovered, demanded or received 
+and will not charge, recover, demand or receive any fees, 
+charges, reward or consideration, however named, from 
+the intending borrower for or relating to the procuring, 
+negotiation, obtaining or application of the loan or 
+guaranteeing or securing the repayment of the loan; and 
+ 
+(b) I / We have not otherwise agreed with the intending 
+borrower that, for or relating to the loan, the intending 
+borrower pay or would pay any fees, charges, reward or 
+consideration, however named, to any other party whether 
+for the purchase of any goods or services or not. 
+ 
+ 
+Signature: 
+Name: 
+Date: 
+
+===== PAGE 69 =====
+
+66 
+ 
+ 
+Annex 3 – Sample form on reporting by licensees of particulars 
+or changes in particulars of or termination of 
+appointment of appointed third parties of licensees 
+ 
+ 
+ 
+ 
+ 
+List of Forms 
+(1) Form ML – ATP-1 
+ 
+Notice of Particulars of Third Party Appointed by 
+Licensed Money Lenders in relation to Granting of 
+Loans 
+(2) Form ML – ATP-2 
+ 
+Notice of Changes in Particulars of Appointed Third 
+Party of Licensed Money Lenders 
+(3) Form ML – ATP-3 
+ 
+Notice of Termination of Appointment of Appointed 
+Third Party of Licensed Money Lenders 
+
+===== PAGE 70 =====
+
+67 
+ 
+Form ML- ATP-1 
+ 
+持牌放債人為批出貸款而委任的第三方詳情通知書 
+Notice of Particulars of Third Party Appointed by 
+Licensed Money Lenders in relation to Granting of Loans 
+ 
+放債人檔案號碼 MLR Number 
+1 持牌人姓名／  名稱  Name of Money Lender Licensee 
+ 
+ 
+2 持牌人提供 的 電 話 查詢號 碼 Licensee’s Enquiry Telephone Number 
+ 
+ 
+3 持 牌 人 委 任 的 第 三 方 的 詳情  
+Particulars of the third party appointed by the Licensee 
+姓名／ 名稱 Name 
+地 址 Address 
+ 
+身分證明 Identification 
+(A) 適用於個人  For Individual 
+(香港身分證／護照副本必須連同本表格一併交付 A copy of Hong Kong Identity Card / Passport must be 
+delivered with this Form) 
+ 
+ 
+(i) 香港身分證號碼  Hong Kong Identity Card Number 
+OR 
+ 
+ 
+(ii) 護照簽發國家及號碼   
+Passport Issuing Country and Number 
+
+===== PAGE 71 =====
+
+68 
+ 
+(B) 適 用 於 獨 資 、 合 夥 或 其 他 非 法 人 團 體 
+For Sole-proprietorship, Partnership and unincorporated body of persons 
+ 
+ 
+商業登記證號碼 Business Registration Certificate Number 
+ 
+ 
+(C) ) 適 用 於 法 人 團 體 For Body Corporate 
+ 
+公司編號 Company Number 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+簽署 Signed : 
+姓名 Name : 日期 Date: 
+ 
+ 
+持牌放債人 Money Lender Licensee／ 
+持牌放債人的授權代表 Authorised Person of Licensee* 
+ 
+ 
+ 
+ 
+日 DD / 月 MM / 年 YYYY 
+ 
+*請刪去不適用者 Delete whichever does not apply 
+ 
+ 
+ 
+ 
+提交人資料 Presentor’s Reference 
+ 
+姓 名 Name : 
+ 
+電話 Telephone : 
+ 
+傳 真 Fax No. : 
+
+===== PAGE 72 =====
+
+69 
+ 
+Form ML- ATP-2 
+ 
+持牌放債人委任的第三方的詳情更改通知書 
+Notice of Changes in Particulars of Appointed Third Party 
+of Licensed Money Lenders 
+ 
+放債人檔案號碼 MLR Number 
+1 持牌人姓名／  名稱  Name of Money Lender Licensee 
+ 
+ 
+2 持牌人提供的 電 話 查 詢 號碼 Licensee’s Enquiry Telephone Number 
+ 
+ 
+3 持 牌 人 委 任 的 第 三 方 的 詳 情 更 改 
+Changes in Particulars of the Appointed Third Party of the Licensee 
+A. 現 時 在 放 債 人 登 記 冊 登 記 的 詳 情 
+Particulars Currently Registered in the Register of Money Lenders 
+姓名／ 名稱 Name 
+地址 Address 
+ 
+ 
+身分證明 Identification 
+(a) ) 適 用 於 個 人 For Individual 
+(i) 香港身分證號碼  Hong Kong Identity Card Number 
+OR 
+ 
+(ii) 護照簽發國家及號碼   
+Passport Issuing Country and Number 
+ 
+(b) 適 用 於 獨 資 、 合 夥或其他非法人團 體 
+For Sole-proprietorship, Partnership and unincorporated body of persons  
+ 
+商業登記證號碼 Business Registration Certificate Number 
+
+===== PAGE 73 =====
+
+70 
+ 
+(c) ) 適 用 於 法 人 團 體 For Body Corporate 
+ 
+公司編號 Company Number 
+ 
+ 
+ 
+B. 更 改 詳 情 Details of Change(s) 
+只須填報有更改的項目 Please complete item(s) with change(s) only 
+ 
+ 
+姓名／ 名稱 Name 
+地址 Address 
+ 
+ 
+身分證明 Identification 
+(a) ) 適 用 於 個 人 For Individual 
+(i) 香港身分證號碼  Hong Kong Identity Card Number 
+OR 
+ 
+(ii) 護照簽發國家及號碼   
+Passport Issuing Country and Number 
+ 
+(b) 適 用 於 獨 資 、 合 夥 或 其 他 非 法 人 團 體 
+For Sole-proprietorship, Partnership and unincorporated body of persons 
+ 
+商業登記證號碼 Business Registration Certificate Number 
+ 
+(c) ) 適 用 於 法 人 團 體 For Body Corporate 
+ 
+公司編號 Company Number 
+ 
+ 
+ 
+ 
+簽署 Signed : 
+姓 名 Name : 日期 Date: 
+ 
+ 
+持牌放債人 Money Lender Licensee／ 
+持牌放債人的授權代表 Authorised Person of Licensee* 
+*請刪去不適用者 Delete whichever does not apply 
+ 
+ 
+ 
+ 
+ 
+日 DD / 月 MM / 年 YYYY 
+ 
+ 
+提交人資料 Presentor’s Reference 
+姓 名 Name : 
+電話 Telephone : 
+傳 真 Fax No. : 
+
+===== PAGE 74 =====
+
+71 
+ 
+Form ML- ATP-3 
+ 
+持牌放債人委任的第三方的終止委任通知書 
+Notice of Termination of Appointment of 
+Appointed Third Party of Licensed Money Lenders 
+ 
+放債人檔案號碼 MLR Number 
+ 
+1 持牌人姓名／  名稱  Name of Money Lender Licensee 
+2 持牌人提供的 電 話 查 詢 號碼 Licensee’s Enquiry Telephone Number 
+ 
+3 現通知放 債 人 註 冊 處 處 長 ， 下 述人 士已 於   年   月  日 停 任上述 持
+牌人為批出 貸 款 而 委任的第三 方 。 
+I / We * hereby notify the Registrar of Money Lenders that the following person has 
+ceased to be the appointed third party of the abovenamed Money Lender Licensee in 
+relation to the granting of loans with effect from the date of  . 
+ 
+4 停 任 持 牌 人 委 任 的 第 三 方 的 人 士 的 詳 情 
+Particulars of the person who ceased to be the appointed third party of the Licensee 
+姓名／ 名稱 Name 
+地 址 Address 
+ 
+身分證明 Identification 
+(A) ) 適 用 於 個 人 For Individual 
+(i) 香 港 身 分 證 號 碼 Hong Kong Identity Card Number 
+OR 
+ 
+(ii) 護照簽發國家及號碼   
+Passport Issuing Country and Number 
+
+===== PAGE 75 =====
+
+72 
+ 
+(B) 適 用 於 獨 資 、 合 夥 或 其 他 非 法 人 團 體 
+For Sole-proprietorship, Partnership and unincorporated body of persons 
+ 
+商業登記證號碼 Business Registration Certificate Number 
+ 
+ 
+(C) ) 適 用 於 法 人 團 體 For Body Corporate 
+公司編號 Company Number 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+簽署 Signed : 
+姓名 Name : 日期 Date: 
+ 
+ 
+持牌放債人 Money Lender Licensee／ 
+持牌放債人的授權代表Authorised Person of Licensee* 
+*請刪去不適用者 Delete whichever does not apply 
+ 
+ 
+ 
+ 
+日 DD / 月 MM / 年 YYYY 
+ 
+ 
+ 
+ 
+ 
+ 
+提交人資料 Presentor’s Reference 
+ 
+姓 名 Name : 
+ 
+電話 Telephone : 
+ 
+傳 真 Fax No. : 
+
+===== PAGE 76 =====
+
+73 
+ 
+Annex 4 – Guidance for meeting the requirements on the display / 
+broadcast of risk warning statement for different types of 
+advertisements 
+ 
+ 
+Form of advertisement Manner of display / broadcast accepted 
+as meeting the requirements 
+Audio advertisement with no 
+visual display (e.g. Radio 
+broadcast) 
+ The warning statement sho uld be 
+audibly and clearly read out in a 
+voice-over at the end of each 
+broadcast. 
+ The warning statement should be 
+read out in the same pace as other 
+contents of the advertisement. 
+Audio-visual advertisement 
+(including television, cinema 
+or video clips on internet) 
+ Where the warning statement 
+appears in an independent 
+screenshot, the statement should 
+be displayed visually for at least 3 
+seconds together with a clear 
+read-out for the same duration. 
+OR 
+The warning statement should be 
+shown clearly at the bottom of the 
+screen throughout the entire 
+advertisement with the height of 
+each Chinese character of the 
+statement be at least 1/15 of the 
+screen and / or height of the 
+capital letters of the English 
+statement be at least 1/20 of the 
+screen, together with a c lear read-
+out in the same pace as other 
+contents of the advertisement. 
+ The warning statement should be 
+displayed in darker colour than 
+the background and there should 
+
+===== PAGE 77 =====
+
+74 
+ 
+Form of advertisement Manner of display / broadcast accepted 
+as meeting the requirements 
+ be clear contrast in colour 
+between the background or 
+backdrop of the advertisement and 
+the warning statement. 
+Advertisement in print  The warning statement should be 
+displayed in text in at least 50 per 
+cent of the font size, same font 
+type and colour  as the other 
+contents of the advertisement that 
+bear the largest font size. 
+Internet advertisement  For a website banner which links 
+to another website, it is acceptable 
+for the warning statement to be 
+shown on the landing page instead 
+of in the banner. The warning 
+statement should be displayed in 
+text in at least 50 per cent of the 
+font size, same font type and 
+colour as the other contents that 
+bear the largest font size on the 
+landing page. 
+ For advertisements with a static 
+screen on the internet, the 
+guidance above for advertisement 
+in print applies. 
+ For audio-visual advertisement on 
+the internet, the guidance above 
+for the display of warning 
+statement in audio -visual 
+advertisements applies. 
+SMS advertising message on 
+mobile phones 
+ The warning statement should be 
+displayed as an independent 
+paragraph in the SMS message. 
+ 
+
+===== PAGE 78 =====
+
+75 
+ 
+Form of advertisement Manner of display / broadcast accepted 
+as meeting the requirements 
+  Where the SMS message links to 
+another advertising website, it is 
+acceptable for the warning 
+statement to be shown on the 
+landing page instead of in the 
+SMS message. In that case, the 
+warning statement should be 
+displayed in text in at least 50 per 
+cent of the font size, same font 
+type and colour as the other 
+contents that bear the largest font 
+size on the landing page. 
+
+===== PAGE 79 =====
+
+76 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Appendix 1(c): 
+Money Lenders Licence – Licensing Conditions 
+
+===== PAGE 80 =====
+
+77 
+ 
+The licensing conditions for money lenders licences granted or renewed after 1 December 2016. 
+ 
+MONEY LENDERS LICENCE 
+LICENSING CONDITIONS 
+ 
+1. Before entering into any agreement for loan, the money lender 
+ 
+(a) shall ask the intending borrower to state whether or not he has entered into or signed any 
+agreement (“the third party agreement”) with any person (“third party”) for or in relation to the 
+procuring, negotiati on, obtaining or application of the loan, guaranteeing or securing the 
+repayment of the loan (other than an agreement with solicitors instructed by the intending 
+borrower for the provision of legal services solely); 
+(b) shall state in writing the intending bor rower’s reply in relation to Condition 1(a) above in the loan 
+agreement; and 
+(c) if the intending borrower’s reply in relation to Condition 1(a) above is in the affirmative, shall 
+further 
+(i) obtain from the intending borrower the name and address of the third party; 
+(ii) state in writing in the loan agreement the name and address of the third party and  whether 
+the money lender is in any way related to the third party and the nature of  such relationship; 
+(iii) ask the intending borrower to personally provide a copy of the third party agreement; and 
+(iv) attach the third party agreement to the loan agreement. 
+ 
+2. The money lender shall not grant or agree to grant any loan to any intending borrower if the  intending 
+borrower’s reply in relation to Condition 1(a) above is in the affirmati ve, unless the  third party as 
+identified in Condition 1(c) above: 
+ 
+(a) is a person appointed by the money lender (“appointed third party”) for or in relation to  granting a 
+loan to any intending borrower or any specified class of intending borrower,  whether as to the 
+procuring, negotiation, obtaining, application, guaranteeing or securing  the repayment of such a 
+loan; and 
+(b) has, specifically in respect of the loan, confirmed in writing to the money lender that  
+(i) he has not charged, recovered, demanded or received a nd will not charge, recover, demand 
+or receive any fees, charges, reward or consideration, however named, from  such intending 
+borrower for or in relation to the procuring, negotiation, obtaining or  application of the loan 
+or guaranteeing or securing the repayment of the loan; and 
+(ii) he has not otherwise agreed with the intending borrower that the intending borrower  pays 
+or would pay any fees, charges, reward or consideration, however named, to  any other 
+party whether for the purchase of any goods or services or not. 
+ 
+3. For the purposes of Condition 2, 
+ 
+(a) the money lender shall provide in writing to the satisfaction of the Commissioner of  Police and the 
+Registrar of Money Lenders the name, address and identification number  (including identification 
+card/passport, business registration and company number as  applicable) of any appointed third party; 
+and 
+(b) the third party as identified in Condition 1(c) above is not considered as an appointed  third party until 
+after the name and address of the appointed third party appear  on the Register kept by the Registrar 
+of Money Lenders. 
+ 
+4. (a) The money lender shall not knowingly allow or permit any person, whether the money  lender, or his 
+partner, employer, employee, principal or agent or any person acting for him or any appointed third party, 
+to charge, recover, demand or receive any fees, charges,  reward or consideration, however named, from 
+
+===== PAGE 81 =====
+
+78 
+ 
+any borrower or intending borrower for or  in relation to the procuring, negotiation, obtaining or 
+application of a loan or guaranteeing or securing the repayment of a loan. 
+ 
+(b) The prohibition in Condition 4(a) above also covers any fees, charges, reward or  consideration, 
+however named, to be paid by the borrower or intending borrower to the  appointed third party or any 
+other person as agreed be tween the borrower/intending  borrower and the appointed third party, 
+whether for the purchase of any goods or services or not. 
+ 
+5. Before entering into any agreement for loan, the money lender must give explanation to the  intending 
+borrower of all the terms of the agreement, in particular the terms in relation to repayment, namely, 
+ 
+(a) the interest rate expressed as a rate per cent per annum and the total amount of interest  payable 
+under the agreement; 
+(b) amounts of repayments, periodically and in total, under the agreement; 
+(c) the possible consequences for any default in repayment, including – 
+(i) the taking into possession and sale of any security involved (including the property  charged, if 
+any); and 
+(ii) any overriding right of the money lender to demand an immediate repayment. 
+ 
+The money lender must also keep written or video or audio records which show that he  complies with 
+the requirements under this condition.  
+ 
+6. The money lender shall not obtain or collect personal data of any person from another person  or use such 
+personal data obtained or collected from another person for the purpose of or in  relation to the money 
+lender’s business (a) without the written confirmation from that other  person that the 
+disclosure/provision of such personal data by that other person for such  use of the money lender is not in 
+contravention of the provisions of the Personal Data (Privacy) Ordinance, Cap. 486; or (b) when the money 
+lender has knowledge, or has reasonable  grounds to believe, that the disclosure/provision of the personal 
+data by t hat other person for  such use of the money lender is likely to be in contravention of the 
+provisions of the Personal  Data (Privacy) Ordinance, Cap. 486. The money lender must also keep records 
+which show  that he complies with this requirement and the provi sions of the Personal Data (Privacy)  
+Ordinance. 
+ 
+7. The money lender shall not accept a subsidized flat provided by the Hong Kong Housing  Authority as 
+collateral for the loan to the borrower unless the borrower has produced to the money lender either– 
+ 
+(a) a writ ten confirmation from the Hong Kong Housing Authority that the necessary  premium for 
+removing the restrictions on alienation on the said flat has been fully paid; or 
+(b) the written approval of the Director of Housing granting approval to mortgage or charge the said flat. 
+ 
+8. The Chinese version of any advertisement issued or published by the money lender for the  purpose of the 
+money lender’s business as a money lender must clearly show the Chinese  characters “放債人牌照號碼” 
+immediately followed by the number of the money lender’s licence. 
+ 
+9. Any advertisement in relation to the money lending business of a money lender issued or published by the 
+money lender, in his own name or through any other person, whether in  textual, audio or visual form, 
+must contain the money lender’s telephone hotline for handling  complaints and a risk warning statement 
+(in the same language as that of the advertisement or  the relevant part thereof) as set out below, both of 
+which must be promin ent and easily legible  in the written or visual part of the advertisement. The risk 
+warning statement must also be clearly audible in the audio part of the advertisement: 
+ 
+
+===== PAGE 82 =====
+
+79 
+ 
+- “忠告: 借錢梗要還，咪俾錢中介” 
+- “Warning: You have to repay your loans. Don’t pay any intermediaries.” 
+ 
+10. (a) The money lender and his debt collectors shall not try to recover debts, whether directly  or indirectly, 
+from anyone unless such person is in law indebted to him. 
+ 
+(b) The money lender shall take all practicable steps and measures to ensure that personal  data collected 
+in the course of his business are protected against unauthorized or  accidental access, processing, erasure 
+or other use by any debt collectors, and  shall at all  times comply with the Personal Data (Privacy) 
+Ordinance, Cap 486, Laws of Hong Kong, in the collection, use, holding and processing of such information 
+or personal data. 
+ 
+(c) The money lender and his debt collectors shall not, while trying to  locate the whereabouts of debtors, 
+harass anyone, adopt unlawful or improper debt collection practices.  
+ 
+(d) The money lender shall, so far as reasonably practicable, maintain and monitor proper  systems and 
+procedures for handling complaints and/or inqui ries relating to the loans lent  by him in the ordinary 
+course of business and the debt collection activities arising therefrom. 
+ 
+(e) The money lender shall, so far as reasonably practicable, keep updated and accurate  records of the 
+debt collection activities of his debt collectors during the term of the licence. 
+ 
+11. The money lender shall provide information relating to his money lending business during the  term of the 
+licence as may be required by the Registrar of Money Lenders or the  Commissioner of Police a nd such 
+information shall be provided within such time as the  Registrar of Money Lenders or the Commissioner of 
+Police may specify. 
+ 
+12. The money lender must establish and maintain proper systems and procedures to ensure that  the money 
+lender, or his partners , employers, employees, principals or agents, any persons  acting for him and any 
+appointed third parties shall be informed of and observe the licensing  conditions and the provisions of the 
+Money Lenders Ordinance. 
+ 
+
+===== PAGE 83 =====
+
+80 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Appendix 1(d): 
+Sample form on dis closure of the existing of third 
+parties by intending borrower 
+
+===== PAGE 84 =====
+
+81 
+ 
+ 
+ 
+ 
+ 
+Disclosure of the existence of third parties by intending borrower 
+ 
+Confirmation from [                ] (intending borrower) 
+ 
+To: (Name of licensee) 
+ 
+I / We , ( Name of the intending borro wer), holder of [Hong Kong Identity 
+Card No.   ] / [BR Certificate No.     ] / 
+[Company Number      ] * at (address) refer to my 
+/ our application to you for a loan and hereby confirm that: 
+ 
+(1) I / We    
+*  [ have entered into or signed an agreement with a third party] 
+*  [ have not entered into or signed any agreement with any third party] 
+for or in relation to the procuring, negotiation, obtaining or application 
+of the loan, guaranteeing or securing the repayment of the loan (other 
+than any agreement with so licitors instructed by me / us for the 
+provision of legal services solely); 
+ 
+(2) The name and address of the third party are as follows: 
+ 
+Name of third party 1:         
+ 
+Address of third party 1 :        
+             
+ 
+Name of third party 2:          
+ 
+Address of third party 2 :        
+             
+(Please set out particulars of other third parties on a separate sheet signed 
+by the intending borrower bearing the same date if there are more than 
+two third parties) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Licensing Condition 1(b) 
+Sample form on disclosure of 
+the existence of third parties by intending borrower 
+
+===== PAGE 85 =====
+
+82 
+ 
+I / We hereby provide a copy  of each of the agreement with the third party or 
+parties and understand that such agreement (s) will be attach ed to the loan 
+agreement. 
+ 
+ 
+IMPORTANT NOTE:  
+ 
+Please note that it is an offence for a person to fraudulently induce a money 
+lender to lend money by false or mi sleading statement or dishonest 
+concealment of material facts.  
+ 
+You should make full and honest disclosure of the above  information on the 
+involvement of any third parties in relation to the loan for the protection of 
+your own interests. 
+ 
+ 
+Signature: 
+ 
+Name: 
+ 
+Date:  
+ 
+ 
+ 
+*Delete where appropriate 
+ 
+ 
+ 
+
+===== PAGE 86 =====
+
+83 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Appendix 1(e): 
+Sample form on recording the particulars of 
+appointed third party involved in a loan 
+agreement 
+
+===== PAGE 87 =====
+
+84 
+ 
+ 
+ 
+ 
+ 
+ 
+Particulars of appointed third party involved in a loan agreement 
+ 
+I / We (Name of Money Lender) confirm that : 
+Please tick the relevant box 
+ The following third party is involved in the loan agreement 
+ 
+ 
+Name of third party :  
+ 
+  
+ 
+ 
+ Address of third party :  
+ 
+   
+ 
+   
+ 
+    
+  I / We have appointed the above third party.  
+   
+  I am / We are related to the appointed third party  
+   
+   Nature of my / our relationship with the appointed third party :  
+  (Please select at least one item below)  
+     
+   Holding company of the Money Lender  
+     
+   Subsidiary of the Money Lender  
+     
+   Fellow subsidiary (i.e. subsidiary of the holding company of the Money Lender)  
+        Others : (please specify)  
+          
+     
+           
+Signature :  
+Name :  
+Position :  
+Name of  
+Money Lender : 
+ 
+Date :  
+(Please record particulars of each appointed third party on a separate sheet.) 
+Licensing Condition 1(c)(ii) 
+Sample form on recording the particulars of 
+appointed third party involved in a loan agreement 
+
+===== PAGE 88 =====
+
+85 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Appendix 1(f): 
+Sample form for recording explanation of terms of 
+loan agreement given to intending borrower 
+
+===== PAGE 89 =====
+
+86 
+ 
+ 
+ 
+ 
+ 
+ 
+Confirmation of explanation of loan agreement by money lender 
+ 
+I confirm that I have explained to the intending borrower at the time and place set out below all the terms of 
+the following loan agreement, in particular the terms in relation to repayment, namely, 
+(a) the interest rate expressed as a rate per cent per annum and the total amount of interest payable 
+under the agreement; 
+(b) amounts of repayments, periodically and in total, under the agreement;  
+(c) the possible consequences for any default in repayment, including – 
+(i) the taking into possession and sale of any security involved (including the property charged, 
+if any); and 
+(ii) any overriding right of the money lender to demand an immediate repayment. 
+ 
+Loan agreement / 
+Contract no. /  
+Reference No. 
+ 
+Name of Intending 
+Borrower 
+ 
+Date of explanation  
+Time  
+Venue  
+ 
+Signature of staff :  
+Name of staff :  
+Position of staff :   
+Name of Money Lender :  
+ 
+Acknowledged by intending borrower 
+Signature :  
+Name of Intending 
+Borrower :  
+Date :  
+ 
+Licensing Condition 5 
+Sample form for recording explanation of terms 
+of loan agreement given to intending borrower 
+ 

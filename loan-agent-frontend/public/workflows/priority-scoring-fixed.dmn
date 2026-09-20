@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20191111/MODEL/" id="priority-rules" name="Priority Scoring Rules" namespace="http://camunda.org/schema/1.0/dmn">
+  <decision id="priorityScoring" name="Priority Scoring">
+    <decisionTable id="decisionTable" hitPolicy="FIRST">
+      <input id="input1" label="Overdue Days">
+        <inputExpression id="inputExpression1" typeRef="number">
+          <text>overdueDays</text>
+        </inputExpression>
+      </input>
+      <input id="input2" label="Overdue Amount">
+        <inputExpression id="inputExpression2" typeRef="number">
+          <text>overdueAmount</text>
+        </inputExpression>
+      </input>
+      <output id="output1" label="Priority" name="priority" typeRef="number" />
+      <output id="output2" label="Urgency Level" name="urgencyLevel" typeRef="string" />
+      <rule id="rule1">
+        <inputEntry><text>&gt; 90</text></inputEntry>
+        <inputEntry><text>&gt; 100000</text></inputEntry>
+        <outputEntry><text>10</text></outputEntry>
+        <outputEntry><text>"CRITICAL"</text></outputEntry>
+      </rule>
+      <rule id="rule2">
+        <inputEntry><text>&gt; 60</text></inputEntry>
+        <inputEntry><text>&gt; 50000</text></inputEntry>
+        <outputEntry><text>7</text></outputEntry>
+        <outputEntry><text>"HIGH"</text></outputEntry>
+      </rule>
+      <rule id="rule3">
+        <inputEntry><text>&gt; 30</text></inputEntry>
+        <inputEntry><text>&gt; 10000</text></inputEntry>
+        <outputEntry><text>5</text></outputEntry>
+        <outputEntry><text>"MEDIUM"</text></outputEntry>
+      </rule>
+      <rule id="rule4">
+        <inputEntry><text>&lt;= 30</text></inputEntry>
+        <inputEntry><text>&lt;= 10000</text></inputEntry>
+        <outputEntry><text>3</text></outputEntry>
+        <outputEntry><text>"LOW"</text></outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+</definitions>

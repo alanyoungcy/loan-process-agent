@@ -1,0 +1,55 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+*.crt
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# Java / Maven
+**/target/
+
+# Node / frontend
+**/node_modules/
+**/.next/
+**/out/
+**/build/
+**/dist/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Local state and generated data
+*.log
+*.pid
+*.bak
+*.backup
+.DS_Store
+.idea/
+.claude/
+.plan/
+
+# Local credentials / operational notes
+LOGIN_CREDENTIALS.md
+
+# Nested repository metadata is local-only; publish source through the root repo.
+**/.git/

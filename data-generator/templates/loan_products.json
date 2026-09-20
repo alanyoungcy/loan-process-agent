@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "name": "Personal Loan",
+      "min_amount": 10000,
+      "max_amount": 500000
+    },
+    {
+      "name": "Credit Card",
+      "min_amount": 5000,
+      "max_amount": 100000
+    },
+    {
+      "name": "Mortgage",
+      "min_amount": 1000000,
+      "max_amount": 10000000
+    },
+    {
+      "name": "Auto Loan",
+      "min_amount": 50000,
+      "max_amount": 800000
+    },
+    {
+      "name": "Business Loan",
+      "min_amount": 100000,
+      "max_amount": 2000000
+    }
+  ]
+}

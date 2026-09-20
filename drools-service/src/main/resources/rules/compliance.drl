@@ -1,0 +1,46 @@
+package com.capco.drools.rules;
+
+import com.capco.drools.model.CaseFacts;
+
+// Compliance Rules - Critical red-line checks for HK regulations
+
+rule "Contact Time Window Check"
+    salience 100
+    when
+        $case: CaseFacts(currentHour != null, currentHour < 8 || currentHour > 21)
+    then
+        modify($case) {
+            setCanContact(false)
+        }
+        $case.addViolation("outside_contact_hours");
+        $case.addRecommendation("Schedule contact between 8:00-21:00 HKT");
+end
+
+rule "Daily Contact Limit"
+    salience 100
+    when
+        $case: CaseFacts(dailyContactCount != null, dailyContactCount >= 3)
+    then
+        modify($case) {
+            setCanContact(false)
+        }
+        $case.addViolation("excessive_frequency");
+        $case.addRecommendation("Maximum 3 contacts per day reached");
+end
+
+rule "Weekend Contact Restriction"
+    salience 90
+    when
+        $case: CaseFacts(currentDay != null, currentDay in ("saturday", "sunday"))
+    then
+        $case.addRecommendation("Weekend contact - use SMS or email only");
+end
+
+rule "High Risk Customer Protection"
+    salience 95
+    when
+        $case: CaseFacts(riskLevel != null, riskLevel == "high")
+    then
+        $case.addTag("high_risk");
+        $case.addRecommendation("Review compliance checklist before contact");
+end

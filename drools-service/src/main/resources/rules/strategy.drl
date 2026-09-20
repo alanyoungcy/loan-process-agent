@@ -1,0 +1,44 @@
+package com.capco.drools.rules;
+
+import com.capco.drools.model.CaseFacts;
+
+// Strategy Rules - Determine contact strategy and approach
+
+rule "Early Stage SMS Strategy"
+    salience 70
+    when
+        $case: CaseFacts(overdueDays != null, overdueDays <= 15,
+                        overdueAmount != null, overdueAmount < 10000)
+    then
+        modify($case) {
+            setRecommendedChannel("sms"),
+            setRecommendedScript("early_reminder")
+        }
+        $case.addRecommendation("Use SMS for gentle early reminder");
+end
+
+rule "High Value Phone Strategy"
+    salience 75
+    when
+        $case: CaseFacts(overdueAmount != null, overdueAmount >= 50000,
+                        customerSegment != null, customerSegment in ("VIP", "premium"))
+    then
+        modify($case) {
+            setRecommendedChannel("call"),
+            setRecommendedScript("high_value_negotiation")
+        }
+        $case.addRecommendation("Personal call with negotiation approach");
+end
+
+rule "Email Follow-up Strategy"
+    salience 60
+    when
+        $case: CaseFacts(overdueDays != null, overdueDays > 30, overdueDays < 60,
+                        overdueAmount != null, overdueAmount < 20000)
+    then
+        modify($case) {
+            setRecommendedChannel("email"),
+            setRecommendedScript("payment_reminder")
+        }
+        $case.addRecommendation("Email with payment link and options");
+end

@@ -1,0 +1,1946 @@
+
+
+===== PAGE 1 =====
+
+Money Lenders Ordinance
+(Cap. 163)
+Contents
+Section Page
+Part I
+Preliminary
+1. Short title and application 1-2
+2. Interpretation 1-2
+3. Ordinance not to apply to authorized 
+institutions
+1-8
+4. Registrar of Money Lenders and supervisory 
+functions of Registrar
+1-8
+5. Official secrecy 1-10
+6. Inspection of register 1-12
+6A. Documents admissible in evidence 1-14
+Part II
+Licensing of Money Lenders
+7. Restriction on carrying on of business of 
+money lender
+2-2
+8. Application for licence and public notification 
+of application
+2-2
+9. Investigation and lodgement of applications 2-2
+Last updated date
+30.12.2022
+Money Lenders Ordinance
+T-2
+Cap. 163
+
+===== PAGE 2 =====
+
+10. Licensing court 2-6
+Section Page
+10A. (Repealed) 2-6
+10B. Powers of licensing court 2-6
+10C. Immunity 2-8
+11. Determination of application for licence 2-8
+12. Effect and duration of licence 2-12
+13. Renewal 2-14
+14. Revocation and suspension 2-14
+15. Transfer of licence and addition or 
+substitution of new premises
+2-16
+16. Appeals 2-22
+17. Duty to notify changes of particulars 2-22
+Part III
+Money Lenders’ Transactions
+18. Form of agreement 3-2
+19. Duty of money lender to give information to 
+borrower
+3-4
+20. Duty of money lender to give information to 
+surety
+3-8
+21. Early payment by borrower 3-10
+22. Illegal agreements 3-12
+23. Loan etc. not recoverable unless money 
+lender licensed
+3-14
+Last updated date
+30.12.2022
+Money Lenders Ordinance
+T-4
+Cap. 163
+
+===== PAGE 3 =====
+
+Section Page
+Part IV
+Excessive Interest Rates
+24. Prohibition of excessive interest rates 4-2
+25. Reopening of certain transactions 4-4
+Part V
+General
+26. Restriction on money-lending advertisements 5-2
+27. Charges for expenses etc. not recoverable 5-4
+28. Power of Registrar and police to enter 
+premises and inspect books, etc.
+5-6
+29. Offences by money lenders 5-8
+30. Offences of fraudulent inducement and 
+obstruction
+5-14
+30A. Offences relating to licensing court 5-14
+31. Liability for offences by companies 5-16
+32. Penalties and disqualification 5-16
+32A. Time limitation for instituting certain 
+proceedings
+5-18
+33. Burden of proof 5-18
+33A. General exemptions 5-18
+33B. Specific exemptions 5-22
+33C. Legislative Council may amend Schedule 1 5-24
+34. Regulations 5-24
+Last updated date
+30.12.2022
+Money Lenders Ordinance
+T-6
+Cap. 163
+
+===== PAGE 4 =====
+
+Section Page
+35. Saving 5-26
+36. Existing loans 5-26
+Schedule 1 S1-2
+Schedule 2 Calculation of True Annual 
+Percentage Rate of Interest
+S2-2
+Last updated date
+30.12.2022
+Money Lenders Ordinance
+T-8
+Cap. 163
+
+===== PAGE 5 =====
+
+To provide for the control and regulation of money lenders and money-
+lending transactions, the appointment of a Registrar of Money 
+Lenders and the licensing of persons carrying on business as 
+money lenders; to provide protection and relief against excessive 
+interest rates and extortionate stipulations in respect of loans; to 
+provide for offences and for matters connected with or incidental 
+to the foregoing; and to repeal the Money-lenders Ordinance 1911. 
+[12 December 1980] L.N. 347 of 1980
+(Format changes—E.R. 3 of 2018)
+Part I
+Preliminary
+1. Short title and application
+ (1) This Ordinance may be cited as the Money Lenders 
+Ordinance. 
+ (2) This Ordinance shall have effect notwithstanding any 
+agreement to the contrary.
+2. Interpretation
+ (1) In this Ordinance, unless the context otherwise requires—
+company (公司) means a body corporate—
+ (a) incorporated under the Companies Ordinance 
+(Cap. 622); (Amended 28 of 2012 ss. 912 & 920)
+Last updated date
+26.8.2021
+Money Lenders Ordinance
+Part I 1-2
+Section 1 Cap. 163
+
+===== PAGE 6 =====
+
+ (ab) incorporated under a former Companies Ordinance as 
+defined by section 2(1) of the Companies Ordinance 
+(Cap. 622); (Added 28 of 2012 ss. 912 & 920)
+ (b) incorporated by any other Ordinance; or 
+ (c) incorporated or established outside Hong Kong; (Added 
+69 of 1988 s. 2)
+disqualified person (被取消資格的人) means a person in respect 
+of whom there is in force an order made by a court under 
+section 32(2); 
+effective rate (實際利率), in relation to interest, means the true 
+annual percentage rate of interest calculated in accordance 
+with Schedule 2; (Amended 69 of 1988 s. 2)
+firm (商號) means an unincorporate body of 2 or more individuals, 
+or 1 or more individuals and 1 or more companies, or 2 or 
+more companies, who have entered into partnership with 
+one another with a view to carrying on business for profit; 
+(Amended 69 of 1988 s. 2)
+interest (利、利息) does not include any sum lawfully agreed 
+to be paid in accordance with this Ordinance on account 
+of stamp duty or other similar duty, but save as aforesaid 
+includes any amount (by whatever name called) in excess 
+of the principal, which amount has been or is to be paid or 
+payable in consideration of or otherwise in respect of a loan; 
+licence (牌照) means a money lender’s licence granted under 
+section 11 or renewed under section 13, and licensed  (領有
+牌照) and licensee (持牌人) have corresponding meanings; 
+(Amended 69 of 1988 s. 2)
+licensing court (牌照法庭) means a magistrate sitting alone; 
+(Replaced 13 of 1995 s. 37)
+loan (貸款) includes advance, discount, money paid for or on 
+account of or on behalf of or at the request of any person, 
+Last updated date
+26.8.2021
+Money Lenders Ordinance
+Part I 1-4
+Section 2 Cap. 163
+
+===== PAGE 7 =====
+
+or the forbearance to require payment of money owing on 
+any account whatsoever, and every agreement (whatever its 
+terms or form may be) which is in substance or effect a loan 
+of money, and also an agreement to secure the repayment of 
+any such loan, and lend (貸出) and lender (貸款人) shall be 
+construed accordingly; 
+money lender (放債人) means every person whose business 
+(whether or not he carries on any other business) is that of 
+making loans or who advertises or announces himself or 
+holds himself out in any way as carrying on that business, but 
+does not include—
+ (a) a person specified in Part 1 of Schedule 1; or 
+ (b) as respects a loan specified in Part 2 of Schedule 1, any 
+person who makes such loan; (Amended 69 of 1988 s. 2)
+prescribed (訂明) means prescribed by regulations made under 
+section 34; 
+principal (本金), in relation to a loan, means the amount actually 
+lent; 
+register (登記冊) means the register kept by the Registrar under 
+section 4; 
+Registrar (註冊處處長) means the Registrar of Money Lenders 
+appointed under section 4; 
+subsidiary (附屬公司) has the meaning given by section 15 of 
+the Companies Ordinance (Cap. 622) for the purposes of 
+that Ordinance. (Added 69 of 1988 s. 2. Amended 28 of 2012 
+ss. 912 & 920)
+ (2) For the purposes of this Ordinance, where by an agreement 
+for the loan of money the interest charged on the loan is not 
+expressed in terms of a rate, any amount paid or payable to 
+the lender under the agreement (other than simple interest 
+charged in accordance with the proviso to section 22) shall 
+Last updated date
+26.8.2021
+Money Lenders Ordinance
+Part I 1-6
+Section 2 Cap. 163
+
+===== PAGE 8 =====
+
+be appropriated to principal and interest in the proportion that 
+the total amount of principal bears to the total amount of the 
+interest, and the rate per cent per annum represented by the 
+interest charged as calculated in accordance with Schedule 2 
+shall be deemed to be the rate of interest charged on the loan. 
+(Amended 69 of 1988 s. 2)
+ (3) For the purpose of determining the amount of the principal of 
+a loan, any amount thereof which is not shown to have been 
+lent except for the purpose of treating it as an instalment paid 
+by the borrower in repayment of the loan and which is so 
+treated by the lender shall be disregarded. 
+ (4) (Repealed 13 of 1995 s. 37)
+3. Ordinance not to apply to authorized institutions
+This Ordinance shall not apply to—
+ (a) an authorized institution within the meaning of the 
+Banking Ordinance (Cap. 155); or 
+ (b) as respects a loan made to such an authorized institution, 
+any person who makes such loan. 
+(Replaced 69 of 1988 s. 3)
+4. Registrar of Money Lenders and supervisory functions of 
+Registrar
+ (1) The Chief Executive shall appoint a public officer to be the 
+Registrar of Money Lenders. (Amended 23 of 1999 s. 3)
+ (2) The Registrar shall establish and maintain a register in which 
+he shall cause to be kept particulars, other than specified 
+particulars, of—
+ (a) applications for the grant or renewal of licences; 
+(Amended 69 of 1988 s. 4)
+Last updated date
+26.8.2021
+Money Lenders Ordinance
+Part I 1-8
+Section 3 Cap. 163
+
+===== PAGE 9 =====
+
+ (b) licences which are in force or have been revoked or 
+suspended; 
+ (c) such other matters, if any, as he thinks fit. 
+ (3) In this section specified particulars (指明詳情) means 
+particulars furnished under section 8 which are specified in 
+regulations made under section 34 as particulars which shall 
+not be entered in the register.
+5. Official secrecy
+ (1) Except as may be necessary for the exercise or performance 
+of any function or duty under this Ordinance or for carrying 
+into effect the provisions of this Ordinance, the Registrar and 
+every person employed in carrying out or in assisting any 
+person to carry out the provisions of this Ordinance—
+ (a) shall preserve and aid in preserving secrecy with 
+regard to all matters relating to the affairs of any 
+person that may come to his knowledge in the exercise 
+or performance of any function or duty under this 
+Ordinance; 
+ (b) shall not communicate any such matter to any person 
+other than the person to whom such matter relates; and 
+ (c) shall not suffer or permit any person to have access to 
+any records in the possession, custody or control of any 
+person to whom this subsection applies. 
+ (2) Subsection (1) does not apply—
+ (a) to the disclosure of information in the form of a 
+summary of similar information provided by a number 
+of persons if the summary is so framed as to prevent 
+particulars relating to the business of any particular 
+person being ascertained from it; 
+Last updated date
+26.8.2021
+Money Lenders Ordinance
+Part I 1-10
+Section 5 Cap. 163
+
+===== PAGE 10 =====
+
+ (b) to the disclosure of information with a view to the 
+institution of, or otherwise for the purposes of, any 
+criminal proceedings; (Replaced 69 of 1988 s. 5)
+ (c) in connection with any civil proceedings arising out of, 
+or relating to, section 22, 23, 24, 25, 27, 33, 33B or 36; 
+or (Added 69 of 1988 s. 5)
+ (d) to the disclosure of information to the Financial 
+Secretary, or any public officer authorized by the 
+Financial Secretary for the purposes of this paragraph 
+where, in the opinion of the Registrar, it is desirable or 
+expedient that information should be disclosed in the 
+public interest. (Added 69 of 1988 s. 5. Amended L.N. 96 
+of 1993; L.N. 106 of 2002)
+ (3) Any person who—
+ (a) contravenes subsection (1); or 
+ (b) aids, abets, counsels or procures any person to 
+contravene subsection (1), 
+commits an offence and shall be liable to a fine at level 6 and 
+to imprisonment for 2 years. (Amended E.R. 4 of 2021)
+6. Inspection of register
+ (1) Any person shall be entitled on payment of the prescribed 
+fee—
+ (a) to inspect the register during ordinary office hours and 
+take copies of any entry; or 
+ (b) to obtain from the Registrar a copy, certified by or under 
+the authority of the Registrar to be correct, of any entry 
+in the register. 
+ (2) The Registrar shall give public notice, in such manner as 
+he may deem fit, of the place where and the times when the 
+register may be inspected.
+Last updated date
+26.8.2021
+Money Lenders Ordinance
+Part I 1-12
+Section 6 Cap. 163
+
+===== PAGE 11 =====
+
+6A. Documents admissible in evidence
+A document purporting to be a copy, certified by or under the 
+authority of the Registrar to be true and correct, of any entry in 
+the register shall be admissible in evidence in criminal or civil 
+proceedings before any court on its production without further 
+proof and, until the contrary is proved, the court shall presume 
+that—
+ (a) the signature and certification to the document is that 
+of the Registrar or a person authorized by him in that 
+behalf; and 
+ (b) the document is a true and correct copy. 
+(Added 69 of 1988 s. 6)
+Last updated date
+26.8.2021
+Money Lenders Ordinance
+Part I 1-14
+Section 6A Cap. 163
+
+===== PAGE 12 =====
+
+Part II
+Licensing of Money Lenders
+7. Restriction on carrying on of business of money lender
+ (1) No person shall carry on business as a money lender—
+ (a) without a licence; 
+ (b) at any place other than the premises specified in such 
+licence; or 
+ (c) otherwise than in accordance with the conditions of a 
+licence. 
+ (2) A licence shall be in the prescribed form.
+8. Application for licence and public notification of application
+ (1) An application for a licence shall be made to the Registrar in 
+the prescribed form and in the prescribed manner, and shall 
+be accompanied by the prescribed fee and a statement in 
+writing containing the prescribed particulars in respect of the 
+application. 
+ (2) An application made under this section in respect of a 
+company may be made by any person authorized in that 
+behalf by such company. (Amended 69 of 1988 s. 7)
+ (3) An application made under this section in respect of partners 
+in a firm may be made by any such partner. 
+ (4) The Registrar shall, in such manner as may be prescribed, 
+give public notice of every application made under this 
+section.
+9. Investigation and lodgement of applications
+ (1) Where an application is made under section 8, the applicant 
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Part II 2-2
+Section 7 Cap. 163
+
+===== PAGE 13 =====
+
+shall at the same time send a copy of the application to the 
+Commissioner of Police, and the Commissioner of Police 
+may cause an investigation to be carried out in respect of the 
+application for the purpose of determining whether, in the 
+opinion of the Commissioner of Police, there are grounds for 
+objecting to the application under section 11. 
+ (2) For the purpose of carrying out an investigation under this 
+section, the Commissioner of Police may in writing require 
+the applicant to produce for inspection such books, records 
+or documents or to furnish such information relating to the 
+application or any business carried on or intended to be 
+carried on by him as the Commissioner of Police may specify. 
+ (3) In respect of an application made under section 8, no step 
+other than the registration of such application shall be taken 
+by the Registrar prior to—
+ (a) the date on which a period of 60 days after the date on 
+which the application is made expires; or 
+ (b) the date on which the Commissioner of Police notifies 
+the Registrar that any investigation carried out under this 
+section in respect of the application has been completed, 
+whichever is the earlier (in this section referred to as the 
+material date). 
+ (4) Where the Registrar or the Commissioner of Police intends 
+to object under section 11 to any application for a licence, 
+he shall, not later than 7 days after the material date, serve 
+notice on the applicant of his intention to object and of the 
+grounds of such objection; and where such notice is served 
+by the Commissioner of Police, he shall send a copy thereof 
+to the Registrar. 
+ (5) Upon the expiration of a period of 7 days after the material 
+date in respect of any application made under section 8, the 
+Registrar shall lodge the application with such magistrate as 
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Part II 2-4
+Section 9 Cap. 163
+
+===== PAGE 14 =====
+
+he deems fit, together with a copy of any notice served on the 
+applicant under subsection (4). (Replaced 69 of 1988 s. 8)
+ (6) The Registrar shall give notice to the Commissioner of Police 
+of any lodgement made under subsection (5).
+10. Licensing court
+ (1) Where an application is lodged under section 9(5), the 
+licensing court shall hear and determine the application in 
+accordance with section 11. 
+ (2)-(4) (Repealed 13 of 1995 s. 38) 
+ (5) The Registrar shall be provided with a copy of each decision 
+of the licensing court. 
+(Replaced 69 of 1988 s. 9)
+10A. (Repealed 13 of 1995 s. 39)
+10B. Powers of licensing court
+Subject to this Ordinance, the licensing court may determine its 
+own procedure and in particular may—
+ (a) receive and consider any material, whether by way 
+of oral evidence, written statements, documents or 
+otherwise, notwithstanding that such material would 
+not be admissible in evidence in civil or criminal 
+proceedings; 
+ (b) by notice in writing signed by the presiding magistrate, 
+require any person to attend before it at any hearing and 
+to give evidence and produce documents; 
+ (c) administer oaths and affirmations; 
+ (d) examine on oath, affirmation or otherwise any person 
+attending before it at any hearing and require such 
+person to answer all questions put by or with its consent; 
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Part II 2-6
+Section 10 Cap. 163
+
+===== PAGE 15 =====
+
+ (e) determine the manner in which the material referred to 
+in paragraph (a) shall be received; and 
+ (f) adjourn any hearing from time to time as it may deem 
+fit, 
+and may do all things—
+ (i) ancillary to the powers conferred by this section; or 
+ (ii) reasonably necessary for the discharge of its functions 
+under this Ordinance. 
+(Added 69 of 1988 s. 9)
+10C. Immunity
+Any—
+ (a) member of the licensing court; and 
+ (b) witness, party to any proceedings, representative or 
+other person appearing before the licensing court, 
+shall have the same privileges and immunities in any proceedings 
+before the licensing court or in the exercise of the licensing court’s 
+functions as he would have before a court in civil proceedings. 
+(Added 69 of 1988 s. 9)
+11. Determination of application for licence
+ (1) The licensing court shall fix a date for the hearing of an 
+application lodged under section 9(5) and shall give 14 clear 
+days’ notice of such date to the applicant, the Registrar and 
+the Commissioner of Police. (Amended 69 of 1988 s. 10)
+ (2) Subject to subsection (3), the licensing court shall grant a 
+licence upon the hearing of an application lodged under 
+section 9(5) except where—
+ (a) the Registrar or the Commissioner of Police has served 
+notice under section 9 of his intention to object to 
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Part II 2-8
+Section 10C Cap. 163
+
+===== PAGE 16 =====
+
+the application and, at the hearing of the application, 
+objection to the application is made by or on behalf of 
+the Registrar or, as the case may be, the Commissioner 
+of Police; or 
+ (b) objection to the application is made by any other person 
+appearing at the hearing in person or by counsel who—
+ (i) has served notice of his intention to object and 
+the grounds of such objection on the applicant, 
+the Registrar and the Commissioner of Police and 
+lodged a copy of such notice in the office of the 
+licensing court, not later than 4 days prior to the 
+date fixed for the hearing under subsection (1); or 
+(Amended 69 of 1988 s. 10)
+ (ii) is granted leave by the licensing court to make 
+such objection, 
+and for the purposes of this section counsel (大律師) means 
+a person qualified to practise as a barrister or solicitor under 
+the Legal Practitioners Ordinance (Cap. 159). 
+ (3) The licensing court shall not grant a licence to a person who 
+is a disqualified person. 
+ (4) The licensing court shall, in considering an application to 
+which subsection (2)(a) or (b) applies, hear any evidence 
+given by the applicant or any witnesses called on his behalf 
+and any evidence adduced by or on behalf of the Registrar or 
+the Commissioner of Police or any other person who appears 
+at the hearing under subsection (2)(b). 
+ (5) Subject to subsection (3), the licensing court shall not grant a 
+licence upon an application to which subsection (2)(a) or (b) 
+applies unless the court is satisfied—
+ (a) that the applicant, or in the case of a firm every partner 
+thereof, is a fit and proper person to carry on business as 
+a money lender; 
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Part II 2-10
+Section 11 Cap. 163
+
+===== PAGE 17 =====
+
+ (b) in the case of a company, that any person who controls 
+such company or in accordance with whose directions 
+or instructions the directors thereof are accustomed to 
+act is a fit and proper person to be associated with the 
+business of money-lending; (Amended 69 of 1988 s. 10)
+ (c) that as respects the carrying on of business as a money 
+lender, any person responsible or proposed to be 
+responsible for the management of the business or any 
+part thereof, or in the case of a company any director 
+or secretary or other officer thereof, is a fit and proper 
+person to be associated with the business of money-
+lending; (Amended 69 of 1988 s. 10)
+ (d) that the name under which the applicant applies to be 
+licensed is not misleading or otherwise undesirable; 
+ (e) that as respects any of the premises to which the 
+application relates, such premises and the situation 
+thereof are suitable for the carrying on of the business 
+of money-lending; 
+ (f) that the applicant has complied with the provisions of 
+this Part and any regulations relating to the application; 
+and 
+ (g) that in all the circumstances the grant of such licence is 
+not contrary to the public interest. 
+ (6) A licence granted under this section shall be subject to such 
+conditions as the licensing court may impose. 
+ (7) A licence granted under this section shall not be issued and 
+shall not enter into force except on payment to the licensing 
+court of the prescribed fee.
+12. Effect and duration of licence
+Every licence shall authorize the person named therein to carry on 
+business as a money lender for a period of 12 months from—
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Part II 2-12
+Section 12 Cap. 163
+
+===== PAGE 18 =====
+
+ (a) in the case of a licence granted under section 11, the day 
+on which it is so granted; and 
+ (b) in the case of a licence renewed under section 13, 
+irrespective of whether the renewal of the licence 
+was made prior to, upon or after its expiration, and 
+notwithstanding section 13(5), the day immediately 
+following the day on which it would have, but for its 
+renewal, or has, as the case may be, expired. 
+(Replaced 69 of 1988 s. 11)
+13. Renewal
+ (1) A licensee may apply for the renewal of his licence within a 
+period of 3 months prior to the expiration thereof. 
+ (2) This section does not apply to a licensee whose licence is 
+revoked. 
+ (3) An application for renewal made under this section shall be 
+made in the prescribed manner and shall be accompanied by 
+the prescribed fee. 
+ (4) Sections 8, 9, 10 and 11 shall apply to an application 
+for renewal made under this section as they apply to an 
+application made under section 8. 
+ (5) Any licence in respect of which an application for renewal 
+is made under this section and which expires prior to 
+the determination of such application shall, unless such 
+application is withdrawn, or the licence is revoked or 
+suspended under section 14, be deemed to continue in force 
+until the determination of such application.
+14. Revocation and suspension
+ (1) On the application of the Registrar or the Commissioner 
+of Police, a licensing court may make an order revoking or 
+suspending any licence granted by the licensing court if, in 
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Part II 2-14
+Section 13 Cap. 163
+
+===== PAGE 19 =====
+
+the opinion of the licensing court— (Amended 69 of 1988 
+s. 12; 13 of 1995 s. 40)
+ (a) the licensee has ceased to be a fit and proper person to 
+carry on business as a money lender; or 
+ (b) the premises specified in the licence or any of such 
+premises have, or the situation thereof has, ceased to be 
+suitable for the carrying on of the business of money-
+lending; or 
+ (c) the licensee has been in serious breach of any condition 
+of the licence or has ceased to satisfy any other 
+condition relating to his business as a money lender in 
+respect of which the licensing court is required to be 
+satisfied under section 11(5); or 
+ (d) the business of the licensee has been carried on at 
+any time or on any occasion since the date on which 
+the licence was granted by recourse to the use of any 
+methods, or in any manner, contrary to the public 
+interest. 
+ (2) The licensing court shall fix a date for the hearing of an 
+application under this section, and shall give 14 clear days’ 
+notice of such date to the Registrar and the Commissioner of 
+Police and the licensee; such notice shall call on the licensee 
+to show cause as to why such application ought not to be 
+granted and an order for the revocation or suspension of his 
+licence ought not to be made. 
+ (3) In this section licence (牌照) includes a licence deemed to 
+continue in force under section 13(5).
+15. Transfer of licence and addition or substitution of new premises
+ (1) Except as provided in this section, a licence shall not be 
+transferable. 
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Part II 2-16
+Section 15 Cap. 163
+
+===== PAGE 20 =====
+
+ (2) Where a licensed money lender dies, the widow or widower 
+or any member of the family of the deceased money lender 
+of the age of 21 years or upwards, or any person on behalf of 
+the family, may apply to the licensing court to have his or her 
+name endorsed on the licence. (Amended 69 of 1988 s. 13)
+ (3) Where a licensee intends to carry on business as a money 
+lender at any premises in addition to the premises specified in 
+his licence, he may apply to the licensing court to have such 
+additional premises endorsed on his licence. (Amended 69 of 
+1988 s. 13)
+ (4) Where a licensed money lender intends to transfer his 
+business as a money lender from any premises specified in his 
+licence to any premises not so specified, he may apply to the 
+licensing court to have the premises to which he intends to 
+transfer such business endorsed on his licence in substitution 
+for such first-mentioned premises. (Amended 69 of 1988 
+s. 13)
+ (5) Every application under this section shall be made to the 
+Registrar in the prescribed manner and accompanied by the 
+prescribed fee and notice of the application shall be given to 
+the Commissioner of Police. (Replaced 69 of 1988 s. 13)
+ (6) The Registrar and the Commissioner of Police shall be 
+entitled to appear and be heard at the hearing of any 
+application under this section and to object to the granting of 
+any such application. 
+ (6A) Where the Registrar or the Commissioner of Police intends to 
+object under subsection (6) to the granting of any application 
+under this section, he shall, not later than one month after 
+such application is made under subsection (5), serve notice 
+on the applicant of his intention to object specifying the 
+grounds of objection; and where such notice is served by the 
+Commissioner of Police, he shall send a copy thereof to the 
+Registrar. (Added 69 of 1988 s. 13)
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Part II 2-18
+Section 15 Cap. 163
+
+===== PAGE 21 =====
+
+ (6B) Upon the expiration of a period of one month after any 
+application under this section is made under subsection (5), 
+the Registrar shall lodge the application with such magistrate 
+as he deems fit, together with a copy of any notice served on 
+the applicant under subsection (6A). (Added 69 of 1988 s. 13)
+ (7) The licensing court shall not grant an application under this 
+section unless the court is satisfied that—
+ (a) notice of the application has been given to the Registrar 
+and the Commissioner of Police; 
+ (b) in the case of an application under subsection (2), the 
+applicant is a fit and proper person to carry on the 
+business of the deceased money lender; 
+ (c) in the case of an application under subsection (3), the 
+additional premises and the situation thereof are suitable 
+for the carrying on of the business of money-lending; 
+ (d) in the case of an application under subsection (4), the 
+premises to which the money lender intends to transfer 
+his business and the situation thereof are suitable for the 
+carrying on of the business of money-lending; 
+ (e) in the case of an application in respect of any premises 
+under subsection (3) or (4), any person responsible or 
+proposed to be responsible for the management of the 
+business carried on at such premises is a fit and proper 
+person to be associated with the business of money-
+lending. 
+ (8) Where the licensing court grants an application for an 
+endorsement under this section, the endorsement shall be 
+made in the office of the licensing court upon payment of the 
+prescribed fee. 
+ (9) A licence endorsed under subsection (2) shall have effect in 
+all respects as if the licence had been issued to the person 
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Part II 2-20
+Section 15 Cap. 163
+
+===== PAGE 22 =====
+
+whose name is endorsed thereon and this Ordinance shall 
+apply accordingly to such person as it applies to a licensee. 
+ (10) (Repealed 13 of 1995 s. 41)
+16. Appeals
+Any person aggrieved by a decision of a licensing court under 
+section 11, 13, 14 or 15 may appeal to the Court of First Instance 
+and the decision of the Court of First Instance shall be final. 
+(Amended 25 of 1998 s. 2)
+17. Duty to notify changes of particulars
+ (1) Where any change takes place in any particulars entered in 
+the register in respect of any licensee (including any change 
+of name by law), or a change takes place—
+ (a) in the case of a firm, in the membership thereof whether 
+by reason of an amalgamation or the reduction of the 
+number of partners or otherwise; 
+ (b) in the case of a company—
+ (i) in the officers thereof; 
+ (ii) in the control thereof by any person; 
+ (iii) in the number of shares, or shares of a prescribed 
+class, held by any person whereby the number of 
+those shares exceeds the prescribed proportion of 
+the number of issued shares or of the number of 
+shares of that class (as the case may be); (Amended 
+28 of 2012 ss. 912 & 920)
+ (c) in the persons responsible for the management of his 
+business as a money lender at any premises where the 
+business is carried on, 
+the licensee shall give notice in writing of such change to 
+the Registrar within 21 days after the change takes place and 
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Part II 2-22
+Section 16 Cap. 163
+
+===== PAGE 23 =====
+
+the Registrar may in respect of any such change enter such 
+particulars, or alter any particulars entered, in the register as 
+he thinks fit. (Amended 69 of 1988 s. 14)
+ (2) Where notice of any change is given to the Registrar under 
+subsection (1), the Registrar may by notice in writing require 
+the licensee to furnish him with such information, verified 
+in such manner, as the Registrar may specify with respect to 
+such change.
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Part II 2-24
+Section 17 Cap. 163
+
+===== PAGE 24 =====
+
+Part III
+Money Lenders’ Transactions
+18. Form of agreement
+ (1) No agreement for the repayment of money lent by a money 
+lender or for the payment of interest on money so lent, and 
+no security given to any money lender in respect of any such 
+agreement or loan, shall be enforceable unless—
+ (a) within 7 days after the making of the agreement, a note 
+or memorandum in writing of the agreement is made in 
+accordance with subsection (2) and signed personally by 
+the borrower, and a copy of such note or memorandum 
+is given to the borrower at the time of signing; and 
+ (b) there is included in or attached to such copy a summary, 
+in such form as may be prescribed, of such provisions 
+of this Part and Part IV as may be prescribed, 
+and no such agreement or security shall be enforceable if it 
+is proved that the note or memorandum was not signed by 
+the borrower before the money was lent or the security was 
+given. 
+ (2) The note or memorandum shall contain all the terms of the 
+agreement and in particular shall set out—
+ (a) the name and address of the money lender; 
+ (b) the name and address of the borrower; 
+ (c) the name and address of the surety, if any; 
+ (d) the amount of the principal of the loan in words and 
+figures; 
+ (e) the date of the making of the agreement; 
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Part III 3-2
+Section 18 Cap. 163
+
+===== PAGE 25 =====
+
+ (f) the date of the making of the loan; 
+ (g) the terms of repayment of the loan; 
+ (h) the form of security for the loan, if any; 
+ (i) the rate of interest charged on the loan expressed as a 
+rate per cent per annum, or the rate per cent per annum 
+represented by the interest charged as calculated in 
+accordance with Schedule 2; and (Amended 69 of 1988 
+s. 15)
+ (j) a declaration as to the place of negotiation and 
+completion of the agreement for the loan. 
+ (3) Notwithstanding subsection (1), if the court before which 
+the enforceability of any agreement or security comes in 
+question is satisfied that in all the circumstances it would 
+be inequitable that any such agreement or security which 
+does not comply with this section should be held not to be 
+enforceable, the court may order that such agreement or 
+security is enforceable to such extent, and subject to such 
+modifications or exceptions, as the court considers equitable. 
+(Amended 69 of 1988 s. 15)
+19. Duty of money lender to give information to borrower
+ (1) In respect of every agreement, whether made before or after 
+the commencement of this Ordinance, for the repayment of 
+money lent by a money lender, the money lender shall, on 
+demand in writing being made by the borrower at any time 
+during the continuance of the agreement and on tender by 
+the borrower of the prescribed fee for expenses, supply to 
+the borrower or, if the borrower so requires, to any person 
+specified in that behalf in the demand, a statement (consisting 
+of the original and a copy) signed by the money lender or his 
+agent showing— (Amended 69 of 1988 s. 16)
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Part III 3-4
+Section 19 Cap. 163
+
+===== PAGE 26 =====
+
+ (a) the date on which the loan was made, the amount of the 
+principal of the loan and the rate per cent per annum of 
+interest charged; 
+ (b) the amount of any payment already received by the 
+money lender in respect of the loan and the date on 
+which it was made; 
+ (c) the amount of every sum due to the money lender but 
+unpaid, and the date on which it became due, and the 
+amount of interest accrued due and unpaid in respect of 
+every such sum; 
+ (d) the amount of every sum not yet due which remains 
+outstanding, and the date on which it will become due; 
+and 
+ (e) the following words, in both English and Chinese, 
+prominently and legibly on its face—
+“THE BORROWER OR OTHER PERSON TO 
+WHOM THIS STATEMENT IS SUPPLIED IS 
+REQUIRED UNDER SECTION 19(1A) OF THE 
+MONEY LENDERS ORDINANCE TO ENDORSE 
+ON THE COPY OF THE STATEMENT THAT 
+HE HAS RECEIVED THE ORIGINAL OF THE 
+STATEMENT AND TO RETURN THE COPY AS 
+SO ENDORSED TO THE MONEY LENDER. 
+借款人或其他獲得供給此結算書的人須依照
+《放債人條例》第19(1A)條的規定，在結算書的
+副本上簽註已經收到結算書正本，以及將經如
+此簽註的副本交回放債人。”. (Added 69 of 1988 
+s. 16)
+ (1A) The borrower or other person to whom the original and a 
+copy of a statement referred to in subsection (1) is supplied 
+under that subsection by a money lender shall, as soon as 
+practicable after being so supplied—
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Part III 3-6
+Section 19 Cap. 163
+
+===== PAGE 27 =====
+
+ (a) endorse on the copy of that statement words to the effect 
+that he has received the original of that statement; and 
+ (b) return the copy of that statement as so endorsed to 
+that money lender, who shall then retain it during the 
+continuance of the agreement to which that statement 
+relates. (Added 69 of 1988 s. 16)
+ (2) A money lender shall, on demand in writing by the borrower, 
+supply a copy of any document relating to a loan made 
+by him or any security therefor to the borrower or, if the 
+borrower so requires and on payment by the borrower to the 
+lender of the prescribed fee, to any person specified in that 
+behalf in the demand. (Amended 69 of 1988 s. 16)
+ (3) Subsection (1) or (2) does not apply to a request made 
+by a borrower less than 1 month after a previous request 
+thereunder relating to the same agreement was complied with. 
+ (4) If a money lender to whom a demand has been made under 
+this section fails without reasonable excuse to comply 
+therewith within 1 month after the demand has been made, 
+he shall not, so long as the default continues, be entitled 
+to sue for or recover any sum due under the agreement on 
+account either of principal or interest, and interest shall not be 
+chargeable in respect of the period of default.
+20. Duty of money lender to give information to surety
+ (1) A money lender who makes any agreement for the loan of 
+money in relation to which security is provided shall within 7 
+days after the making of the agreement give to the surety (if a 
+different person from the borrower)—
+ (a) a copy of the note or memorandum in writing made 
+under section 18(1); 
+ (b) a copy of the security instrument, if any; and 
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Part III 3-8
+Section 20 Cap. 163
+
+===== PAGE 28 =====
+
+ (c) a statement in writing signed by or on behalf of the 
+money lender showing—
+ (i) the total sum payable under the agreement by the 
+borrower; 
+ (ii) the various amounts comprised in that total sum 
+with the date, or the mode of determining the date, 
+when each becomes due. 
+ (2) Without prejudice to subsection (1), a surety may at any time 
+during the continuance of an agreement (whether made before 
+or after the commencement of this Ordinance) in relation to 
+which the security is provided require the money lender by 
+notice in writing to furnish him with a statement in writing 
+signed by or on behalf of the money lender showing—
+ (a) the total sum paid under the agreement by the borrower; 
+ (b) the total sum which has become payable under the 
+agreement by the borrower but remains unpaid, and the 
+various amounts comprised in that total sum, with the 
+date when each became due; and 
+ (c) the total sum which is to become payable under the 
+agreement by the borrower, and the various amounts 
+comprised in that total sum, with the date, or the mode 
+of determining the date, when each becomes due. 
+ (3) Subsection (2) does not apply to a request made by a 
+surety less than 1 month after a previous request under that 
+subsection relating to the same agreement was complied with. 
+ (4) If a money lender fails to comply with subsection (1) or 
+a request to which subsection (2) applies he shall not be 
+entitled, while the default continues, to enforce the security so 
+far as provided in relation to the agreement.
+21. Early payment by borrower
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Part III 3-10
+Section 21 Cap. 163
+
+===== PAGE 29 =====
+
+ (1) A borrower under any agreement for the loan of money by a 
+money lender shall be entitled at any time by notice in writing 
+to the money lender and the payment to the money lender 
+of all amounts payable as principal by the borrower which 
+are outstanding under the agreement, together with interest 
+computed up to the date of such payment, to discharge his 
+indebtedness under the agreement: 
+Provided that the effective rate of such interest shall not 
+exceed the effective rate at which interest would have been 
+payable under the agreement if the borrower had not exercised 
+his right under this section to discharge his indebtedness. 
+(Amended 69 of 1988 s. 17)
+ (2) (Repealed 69 of 1988 s. 17)
+22. Illegal agreements
+ (1) Any agreement made for the loan of money by a money 
+lender shall be illegal if it provides directly or indirectly for—
+ (a) the payment of compound interest; 
+ (b) prohibiting the repayment of the loan by instalments; or 
+ (c) the rate or amount of interest being increased by reason 
+of any default in the payment of sums due under the 
+agreement: 
+Provided that provision may be made by any such agreement 
+that if default is made in the payment upon the due date of 
+any sum payable to the money lender under the agreement, 
+whether in respect of principal or interest, the money lender 
+shall be entitled, subject to Part IV , to charge simple interest 
+on that sum from the date of the default until the sum is paid 
+at an effective rate not exceeding the effective rate payable 
+in respect of the principal apart from any default, and any 
+interest so charged shall not be reckoned for the purposes of 
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Part III 3-12
+Section 22 Cap. 163
+
+===== PAGE 30 =====
+
+this Ordinance as part of the interest charged in respect of the 
+loan. 
+ (2) Notwithstanding subsection (1), if the court before which the 
+legality of any agreement comes in question is satisfied that 
+in all the circumstances it would be inequitable that any such 
+agreement which does not comply with this section should 
+be held to be unenforceable, the court may order that such 
+agreement is enforceable to such extent, and subject to such 
+modifications or exceptions, as the court considers equitable. 
+(Added 69 of 1988 s. 18)
+23. Loan etc. not recoverable unless money lender licensed
+No money lender shall be entitled to recover in any court any 
+money lent by him or any interest in respect thereof or to enforce 
+any agreement made or security taken in respect of any loan made 
+by him unless he satisfies the court by the production of his licence 
+or otherwise that at the date of the loan or the making of the 
+agreement or the taking of the security (as the case may be) he was 
+licensed: 
+Provided that if the court is satisfied that in all the circumstances 
+it would be inequitable if a money lender who did not satisfy it 
+that he was licensed at the relevant time was thereby not entitled 
+to so recover such money or interest or to enforce such agreement 
+or security, the court may order that the money lender is entitled 
+to recover such money or interest or to enforce such agreement 
+or security to such extent, and subject to such modifications or 
+exceptions, as the court considers equitable. (Added 69 of 1988 
+s. 19)
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Part III 3-14
+Section 23 Cap. 163
+
+===== PAGE 31 =====
+
+Part IV
+Excessive Interest Rates
+24. Prohibition of excessive interest rates
+ (1) Any person (whether a money lender or not) who lends or 
+offers to lend money at an effective rate of interest which 
+exceeds 48 per cent per annum commits an offence. (Amended 
+L.N. 208 of 2022)
+ (2) No agreement for the repayment of any loan or for the 
+payment of interest on any loan and no security given in 
+respect of any such agreement or loan shall be enforceable 
+in any case in which the effective rate of interest exceeds the 
+rate specified in subsection (1). 
+ (3) The Legislative Council may by resolution alter the rate 
+specified in subsection (1): 
+Provided that in relation to any agreement for the repayment 
+of any loan or for the payment of interest on any loan which 
+is in force at the date when such rate is so altered, the rate so 
+specified as at the coming into force of such agreement shall 
+continue to apply. 
+ (4) Any person who commits an offence under this section shall 
+be liable—
+ (a) on summary conviction to a fine of $500,000 and to 
+imprisonment for 2 years; 
+ (b) on conviction on indictment to a fine of $5,000,000 and 
+to imprisonment for 10 years. (Amended 82 of 1994 
+s. 33)
+ (5) Nothing in this section shall apply to—
+Last updated date
+30.12.2022
+Money Lenders Ordinance
+Part IV 4-2
+Section 24 Cap. 163
+
+===== PAGE 32 =====
+
+ (a) a loan specified in paragraph 12 in Part 2 of Schedule 1; 
+or 
+ (b) as respects such loan, any person who makes such loan. 
+(Replaced 69 of 1988 s. 20)
+25. Reopening of certain transactions
+ (1) Subject to section 24(2), where—
+ (a) proceedings are taken in any court by any person 
+(whether a money lender or not) for the recovery of 
+any money lent or the enforcement of any agreement or 
+security in respect of any loan; and 
+ (b) subject to subsection (3), there is evidence which 
+satisfies the court that the transaction is extortionate, 
+the court may reopen the transaction so as to do justice 
+between the parties having regard to all the circumstances, 
+and, for that purpose, make such orders and give such 
+directions in respect of the terms of the transaction or the 
+rights of the parties thereunder as the court may think fit. 
+ (2) For the purposes of this section, a transaction is extortionate 
+if—
+ (a) it requires the debtor or a relative of his to make 
+payments (whether unconditionally or on certain 
+contingencies) which are grossly exorbitant; or 
+ (b) it otherwise grossly contravenes ordinary principles of 
+fair-dealing. 
+ (3) Any agreement for the repayment of a loan or for the 
+payment of interest on a loan in respect of which the effective 
+rate of interest exceeds 36 per cent per annum shall, having 
+regard to that fact alone, be presumed for the purposes of 
+this section to be a transaction which is extortionate; but 
+except where such rate exceeds the rate specified in section 
+Last updated date
+30.12.2022
+Money Lenders Ordinance
+Part IV 4-4
+Section 25 Cap. 163
+
+===== PAGE 33 =====
+
+24(1), the court may declare that any such agreement is not 
+extortionate for the purposes of this section if, having regard 
+to all the circumstances relating to the agreement, the court is 
+satisfied that such rate is not unreasonable or unfair. (Amended 
+L.N. 208 of 2022)
+ (4) In determining whether a transaction is extortionate for the 
+purposes of this section, regard shall be had to such evidence 
+as is adduced concerning—
+ (a) interest rate prevailing at the time it was made; 
+ (b) the factors mentioned in subsections (5) and (6); and 
+ (c) any other relevant considerations. 
+ (5) Factors applicable under subsection (4)(b) in relation to the 
+debtor include—
+ (a) his age, experience, business capacity and state of 
+health; and 
+ (b) the degree to which, at the time of entering into the 
+transaction, he was under financial pressure, and the 
+nature of that pressure. 
+ (6) Factors applicable under subsection (4)(b) in relation to the 
+lender or other person by whom the proceedings are taken 
+include—
+ (a) the degree of risk accepted by the lender, having regard 
+to the nature and value of any security provided; 
+ (b) his relationship to the debtor; 
+ (c) whether or not a specious cash price was quoted for any 
+goods or services included in the transaction; and 
+ (d) where one or more other transactions are to be taken 
+into account, the question how far any such other 
+transaction was reasonably required for the protection 
+Last updated date
+30.12.2022
+Money Lenders Ordinance
+Part IV 4-6
+Section 25 Cap. 163
+
+===== PAGE 34 =====
+
+of the debtor or the lender, or was in the interest of the 
+debtor. 
+ (7) Any court in which proceedings might be taken for the 
+recovery of any loan or security in respect of a loan shall 
+have and may at the instance of the debtor or any surety 
+exercise the like powers as may be exercised under this 
+section where proceedings are taken for the recovery of a 
+loan; and the court may entertain any application under this 
+subsection by the debtor or surety notwithstanding that the 
+time for repayment of the loan or any instalment thereof has 
+not arrived. 
+ (8) On any application relating to the admission or amount of a 
+proof by a money lender in any bankruptcy proceedings, the 
+court may exercise the like powers as may be exercised under 
+this section where proceedings are taken for the recovery of 
+money. 
+ (9) The Legislative Council may by resolution alter the rate 
+specified in subsection (3) but, in relation to any agreement 
+referred to in that subsection which is in force at the date 
+when such rate is so altered, the rate so specified as at the 
+coming into force of such agreement shall continue to apply. 
+ (9A) Nothing in this section shall apply to—
+ (a) a loan specified in paragraph 12 in Part 2 of Schedule 1; 
+or 
+ (b) as respects such loan, any person who makes such loan. 
+(Added 69 of 1988 s. 21)
+ (10) In this section debtor (債務人) means any person primarily 
+liable for the repayment of a loan or for the payment of 
+interest in respect of a loan.
+Last updated date
+30.12.2022
+Money Lenders Ordinance
+Part IV 4-8
+Section 25 Cap. 163
+
+===== PAGE 35 =====
+
+Part V
+General
+26. Restriction on money-lending advertisements
+ (1) A money lender shall not for the purpose of his business 
+as a money lender issue or publish or cause to be issued 
+or published any advertisement, circular, business letter or 
+other similar document which does not show the name of the 
+money lender as specified in his licence in such manner as to 
+be not less conspicuous than any other name. (Amended 69 of 
+1988 s. 22)
+ (2) Where any advertisement, circular, business letter or other 
+similar document issued or published by or on behalf of a 
+money lender purports to indicate the terms of interest on 
+which he is willing to make loans or any particular loan, such 
+advertisement, circular, business letter or other document 
+shall show the interest proposed to be charged—
+ (a) subject to section 24(1), as a rate per cent per annum; 
+and 
+ (b) in such manner as to be not less conspicuous than any 
+other matter mentioned therein.
+ (3) A money lender or any other person shall not for the purpose 
+of the money lender’s business as a money lender issue or 
+publish or cause to be issued or published any advertisement 
+which does not clearly show the words “Money Lender’s 
+Licence No.” immediately followed by the number of the 
+licence of the money lender. (Replaced 69 of 1988 s. 22)
+ (4) For the purposes of subsection (1) and section 29(9), the 
+name of the money lender as specified in his licence shall 
+be deemed to include any change by law of the name of the 
+Last updated date
+26.8.2021
+Money Lenders Ordinance
+Part V 5-2
+Section 26 Cap. 163
+
+===== PAGE 36 =====
+
+money lender, irrespective of whether his licence specifies the 
+new name. (Added 69 of 1988 s. 22)
+27. Charges for expenses etc. not recoverable
+ (1) Any agreement entered into between a money lender and 
+a borrower or intending borrower for the payment by the 
+borrower or intending borrower to the money lender of any 
+sum for or on account of costs, charges or expenses (other 
+than stamp duties or similar duties) incidental to or relating 
+to the negotiations for or the granting of the loan or proposed 
+loan or the guaranteeing or securing of the repayment thereof 
+shall be illegal. (Amended 69 of 1988 s. 23)
+ (2) (Repealed 69 of 1988 s. 23) 
+ (3) Subject to section 33A(5), it shall not be lawful for any 
+money lender or his partner, employer, employee, principal 
+or agent or any person acting for or in collusion with any 
+money lender to charge, recover or receive any sum as for 
+or on account of any such costs, charges or expenses (other 
+than stamp duties or similar charges) or to demand or receive 
+any remuneration or reward whatsoever from a borrower or 
+intending borrower for or in connection with or preliminary 
+to procuring, negotiating or obtaining any loan made or 
+guaranteeing or securing the repayment thereof. (Amended 69 
+of 1988 s. 23)
+ (4) If any money or money’s worth is directly or indirectly paid 
+or allowed to or received by any person in contravention of 
+this section, the amount or value thereof, to the extent of 
+such contravention and notwithstanding any agreement to the 
+contrary, may be recovered by the borrower from such person 
+or, if such person is the money lender or a partner, employer, 
+employee, principal or agent of the money lender or is in 
+any way acting for or in collusion with him, may be set off 
+against the amount actually lent (and that amount shall be 
+Last updated date
+26.8.2021
+Money Lenders Ordinance
+Part V 5-4
+Section 27 Cap. 163
+
+===== PAGE 37 =====
+
+deemed to be reduced accordingly) or may be recovered by 
+the borrower from such person or from the money lender.
+28. Power of Registrar and police to enter premises and inspect 
+books, etc.
+ (1) Where—
+ (a) the Registrar or any other person authorized in writing 
+for the purposes of this section by the Registrar; or 
+ (b) a police officer of or above the rank of superintendent 
+or any other police officer authorized in writing for the 
+purposes of this section by a police officer of or above 
+such rank, 
+has a reasonable suspicion that a money lender has committed 
+an offence against this Ordinance (in this section referred to 
+as the suspected offence), he may enter any premises where 
+the business of the money lender is being carried on and may 
+demand the production of and inspect the money lender’s 
+licence or any books, accounts, documents or writings 
+relating to any loan made by the money lender or relating to 
+his business as a money lender, and may take notes, copies or 
+extracts thereof or therefrom. 
+ (2) Where pursuant to subsection (1) a police officer has entered 
+any premises where the business of a money lender is being 
+carried on, he may seize any books, accounts, documents 
+or writings relating to any loan made by the money lender 
+or relating to his business as a money lender that the police 
+officer reasonably believes to be related to the suspected 
+offence. (Amended L.N. 307 of 1998)
+ (3) Any books, accounts, documents or writings seized under 
+subsection (2) shall, as soon as practicable after such seizure, 
+be delivered to the Commissioner of Police, or to some 
+Last updated date
+26.8.2021
+Money Lenders Ordinance
+Part V 5-6
+Section 28 Cap. 163
+
+===== PAGE 38 =====
+
+person nominated by him in that behalf, by the police officer 
+who seized them. 
+ (4) Where any books, accounts, documents or writings seized 
+under subsection (2) are delivered in accordance with 
+subsection (3) to the Commissioner of Police, or to some 
+person nominated by him in that behalf, the Commissioner 
+of Police or that person, as the case may be, shall, if no 
+prosecution is instituted within 3 months after such delivery 
+in respect of the suspected offence to which they relate, 
+return, or arrange for the return of, such books, accounts, 
+documents or writings to the money lender from whom they 
+were so seized. 
+(Replaced 69 of 1988 s. 24)
+29. Offences by money lenders
+ (1) Any person who carries on business as a money lender—
+ (a) without a licence; or 
+ (b) at any place other than the premises specified in his 
+licence; or 
+ (c) otherwise than in accordance with the conditions of his 
+licence; or 
+ (d) during any period when his licence is suspended, 
+commits an offence. 
+ (2) Any person who makes any false or misleading statement or 
+furnishes any false or misleading information in connection 
+with any application for a licence or the renewal of a licence 
+or in connection with any application for an exemption under 
+section 33B commits an offence. (Amended 69 of 1988 s. 25)
+ (3) Any person who, being a licensee, fails to give notice under 
+section 17(1) of any change in respect of such licensee, or 
+who, having been required by the Registrar under section 
+Last updated date
+26.8.2021
+Money Lenders Ordinance
+Part V 5-8
+Section 29 Cap. 163
+
+===== PAGE 39 =====
+
+17(2) to furnish any information in respect of such change, 
+fails to furnish such information or furnishes any false or 
+misleading information, commits an offence. 
+ (4) Any money lender who—
+ (a) fails to make a note or memorandum in writing of an 
+agreement in compliance with section 18; 
+ (b) fails to give a copy of such note or memorandum to the 
+borrower in compliance with section 18(1)(a); or 
+ (c) fails to include in or attach to such copy a summary in 
+writing in compliance with section 18(1)(b), 
+commits an offence. 
+ (5) Any money lender who demands or accepts security for 
+a loan in any form prohibited by regulations made under 
+section 34 commits an offence. 
+ (6) Any money lender who fails to comply with any demand in 
+writing made by a borrower under section 19 to supply any 
+statement or copy of any document to the borrower or any 
+person specified in the demand commits an offence. 
+ (6A) Any money lender who fails to retain a copy of a statement 
+referred to in section 19(1) supplied to him under section 
+19(1A) during the continuance of the agreement to which 
+that statement relates commits an offence. (Added 69 of 1988 
+s. 25)
+ (7) Any money lender who fails to give a surety any information 
+to which the surety is entitled under section 20(1) or in 
+respect of which the surety has made a request by notice in 
+writing under section 20(2) commits an offence. 
+ (8) Any money lender who issues or publishes, or causes to be 
+issued or published, any advertisement, circular, business 
+letter or other similar document which contravenes section 
+26(1) or (2) commits an offence. (Amended 69 of 1988 s. 25)
+Last updated date
+26.8.2021
+Money Lenders Ordinance
+Part V 5-10
+Section 29 Cap. 163
+
+===== PAGE 40 =====
+
+ (8A) Subject to subsection (8B), any money lender or other person 
+who issues or publishes, or causes to be issued or published, 
+any advertisement which contravenes section 26(3) commits 
+an offence. (Added 69 of 1988 s. 25)
+ (8B) Where a person is charged with an offence under subsection 
+(8A) relating to an advertisement, it shall be a defence for 
+such person to show—
+ (a) that he carries on the business of issuing or publishing 
+or causing to be issued or published advertisements; 
+ (b) that he received the advertisement for issuing or 
+publishing or causing to be issued or published in the 
+ordinary course of business; and 
+ (c) that at the time he issued or published or caused to 
+be issued or published the advertisement he believed 
+upon reasonable grounds that the advertisement clearly 
+showed the words “Money Lender’s Licence No.” 
+immediately followed by the number of the licence of 
+the money lender concerned. (Added 69 of 1988 s. 25)
+ (9) Any money lender who for any of the purposes of his 
+business uses any name other than the name specified in his 
+licence commits an offence. (Amended 69 of 1988 s. 25)
+ (10) Any money lender or his partner, employer, employee, 
+principal or agent or any person acting for or in collusion 
+with any money lender who charges, recovers or receives any 
+sum as for or on account of any costs, charges or expenses 
+(other than stamp duties or similar charges) referred to in 
+section 27(3) or demands or receives any remuneration or 
+reward whatsoever from a borrower or intending borrower for 
+or in connection with or preliminary to procuring, negotiating 
+or obtaining any loan made or guaranteeing or securing the 
+repayment thereof commits an offence. (Added 69 of 1988 
+s. 25)
+Last updated date
+26.8.2021
+Money Lenders Ordinance
+Part V 5-12
+Section 29 Cap. 163
+
+===== PAGE 41 =====
+
+30. Offences of fraudulent inducement and obstruction
+ (1) Any person who by any false, misleading or deceptive 
+statement, representation or promise, or by any dishonest 
+concealment of material facts, fraudulently induces or 
+attempts to induce—
+ (a) any money lender to lend money to any person or 
+to agree to the terms on which money is or is to be 
+borrowed; 
+ (b) any person to borrow money from a money lender or to 
+agree to the terms on which money is or is to be lent, 
+commits an offence. 
+ (2) Any person who—
+ (a) wilfully obstructs an authorized person in the 
+performance of his functions under section 28; or 
+ (b) without reasonable cause fails to give an authorized 
+person such assistance or information as he may require 
+in the performance of such functions, 
+commits an offence. (Replaced 69 of 1988 s. 26)
+ (3) For the purposes of subsection (2), authorized person (獲授
+權的人) means—
+ (a) the Registrar or any other person authorized by him in 
+writing under section 28; or 
+ (b) a police officer of or above the rank of superintendent 
+or any other police officer authorized by him in writing 
+under section 28. (Added 69 of 1988 s. 26)
+30A. Offences relating to licensing court
+Any person who—
+Last updated date
+26.8.2021
+Money Lenders Ordinance
+Part V 5-14
+Section 30 Cap. 163
+
+===== PAGE 42 =====
+
+ (a) refuses or fails to comply with any lawful order, 
+requirement or direction of the licensing court; or 
+ (b) disturbs or otherwise interferes with the proceedings of 
+the licensing court, 
+commits an offence. 
+(Added 69 of 1988 s. 27)
+31. Liability for offences by companies
+Where at any time a company commits an offence under this 
+Ordinance with the consent or connivance of, or because of neglect 
+by, any individual, the individual commits the like offence if at that 
+time—
+ (a) he is a director, manager, secretary or similar officer of 
+the company; or 
+ (b) he is purporting to act as such officer; or 
+ (c) the company is managed by its members, of whom he is 
+one. 
+(Amended 69 of 1988 s. 28)
+32. Penalties and disqualification
+ (1) Any person who commits an offence under this Ordinance 
+shall be liable—
+ (a) in the case of an offence under section 29, to a fine at 
+level 6 and to imprisonment for 2 years; 
+ (b) in the case of any other offence for which no penalty is 
+provided, to a fine at level 3 and to imprisonment for 6 
+months. (Amended E.R. 4 of 2021)
+ (2) Where any person is convicted of an offence under this 
+Ordinance, the magistrate may order that such person shall 
+be disqualified from holding a licence for such period not 
+Last updated date
+26.8.2021
+Money Lenders Ordinance
+Part V 5-16
+Section 31 Cap. 163
+
+===== PAGE 43 =====
+
+exceeding 5 years from the date of such conviction as may be 
+specified in the order. 
+ (3) A licence held by any person against whom an order is made 
+under subsection (2) shall, as from the date of the order, cease 
+to have effect for the purposes of this Ordinance.
+32A. Time limitation for instituting certain proceedings
+Proceedings for an offence under section 29(3) shall be instituted 
+within 2 years of the commission of the offence. 
+(Added 69 of 1988 s. 29. Amended 82 of 1994 s. 34)
+33. Burden of proof
+ (1) When in any proceedings under this Ordinance against any 
+person it is alleged that such person is not the holder of a 
+licence, it shall in the absence of proof to the contrary be 
+presumed that such person is not licensed. 
+ (2) When in any proceedings under this Ordinance against any 
+person it is alleged that—
+ (a) such person is not a person specified in Part 1 of 
+Schedule 1; or 
+ (b) that a loan alleged to have been made by such person is 
+not a loan specified in Part 2 of Schedule 1, 
+the fact so alleged shall in the absence of proof to the 
+contrary be presumed. (Amended 69 of 1988 s. 30)
+33A. General exemptions
+ (1) The Registrar may, after consultation with the Financial 
+Secretary, by notice in the Gazette—
+ (a) exempt a class of persons (whether money lenders 
+or not) specified in the notice from all or any of the 
+provisions of this Ordinance specified in the notice; or 
+Last updated date
+26.8.2021
+Money Lenders Ordinance
+Part V 5-18
+Section 32A Cap. 163
+
+===== PAGE 44 =====
+
+ (b) exempt a loan, or class of loans, by a class of persons 
+(whether money lenders or not), specified in the notice 
+from all or any of the provisions of this Ordinance 
+specified in the notice. 
+ (2) An exemption under subsection (1) shall be subject to such 
+conditions, if any, as are specified in the notice. 
+ (3) The Registrar may at any time by notice in the Gazette—
+ (a) revoke an exemption under subsection (1); or 
+ (b) revoke, vary, or add to any condition subject to which 
+such exemption is granted.
+ (4) Notwithstanding any other provision of this Ordinance, any 
+notice—
+ (a) under section 21(2) or 27(2) of this Ordinance as in 
+force at any time before the commencement* of the 
+Money Lenders (Amendment) Ordinance 1988 (69 of 
+1988); and 
+ (b) in force immediately before that commencement, 
+shall remain in force and continue to have effect as if section 
+17 or 23(a) and (b), as the case may be, of the Money Lenders 
+(Amendment) Ordinance 1988 (69 of 1988) had never come 
+into operation but the Registrar may, after consultation with 
+the Financial Secretary, by notice in the Gazette, revoke any 
+such notice. 
+ (5) Where, at any time before the commencement of the Money 
+Lenders (Amendment) Ordinance 1988 (69 of 1988), section 
+27(1) did not apply in relation to an agreement referred to in 
+section 27(2) of this Ordinance as in force at any time before 
+that commencement, then section 27(3) shall, in the like 
+manner—
+ (a) be deemed never to have applied in relation to that 
+agreement; and 
+Last updated date
+26.8.2021
+Money Lenders Ordinance
+Part V 5-20
+Section 33A Cap. 163
+
+===== PAGE 45 =====
+
+ (b) not apply in relation to that agreement in so far 
+as section 27(1) does not apply in relation to that 
+agreement by virtue of subsection (4) of this section. 
+(Added 69 of 1988 s. 31)
+Editorial Note:
+* 1 October 1988—L.N. 257 of 1988.
+33B. Specific exemptions
+ (1) A person (whether a money lender or not) may make an 
+application—
+ (a) in the prescribed form; and 
+ (b) accompanied by the prescribed fee, 
+to the Registrar to be exempted from all or any of the 
+provisions of this Ordinance. 
+ (2) Where the Registrar receives an application under subsection 
+(1) he shall, after consultation with the Financial Secretary, 
+by notice in writing served on the person who made the 
+application—
+ (a) grant the exemption subject to such conditions, if any, 
+as he may deem fit; or 
+ (b) refuse to grant the exemption. 
+ (3) Without limiting the generality of the Registrar’s power 
+under subsection (2)(a) to impose conditions on an exemption 
+granted under that subsection—
+ (a) such conditions may include a condition that the 
+exemption shall apply to a loan, or class of loans, 
+specified in the exemption; and 
+ (b) the Registrar may, by notice in writing served on the 
+person to whom the exemption is granted, revoke, vary, 
+Last updated date
+26.8.2021
+Money Lenders Ordinance
+Part V 5-22
+Section 33B Cap. 163
+
+===== PAGE 46 =====
+
+or add to any condition subject to which the exemption 
+is granted. 
+ (4) An exemption granted under subsection (2)(a) shall be in the 
+prescribed form and—
+ (a) may be revoked at any time by the Registrar by notice 
+in writing served on the person to whom the exemption 
+is granted; and 
+ (b) unless sooner revoked under paragraph (a), shall remain 
+in force for a period of 3 years, or such lesser period 
+as may be specified by the Registrar after consultation 
+with the Financial Secretary, commencing on the 
+date on which the exemption is so granted or, if the 
+exemption specifies a later date, that later date, and that 
+exemption may be renewed from time to time by further 
+applications made under subsection (1). 
+(Added 69 of 1988 s. 31)
+33C. Legislative Council may amend Schedule 1
+The Legislative Council may by resolution amend Schedule 1. 
+(Added 69 of 1988 s. 31)
+34. Regulations
+The Chief Executive in Council may make regulations—  (Amended 
+23 of 1999 s. 3)
+ (a) prescribing anything required or permitted to be 
+prescribed under this Ordinance;
+ (b) specifying any particulars furnished under section 8 as 
+particulars which shall not be entered in the register 
+under section 4; 
+Last updated date
+26.8.2021
+Money Lenders Ordinance
+Part V 5-24
+Section 33C Cap. 163
+
+===== PAGE 47 =====
+
+ (c) imposing restrictions in relation to the form in which 
+security for any loan may be demanded or accepted by a 
+money lender; 
+ (d) for the better carrying into effect of this Ordinance.
+35. Saving
+ (1) (Omitted as spent—E.R. 3 of 2018) 
+ (2)-(3) (Repealed 69 of 1988 s. 32) 
+ (4) The Registrar shall take possession of the register and any 
+documents relating thereto kept at the office of the Registrar 
+of Companies under the Money-lenders Ordinance 1911*, and 
+such register and other documents shall be deemed to form 
+part of the records kept by the Registrar under this Ordinance 
+and shall be available for inspection in the same manner as 
+the register kept under this Ordinance.
+Editorial Note:
+* See Chapter 163, 1977 Ed.
+36. Existing loans
+ (1) This section applies to any agreement made before the 
+commencement of this Ordinance for the payment of any loan 
+or for the payment of interest on any loan, and to any security 
+given (whether given before or after the commencement of 
+this Ordinance) in respect of any such agreement or loan. 
+ (2) Nothing in this Ordinance shall render any agreement or 
+security to which this section applies void or unenforceable, 
+but no such agreement or security shall be enforceable as 
+against the borrower or surety or any other person except to 
+the extent that—
+ (a) any benefit accruing to the lender by virtue thereof is 
+not more favourable; and 
+Last updated date
+26.8.2021
+Money Lenders Ordinance
+Part V 5-26
+Section 35 Cap. 163
+
+===== PAGE 48 =====
+
+ (b) any obligation or liability incurred by the borrower or 
+surety or other person by virtue thereof is not more 
+onerous, 
+than it would have been if such agreement had been made or, 
+as the case may be, such security had been given on terms 
+consistent with the requirements of this Ordinance. 
+ (3) Where proceedings are taken in any court for the enforcement 
+of any agreement or security to which this section applies, 
+the court may make such orders and give such directions in 
+respect of the terms thereof or the rights and obligations of 
+the parties in respect thereof as the court may deem necessary 
+or desirable having regard to the requirements of this 
+Ordinance relating to an agreement or security of the kind in 
+question.
+Last updated date
+26.8.2021
+Money Lenders Ordinance
+Part V 5-28
+Section 36 Cap. 163
+
+===== PAGE 49 =====
+
+Schedule 1
+[ss. 2, 24, 25, 33 & 33C]
+Part 1
+Exempted Persons
+1. Any subsidiary of an authorized institution within the meaning of 
+the Banking Ordinance (Cap. 155).
+2. A co-operative society registered under the Co-operative Societies 
+Ordinance (Cap. 33).
+3. A credit union registered under the Credit Unions Ordinance 
+(Cap. 119) and the Credit Union League of Hong Kong 
+incorporated under Part XI of that Ordinance.
+4. A trade union registered under the Trade Unions Ordinance 
+(Cap. 332).
+5. An insurer, within the meaning of the Insurance Ordinance 
+(Cap. 41), authorized under that Ordinance to carry on a class, or 
+classes, of insurance business specified in Part 2 of Schedule 1 to 
+that Ordinance. (Amended 12 of 2015 s. 107)
+6. (Repealed L.N. 140 of 1991)
+7. The University Grants Committee. (Amended L.N. 35 of 1995)
+8. A bank which is—
+ (a) incorporated or established outside Hong Kong;
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Schedule 1—Part 1 S1-2
+ Cap. 163
+
+===== PAGE 50 =====
+
+ (b) recognized as a bank by the relevant banking supervisory 
+authority (within the meaning of section 2(9) of the Banking 
+Ordinance (Cap. 155)) which has been declared in writing 
+by the Monetary Authority appointed under section 5A of 
+the Exchange Fund Ordinance (Cap. 66) to be a banking 
+supervisory authority in respect of which he is of the opinion 
+that it exercises adequate prudential supervision for the 
+purposes of this paragraph; and (Replaced 49 of 1995 s. 53)
+ (c) carrying on banking business in the place where that banking 
+supervisory authority is located. (Replaced 49 of 1995 s. 53)
+9. An organization—
+ (a) which is a member of the International Union of Credit and 
+Investment Insurers (“The Berne Union”); or
+ (b) in respect of which the Registrar has declared in writing that 
+he is satisfied that it was established by one or more national 
+governments with the object of financing, or guaranteeing the 
+financing of, the export of a country’s goods or services.
+10. A corporation licensed to carry on a business in securities margin 
+financing under Part V of the Securities and Futures Ordinance 
+(Cap. 571). (Replaced 5 of 2002 s. 407)
+11. A corporation licensed to carry on, or an authorized financial 
+institution registered for carrying on, a business in dealing in 
+securities under Part V of the Securities and Futures Ordinance 
+(Cap. 571) who engages in securities margin financing in order to 
+facilitate acquisitions or holdings of securities by the corporation 
+or institution for its client. (Replaced 5 of 2002 s. 407)
+Part 2
+Exempted Loans
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Schedule 1—Part 2 S1-4
+ Cap. 163
+
+===== PAGE 51 =====
+
+1. A loan made bona fide by an employer to his employee.
+2. A loan made to a company secured by a mortgage, charge, lien or 
+other encumbrance—
+ (a) registered, or to be registered, under the Companies 
+Ordinance (Cap. 622); (Replaced 28 of 2012 ss. 912 & 920)
+ (ab) registered, or to be registered, under a provision of the 
+Companies Ordinance (Cap. 32) as in force from time to time 
+before the commencement date* of section 2 of Schedule 9 
+to the Companies Ordinance (Cap. 622), having a continuing 
+effect under Schedule 11 to the Companies Ordinance 
+(Cap. 622); (Added 28 of 2012 ss. 912 & 920)
+ (ac) registered under a former Companies Ordinance as defined 
+by section 2(1) of the Companies Ordinance (Cap. 622); or 
+(Added 28 of 2012 ss. 912 & 920)
+ (b) which would, in the case of a company referred to in 
+paragraph (b) or (c) of the definition of company (公司) in 
+section 2(1)—  (Amended 28 of 2012 ss. 912 & 920)
+ (i) where the mortgage, charge, lien or encumbrance was 
+created before the commencement date* of section 2 
+of Schedule 9 to the Companies Ordinance (Cap. 622), 
+be able to be registered under a former Companies 
+Ordinance as defined by section 2(1) of the Companies 
+Ordinance (Cap. 622) if the company were incorporated 
+under that former Companies Ordinance; or
+ (ii) where the mortgage, charge, lien or encumbrance is 
+created on or after that commencement date*, be able to 
+be registered under the Companies Ordinance (Cap. 622) 
+if the company were incorporated under that Ordinance. 
+(Amended 28 of 2012 ss. 912 & 920)
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Schedule 1—Part 2 S1-6
+ Cap. 163
+
+===== PAGE 52 =====
+
+3. A loan made by a company under a bona fide credit-card scheme 
+operated by the company to any holder of a credit-card issued 
+under that scheme.
+4. A loan made bona fide for the purchase of immovable property on 
+the security of a mortgage of that property and a loan made bona 
+fide to refinance such a mortgage.
+5. A loan made by a company or a firm or individual whose ordinary 
+business does not primarily or mainly involve the lending of 
+money, in the ordinary course of that business.
+6. A loan made by a licensed pawnbroker under the Pawnbrokers 
+Ordinance (Cap. 166), being a loan to which that Ordinance 
+applies.
+7. A loan made by any statutory body under any power conferred by 
+law in that behalf.
+8. A loan made from—
+ (a) a fund established by resolution of the Legislative Council or 
+by or under an Ordinance;
+ (b) any superannuation or provident fund.
+9. A loan made from any chit-fund operated under the Chit-Fund 
+Businesses (Prohibition) Ordinance (Cap. 262).
+10. (a) A loan made by a holding company to its subsidiary or by 
+a subsidiary to its holding company or another subsidiary 
+company of the same holding company.
+ (b) Sections 13, 14 and 15 of the Companies Ordinance 
+(Cap. 622) shall apply to the interpretation of this paragraph 
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Schedule 1—Part 2 S1-8
+ Cap. 163
+
+===== PAGE 53 =====
+
+as it applies to the interpretation of that Ordinance. (Amended 
+28 of 2012 ss. 912 & 920)
+11. A loan made to a company where the loan—
+ (a) forms part of a transaction involving the export from, or the 
+import into, Hong Kong of goods or services; and
+ (b) is for the purpose of facilitating that export or import, as the 
+case may be, of those goods or services.
+12. (a) A loan made to a company that has a paid up share capital of 
+not less than $1,000,000 or an equivalent amount in any other 
+approved currency.
+ (b) For the purposes of this paragraph approved currency (認可
+貨幣) means a currency—
+ (i) freely convertible into Hong Kong dollars; or
+ (ii) approved in writing by the Registrar for the purposes of 
+this paragraph.
+13. A loan upon terms involving the issue by a company of debentures 
+or other securities in respect of which a prospectus has been 
+registered under the Companies (Winding Up and Miscellaneous 
+Provisions) Ordinance (Cap. 32). (Amended 28 of 2012 ss. 912 & 
+920)
+14. A loan made to a company the shares or debentures of which are 
+listed on—
+ (a) a recognized stock market as defined in section 1 of Part 
+1 of Schedule 1 to the Securities and Futures Ordinance 
+(Cap. 571); or (Replaced 5 of 2002 s. 407)
+ (b) any other stock market declared in writing, by the Securities 
+and Futures Commission referred to in section 3(1) of the 
+Securities and Futures Ordinance (Cap. 571), to be approved 
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Schedule 1—Part 2 S1-10
+ Cap. 163
+
+===== PAGE 54 =====
+
+for the purposes of this paragraph. (Amended 10 of 1989 
+s. 65; 5 of 2002 s. 407)
+15. A loan made to the subsidiary of a company referred to in 
+paragraph 14.
+(Replaced 69 of 1988 s. 33)
+Editorial Note:
+* Commencement date : 3 March 2014.
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Schedule 1—Part 2 S1-12
+ Cap. 163
+
+===== PAGE 55 =====
+
+Schedule 2
+[ss. 2 & 18]
+(Amended 69 of 1988 s. 34) 
+Calculation of True Annual Percentage Rate of Interest
+1. Any amount paid or payable to the lender under the agreement 
+(other than simple interest charged in accordance with the proviso 
+to section 22(1)) shall be appropriated to principal and interest in 
+the proportion that the total amount of principal bears to the total 
+amount of the interest. (Amended 69 of 1988 s. 34)
+2. The amount of principal outstanding at any time shall be taken to 
+be the balance remaining after deducting from the principal the 
+total of the portions of any payments appropriated to principal in 
+accordance with paragraph 1. 
+3. The several amounts taken to be outstanding by way of principal 
+during the several periods ending on the dates on which payments 
+are made shall be multiplied in each case by the number of 
+calendar months during which those amounts are taken to be 
+respectively outstanding, and there shall be ascertained the 
+aggregate amount of the sum so produced. 
+4. The total amount of the interest shall be divided by one-twelfth 
+part of the aggregate amount mentioned in paragraph 3 and the 
+quotient, multiplied by one hundred, shall be taken to be the rate of 
+interest per cent per annum. 
+5. If having regard to the intervals between successive payments 
+it is desired so to do, the calculation of interest may be made 
+by reference to weeks instead of months, and in such a case the 
+foregoing paragraphs shall have effect as though in paragraph 3 the 
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Schedule 2 S2-2
+ Cap. 163
+
+===== PAGE 56 =====
+
+word “weeks” were substituted for the words “calendar months”, 
+and in paragraph 4 the words “one-fifty-second” were substituted 
+for the words “one-twelfth”. 
+6. Where any interval between successive payments is not a number 
+of complete weeks or complete months, the foregoing paragraphs 
+shall have effect as though 1 day were one-seventh part of a week 
+or one-thirtieth part of a month (as the case may be). 
+Last updated date
+28.6.2018
+Money Lenders Ordinance
+Schedule 2 S2-4
+ Cap. 163

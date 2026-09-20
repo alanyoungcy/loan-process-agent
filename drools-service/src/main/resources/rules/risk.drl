@@ -1,0 +1,38 @@
+package com.capco.drools.rules;
+
+import com.capco.drools.model.CaseFacts;
+
+// Risk Assessment Rules
+
+rule "High Risk Flag"
+    salience 80
+    when
+        $case: CaseFacts(overdueDays != null, overdueDays > 120,
+                        contactSuccessRate != null, contactSuccessRate < 0.2)
+    then
+        modify($case) {
+            setRiskLevel("high")
+        }
+        $case.addTag("high_risk");
+        $case.addRecommendation("High risk - consider external collection");
+end
+
+rule "Payment Promise Broken"
+    salience 75
+    when
+        $case: CaseFacts(paymentPromiseKept != null, paymentPromiseKept == false)
+    then
+        $case.addTag("promise_broken");
+        $case.adjustPriority(1);
+        $case.addRecommendation("Payment promise broken - escalate approach");
+end
+
+rule "Successful Contact Pattern"
+    salience 65
+    when
+        $case: CaseFacts(contactSuccessRate != null, contactSuccessRate > 0.8,
+                        willingnessScore != null, willingnessScore > 0.7)
+    then
+        $case.addTag("good_engagement");
+        $case.addRecommendation("Good engagement - maintain relationship");
+end

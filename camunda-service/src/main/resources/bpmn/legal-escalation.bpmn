@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL"
+                  xmlns:camunda="http://camunda.org/schema/1.0/bpmn"
+                  id="Definitions_legal"
+                  targetNamespace="http://bpmn.io/schema/bpmn">
+
+  <bpmn:process id="legal_escalation" name="Legal Escalation Process" isExecutable="true">
+
+    <bpmn:startEvent id="start" name="Legal Review Required"/>
+    <bpmn:sequenceFlow sourceRef="start" targetRef="legal_assessment"/>
+
+    <bpmn:userTask id="legal_assessment" name="Legal Team Assessment"
+                   camunda:candidateGroups="legal_team"/>
+    <bpmn:sequenceFlow sourceRef="legal_assessment" targetRef="action_gateway"/>
+
+    <bpmn:exclusiveGateway id="action_gateway" name="Action Required?"/>
+
+    <bpmn:sequenceFlow sourceRef="action_gateway" targetRef="send_legal_notice" name="Legal Notice">
+      <bpmn:conditionExpression>${action == 'notice'}</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+
+    <bpmn:sequenceFlow sourceRef="action_gateway" targetRef="file_lawsuit" name="Lawsuit">
+      <bpmn:conditionExpression>${action == 'lawsuit'}</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+
+    <bpmn:serviceTask id="send_legal_notice" name="Send Legal Notice"
+                      camunda:class="com.capco.camunda.delegate.LegalNoticeDelegate"/>
+    <bpmn:sequenceFlow sourceRef="send_legal_notice" targetRef="end_notice"/>
+
+    <bpmn:userTask id="file_lawsuit" name="File Lawsuit"
+                   camunda:candidateGroups="legal_team"/>
+    <bpmn:sequenceFlow sourceRef="file_lawsuit" targetRef="end_lawsuit"/>
+
+    <bpmn:endEvent id="end_notice" name="Notice Sent"/>
+    <bpmn:endEvent id="end_lawsuit" name="Lawsuit Filed"/>
+
+  </bpmn:process>
+
+</bpmn:definitions>

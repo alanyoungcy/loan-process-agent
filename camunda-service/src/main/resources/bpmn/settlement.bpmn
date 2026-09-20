@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL"
+                  xmlns:camunda="http://camunda.org/schema/1.0/bpmn"
+                  id="Definitions_settlement"
+                  targetNamespace="http://bpmn.io/schema/bpmn">
+
+  <bpmn:process id="settlement" name="Settlement Negotiation" isExecutable="true">
+
+    <bpmn:startEvent id="start" name="Settlement Proposed"/>
+    <bpmn:sequenceFlow sourceRef="start" targetRef="review"/>
+
+    <bpmn:userTask id="review" name="Review Settlement Offer"
+                   camunda:candidateGroups="supervisor"/>
+    <bpmn:sequenceFlow sourceRef="review" targetRef="approval_gateway"/>
+
+    <bpmn:exclusiveGateway id="approval_gateway" name="Approved?"/>
+
+    <bpmn:sequenceFlow sourceRef="approval_gateway" targetRef="negotiate" name="Yes">
+      <bpmn:conditionExpression>${approved == true}</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+
+    <bpmn:sequenceFlow sourceRef="approval_gateway" targetRef="reject" name="No">
+      <bpmn:conditionExpression>${approved == false}</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+
+    <bpmn:userTask id="negotiate" name="Negotiate Terms"
+                   camunda:assignee="${assignee}"/>
+    <bpmn:sequenceFlow sourceRef="negotiate" targetRef="finalize"/>
+
+    <bpmn:serviceTask id="finalize" name="Finalize Settlement"
+                      camunda:class="com.capco.camunda.delegate.FinalizeSettlementDelegate"/>
+    <bpmn:sequenceFlow sourceRef="finalize" targetRef="end_settled"/>
+
+    <bpmn:userTask id="reject" name="Reject Settlement"/>
+    <bpmn:sequenceFlow sourceRef="reject" targetRef="end_rejected"/>
+
+    <bpmn:endEvent id="end_settled" name="Settlement Agreed"/>
+    <bpmn:endEvent id="end_rejected" name="Settlement Rejected"/>
+
+  </bpmn:process>
+
+</bpmn:definitions>

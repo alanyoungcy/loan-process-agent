@@ -1,0 +1,48 @@
+package com.capco.drools.rules;
+
+import com.capco.drools.model.CaseFacts;
+
+// Simple working rules - no modify() to avoid infinite loops
+
+rule "High Value Case"
+    when
+        $case: CaseFacts(overdueAmount != null, overdueAmount > 50000)
+    then
+        $case.adjustPriority(3);
+        $case.addRecommendation("High value case - prioritize");
+        $case.addTag("high_value");
+end
+
+rule "Long Overdue Case"
+    when
+        $case: CaseFacts(overdueDays != null, overdueDays > 90)
+    then
+        $case.adjustPriority(2);
+        $case.addRecommendation("Long overdue - escalate");
+        $case.addTag("long_overdue");
+end
+
+rule "VIP Customer"
+    when
+        $case: CaseFacts(customerSegment != null, customerSegment == "VIP")
+    then
+        $case.adjustPriority(2);
+        $case.addRecommendation("VIP customer - handle with care");
+        $case.addTag("vip");
+end
+
+rule "Contact Time Check"
+    when
+        $case: CaseFacts(currentHour != null, currentHour < 8 || currentHour > 21)
+    then
+        $case.setCanContact(false);
+        $case.addViolation("outside_contact_hours");
+end
+
+rule "Daily Contact Limit"
+    when
+        $case: CaseFacts(dailyContactCount != null, dailyContactCount >= 3)
+    then
+        $case.setCanContact(false);
+        $case.addViolation("excessive_frequency");
+end

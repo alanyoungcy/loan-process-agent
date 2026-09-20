@@ -1,0 +1,260 @@
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: loan-agent-postgres
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:?Set POSTGRES_DB in .env}
+      POSTGRES_USER: ${POSTGRES_USER:?Set POSTGRES_USER in .env}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - loan-agent-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U admin -d loan_agent"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: loan-agent-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - loan-agent-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # RabbitMQ Message Queue
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: loan-agent-rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: ${RABBITMQ_DEFAULT_USER:?Set RABBITMQ_DEFAULT_USER in .env}
+      RABBITMQ_DEFAULT_PASS: ${RABBITMQ_DEFAULT_PASS:?Set RABBITMQ_DEFAULT_PASS in .env}
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    networks:
+      - loan-agent-network
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  # ChromaDB Vector Database
+  chromadb:
+    image: chromadb/chroma:latest
+    container_name: loan-agent-chromadb
+    ports:
+      - "8100:8000"
+    volumes:
+      - chromadb_data:/chroma/chroma
+    networks:
+      - loan-agent-network
+    environment:
+      - ALLOW_RESET=TRUE
+      - ANONYMIZED_TELEMETRY=FALSE
+
+  # Elasticsearch for Camunda 8
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.9.0
+    container_name: loan-agent-elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    volumes:
+      - elasticsearch_data:/usr/share/elasticsearch/data
+    networks:
+      - loan-agent-network
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:9200/_cluster/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  # Camunda 8.7 - Zeebe (Workflow Engine)
+  zeebe:
+    image: camunda/zeebe:8.7.0
+    container_name: loan-agent-zeebe
+    ports:
+      - "26500:26500"  # gRPC API
+      - "9600:9600"    # Monitoring
+    environment:
+      - ZEEBE_BROKER_EXPORTERS_ELASTICSEARCH_CLASSNAME=io.camunda.zeebe.exporter.ElasticsearchExporter
+      - ZEEBE_BROKER_EXPORTERS_ELASTICSEARCH_ARGS_URL=http://elasticsearch:9200
+      - ZEEBE_BROKER_EXPORTERS_ELASTICSEARCH_ARGS_BULK_SIZE=1
+    volumes:
+      - zeebe_data:/usr/local/zeebe/data
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    networks:
+      - loan-agent-network
+    healthcheck:
+      test: ["CMD-SHELL", "timeout 10s bash -c ':> /dev/tcp/127.0.0.1/9600' || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  # Camunda 8.7 - Operate (Process Monitoring)
+  operate:
+    image: camunda/operate:8.7.0
+    container_name: loan-agent-operate
+    ports:
+      - "8080:8080"
+    environment:
+      - CAMUNDA_OPERATE_ZEEBE_GATEWAYADDRESS=zeebe:26500
+      - CAMUNDA_OPERATE_ELASTICSEARCH_URL=http://elasticsearch:9200
+      - CAMUNDA_OPERATE_ZEEBEELASTICSEARCH_URL=http://elasticsearch:9200
+      - CAMUNDA_OPERATE_IDENTITY_ISSUER_URL=http://localhost:8080
+      - CAMUNDA_OPERATE_IDENTITY_ISSUER_BACKEND_URL=http://localhost:8080
+      - CAMUNDA_OPERATE_IDENTITY_CLIENT_ID=operate
+      - CAMUNDA_OPERATE_IDENTITY_CLIENT_SECRET=noSecret
+      - CAMUNDA_OPERATE_IDENTITY_AUDIENCE=operate-api
+      - SPRING_PROFILES_ACTIVE=dev
+      - CAMUNDA_OPERATE_CSRF_PREVENTION_ENABLED=false
+    depends_on:
+      - zeebe
+      - elasticsearch
+    networks:
+      - loan-agent-network
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8080/api/check || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+
+  # Camunda 8.7 - Tasklist (User Task Management)
+  tasklist:
+    image: camunda/tasklist:8.7.0
+    container_name: loan-agent-tasklist
+    ports:
+      - "8082:8080"
+    environment:
+      - CAMUNDA_TASKLIST_ZEEBE_GATEWAYADDRESS=zeebe:26500
+      - CAMUNDA_TASKLIST_ELASTICSEARCH_URL=http://elasticsearch:9200
+      - CAMUNDA_TASKLIST_ZEEBEELASTICSEARCH_URL=http://elasticsearch:9200
+      - CAMUNDA_TASKLIST_IDENTITY_ISSUER_URL=http://localhost:8082
+      - CAMUNDA_TASKLIST_IDENTITY_ISSUER_BACKEND_URL=http://localhost:8082
+      - CAMUNDA_TASKLIST_IDENTITY_CLIENT_ID=tasklist
+      - CAMUNDA_TASKLIST_IDENTITY_CLIENT_SECRET=noSecret
+      - CAMUNDA_TASKLIST_IDENTITY_AUDIENCE=tasklist-api
+      - SPRING_PROFILES_ACTIVE=dev
+      - CAMUNDA_TASKLIST_CSRF_PREVENTION_ENABLED=false
+    depends_on:
+      - zeebe
+      - elasticsearch
+    networks:
+      - loan-agent-network
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8080/api/check || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+
+  # Camunda 8.7 - Optimize (Process Analytics & AI)
+  # optimize:
+  #   image: camunda/optimize:8.7.0
+  #   container_name: loan-agent-optimize
+  #   ports:
+  #     - "8083:8090"
+  #   environment:
+  #     - CAMUNDA_OPTIMIZE_ZEEBE_ENABLED=true
+  #     - CAMUNDA_OPTIMIZE_ZEEBE_NAME=zeebe
+  #     - CAMUNDA_OPTIMIZE_ZEEBE_PARTITION_COUNT=1
+  #     - CAMUNDA_OPTIMIZE_ELASTICSEARCH_HOST=elasticsearch
+  #     - CAMUNDA_OPTIMIZE_ELASTICSEARCH_HTTP_PORT=9200
+  #     - SPRING_PROFILES_ACTIVE=ccsm
+  #     - CAMUNDA_OPTIMIZE_ENTERPRISE=false
+  #     - CAMUNDA_OPTIMIZE_IDENTITY_ISSUER_URL=http://localhost:8083
+  #     - CAMUNDA_OPTIMIZE_IDENTITY_ISSUER_BACKEND_URL=http://localhost:8083
+  #     - CAMUNDA_OPTIMIZE_IDENTITY_CLIENT_ID=optimize
+  #     - CAMUNDA_OPTIMIZE_IDENTITY_CLIENT_SECRET=noSecret
+  #     - CAMUNDA_OPTIMIZE_API_ACCESS_TOKEN=noToken
+  #   depends_on:
+  #     - zeebe
+  #     - elasticsearch
+  #   networks:
+  #     - loan-agent-network
+  #   healthcheck:
+  #     test: ["CMD-SHELL", "curl -f http://localhost:8090/api/readyz || exit 1"]
+  #     interval: 30s
+  #     timeout: 10s
+  #     retries: 5
+  #     start_period: 60s
+
+  # Camunda 8.7 - Connectors (AI & External Systems)
+  # Note: Disabled due to Operate client dependency issues
+  # For AI features, use direct API integration with OpenAI/Anthropic
+  # connectors:
+  #   image: camunda/connectors-bundle:8.7.0
+  #   container_name: loan-agent-connectors
+  #   ports:
+  #     - "8085:8080"
+  #   environment:
+  #     - ZEEBE_CLIENT_BROKER_GATEWAY-ADDRESS=zeebe:26500
+  #     - ZEEBE_CLIENT_SECURITY_PLAINTEXT=true
+  #     - CAMUNDA_CONNECTOR_POLLING_ENABLED=false
+  #     - CAMUNDA_CONNECTOR_WEBHOOK_ENABLED=true
+  #     - CAMUNDA_OPERATE_CLIENT_ENABLED=false
+  #     - CAMUNDA_CONNECTOR_INBOUND_MODE_DISABLED=true
+  #     - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+  #     - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+  #   depends_on:
+  #     - zeebe
+  #   networks:
+  #     - loan-agent-network
+  #   healthcheck:
+  #     test: ["CMD-SHELL", "curl -f http://localhost:8080/actuator/health || exit 1"]
+  #     interval: 30s
+  #     timeout: 10s
+  #     retries: 5
+  #     start_period: 60s
+
+  # Camunda DMN Service (replaces drools-service)
+  camunda-dmn-service:
+    build:
+      context: ./camunda-service
+      dockerfile: Dockerfile
+    container_name: loan-agent-camunda-dmn
+    ports:
+      - "8081:8081"
+    networks:
+      - loan-agent-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8081/api/rules/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  postgres_data:
+  redis_data:
+  rabbitmq_data:
+  chromadb_data:
+  elasticsearch_data:
+  zeebe_data:
+
+networks:
+  loan-agent-network:
+    driver: bridge

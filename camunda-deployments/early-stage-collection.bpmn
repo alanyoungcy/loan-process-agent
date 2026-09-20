@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:zeebe="http://camunda.org/schema/zeebe/1.0" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_early_stage" targetNamespace="http://bpmn.io/schema/bpmn">
+  <bpmn:process id="early-stage-collection" name="Early Stage Collection (0-30 days)" isExecutable="true">
+    <bpmn:documentation>Soft touch collection for recently overdue accounts</bpmn:documentation>
+
+    <bpmn:startEvent id="StartEvent" name="Account Overdue">
+      <bpmn:outgoing>Flow_1</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:sequenceFlow id="Flow_1" sourceRef="StartEvent" targetRef="Task_SendReminder" />
+
+    <bpmn:serviceTask id="Task_SendReminder" name="Send Friendly Reminder">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="send-reminder" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_1</bpmn:incoming>
+      <bpmn:outgoing>Flow_2</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="Flow_2" sourceRef="Task_SendReminder" targetRef="Task_Wait3Days" />
+
+    <bpmn:intermediateCatchEvent id="Task_Wait3Days" name="Wait 3 Days">
+      <bpmn:incoming>Flow_2</bpmn:incoming>
+      <bpmn:outgoing>Flow_3</bpmn:outgoing>
+      <bpmn:timerEventDefinition>
+        <bpmn:timeDuration>P3D</bpmn:timeDuration>
+      </bpmn:timerEventDefinition>
+    </bpmn:intermediateCatchEvent>
+    <bpmn:sequenceFlow id="Flow_3" sourceRef="Task_Wait3Days" targetRef="Task_CheckPayment" />
+
+    <bpmn:serviceTask id="Task_CheckPayment" name="Check Payment Status">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="check-payment" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_3</bpmn:incoming>
+      <bpmn:outgoing>Flow_4</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="Flow_4" sourceRef="Task_CheckPayment" targetRef="Gateway_Paid" />
+
+    <bpmn:exclusiveGateway id="Gateway_Paid" name="Paid?">
+      <bpmn:incoming>Flow_4</bpmn:incoming>
+      <bpmn:outgoing>Flow_Yes</bpmn:outgoing>
+      <bpmn:outgoing>Flow_No</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+
+    <bpmn:sequenceFlow id="Flow_Yes" name="Yes" sourceRef="Gateway_Paid" targetRef="EndEvent_Resolved">
+      <bpmn:conditionExpression>= paymentReceived = true</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+
+    <bpmn:sequenceFlow id="Flow_No" name="No" sourceRef="Gateway_Paid" targetRef="Task_EscalateToStandard">
+      <bpmn:conditionExpression>= paymentReceived = false</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+
+    <bpmn:serviceTask id="Task_EscalateToStandard" name="Escalate to Standard Collection">
+      <bpmn:extensionElements>
+        <zeebe:taskDefinition type="escalate-to-standard" />
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_No</bpmn:incoming>
+      <bpmn:outgoing>Flow_6</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="Flow_6" sourceRef="Task_EscalateToStandard" targetRef="EndEvent_Escalated" />
+
+    <bpmn:endEvent id="EndEvent_Resolved" name="Payment Received">
+      <bpmn:incoming>Flow_Yes</bpmn:incoming>
+    </bpmn:endEvent>
+
+    <bpmn:endEvent id="EndEvent_Escalated" name="Escalated">
+      <bpmn:incoming>Flow_6</bpmn:incoming>
+    </bpmn:endEvent>
+  </bpmn:process>
+</bpmn:definitions>

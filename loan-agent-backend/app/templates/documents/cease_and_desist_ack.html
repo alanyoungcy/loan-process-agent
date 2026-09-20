@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; }
+        .header { background-color: #002B5B; color: white; padding: 20px; }
+        .content { padding: 30px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>CEASE AND DESIST ACKNOWLEDGMENT</h1>
+    </div>
+
+    <div class="content">
+        <p>{{ date|date }}</p>
+        <p>CERTIFIED MAIL</p>
+
+        <p>{{ customer.name }}<br>
+        {{ customer.address }}</p>
+
+        <p><strong>RE: Cease and Desist Request - Account #{{ case.case_id }}</strong></p>
+
+        <p>Dear {{ customer.name }},</p>
+
+        <p>We have received your request to cease communication regarding the above-referenced account.</p>
+
+        <p>In accordance with the Fair Debt Collection Practices Act (FDCPA), we acknowledge your request and will:</p>
+        <ul>
+            <li>Cease all direct communication attempts</li>
+            <li>Communicate only regarding specific matters as permitted by law</li>
+            <li>Notify you of any legal actions we may take</li>
+        </ul>
+
+        <p><strong>Important Information:</strong></p>
+        <ul>
+            <li>The debt remains outstanding and due</li>
+            <li>Interest and fees may continue to accrue</li>
+            <li>This acknowledgment does not waive our rights to collect the debt</li>
+            <li>We may still pursue legal remedies</li>
+            <li>We will communicate as necessary to inform you of legal actions</li>
+        </ul>
+
+        <p>If you have any questions about this acknowledgment or your rights, please consult with an attorney.</p>
+
+        <p>Sincerely,<br>
+        Compliance Department<br>
+        {{ company.name }}</p>
+
+        <p style="font-size: 12px; color: #666; margin-top: 30px;">
+            {{ company.address }}, {{ company.city }}, {{ company.state }} {{ company.zip }}
+        </p>
+    </div>
+</body>
+</html>

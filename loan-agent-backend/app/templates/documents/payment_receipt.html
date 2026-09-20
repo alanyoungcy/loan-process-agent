@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; }
+        .header { background-color: #0066CC; color: white; padding: 20px; text-align: center; }
+        .content { padding: 30px; max-width: 600px; margin: 0 auto; }
+        .receipt-box { border: 2px solid #0066CC; padding: 20px; margin: 20px 0; }
+        table { width: 100%; }
+        td { padding: 8px; }
+        .total { font-size: 20px; font-weight: bold; color: #28a745; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>PAYMENT RECEIPT</h1>
+        <p>Receipt #{{ payment.receipt_number }}</p>
+    </div>
+
+    <div class="content">
+        <div class="receipt-box">
+            <table>
+                <tr>
+                    <td><strong>Date:</strong></td>
+                    <td>{{ date|date }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Account Number:</strong></td>
+                    <td>{{ case.case_id }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Customer Name:</strong></td>
+                    <td>{{ customer.name }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Payment Method:</strong></td>
+                    <td>{{ payment.method }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Transaction ID:</strong></td>
+                    <td>{{ payment.transaction_id }}</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><hr></td>
+                </tr>
+                <tr>
+                    <td><strong>Amount Paid:</strong></td>
+                    <td class="total">{{ payment.amount|currency }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Remaining Balance:</strong></td>
+                    <td>{{ payment.remaining_balance|currency }}</td>
+                </tr>
+            </table>
+        </div>
+
+        <p>Thank you for your payment. This receipt confirms that we have received your payment.</p>
+
+        <p><strong>{{ company.name }}</strong><br>
+        {{ company.address }}<br>
+        {{ company.city }}, {{ company.state }} {{ company.zip }}<br>
+        Phone: {{ company.phone }}</p>
+
+        <p style="font-size: 12px; color: #666;">
+            Please retain this receipt for your records. If you have any questions,
+            please contact us at {{ company.phone }}.
+        </p>
+    </div>
+</body>
+</html>

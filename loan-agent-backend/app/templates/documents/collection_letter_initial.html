@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; }
+        .header { background-color: #002B5B; color: white; padding: 20px; }
+        .content { padding: 30px; }
+        .footer { background-color: #f8f9fa; padding: 20px; text-align: center; font-size: 12px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>{{ company.name }}</h1>
+        <p>{{ company.address }}, {{ company.city }}, {{ company.state }} {{ company.zip }}</p>
+    </div>
+
+    <div class="content">
+        <p>{{ date|date }}</p>
+
+        <p>{{ customer.name }}<br>
+        {{ customer.address }}</p>
+
+        <p><strong>RE: Account #{{ case.case_id }}</strong></p>
+
+        <p>Dear {{ customer.name }},</p>
+
+        <p>This letter is to inform you that your loan account referenced above is currently past due.</p>
+
+        <h3>Account Summary:</h3>
+        <ul>
+            <li><strong>Original Loan Amount:</strong> {{ case.principal_amount|currency }}</li>
+            <li><strong>Current Balance Due:</strong> {{ case.overdue_amount|currency }}</li>
+            <li><strong>Days Past Due:</strong> {{ case.overdue_days }}</li>
+            <li><strong>Payment Due Date:</strong> {{ due_date|date }}</li>
+        </ul>
+
+        <p>We understand that financial difficulties can happen. We're here to work with you to find a solution.</p>
+
+        <p><strong>Please take action by {{ due_date|date }}:</strong></p>
+        <ol>
+            <li>Pay the full amount due: {{ case.overdue_amount|currency }}</li>
+            <li>Contact us to arrange a payment plan</li>
+            <li>Discuss your situation with our team</li>
+        </ol>
+
+        <p>To make a payment or discuss options, please contact us:</p>
+        <ul>
+            <li>Phone: {{ company.phone }}</li>
+            <li>Email: {{ company.email }}</li>
+        </ul>
+
+        <p>We value your business and want to help you resolve this matter.</p>
+
+        <p>Sincerely,<br>
+        Collections Department<br>
+        {{ company.name }}</p>
+    </div>
+
+    <div class="footer">
+        <p>This is an attempt to collect a debt. Any information obtained will be used for that purpose.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+/* DMN Modeler Styles - Import from actual packages */
+@import 'diagram-js/assets/diagram-js.css';
+@import 'dmn-js-shared/assets/css/dmn-js-shared.css';
+@import 'dmn-js-drd/assets/css/dmn-js-drd.css';
+@import 'dmn-js-decision-table/assets/css/dmn-js-decision-table.css';
+@import 'dmn-js-decision-table/assets/css/dmn-js-decision-table-controls.css';
+@import 'dmn-js-literal-expression/assets/css/dmn-js-literal-expression.css';
+
+/* DMN Modeler Container Fixes */
+.dmn-modeler-real .djs-container {
+  font-family: Arial, sans-serif;
+}
+
+.dmn-modeler-real .dmn-decision-table-container {
+  height: 100%;
+}

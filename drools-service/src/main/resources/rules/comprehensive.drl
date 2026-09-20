@@ -1,0 +1,325 @@
+package com.capco.drools.rules;
+
+import com.capco.drools.model.CaseFacts;
+
+// Comprehensive Drools Rules for Loan Collection
+
+// ==================== PRIORITY RULES ====================
+
+rule "Critical High Value Case"
+    salience 100
+    when
+        $case: CaseFacts(overdueAmount != null, overdueAmount > 100000)
+    then
+        $case.adjustPriority(5);
+        $case.addRecommendation("Critical high value - immediate senior attention");
+        $case.addTag("critical_value");
+end
+
+rule "High Value Case"
+    salience 90
+    when
+        $case: CaseFacts(overdueAmount != null, overdueAmount > 50000, overdueAmount <= 100000)
+    then
+        $case.adjustPriority(3);
+        $case.addRecommendation("High value case - prioritize");
+        $case.addTag("high_value");
+end
+
+rule "Medium Value Case"
+    salience 80
+    when
+        $case: CaseFacts(overdueAmount != null, overdueAmount > 10000, overdueAmount <= 50000)
+    then
+        $case.adjustPriority(2);
+        $case.addRecommendation("Medium value - standard priority");
+end
+
+rule "Critical Overdue"
+    salience 95
+    when
+        $case: CaseFacts(overdueDays != null, overdueDays > 180)
+    then
+        $case.adjustPriority(4);
+        $case.addRecommendation("Critical overdue - consider legal action");
+        $case.addTag("critical_overdue");
+end
+
+rule "Very Long Overdue"
+    salience 85
+    when
+        $case: CaseFacts(overdueDays != null, overdueDays > 90, overdueDays <= 180)
+    then
+        $case.adjustPriority(3);
+        $case.addRecommendation("Very long overdue - escalate strategy");
+        $case.addTag("very_long_overdue");
+end
+
+rule "Long Overdue Case"
+    salience 75
+    when
+        $case: CaseFacts(overdueDays != null, overdueDays > 30, overdueDays <= 90)
+    then
+        $case.adjustPriority(2);
+        $case.addRecommendation("Long overdue - increase contact frequency");
+        $case.addTag("long_overdue");
+end
+
+// ==================== CUSTOMER SEGMENT RULES ====================
+
+rule "VIP Customer Priority"
+    salience 85
+    when
+        $case: CaseFacts(customerSegment != null, customerSegment == "VIP")
+    then
+        $case.adjustPriority(2);
+        $case.addRecommendation("VIP customer - handle with care and personalized approach");
+        $case.addTag("vip");
+end
+
+rule "Premium Customer"
+    salience 80
+    when
+        $case: CaseFacts(customerSegment != null, customerSegment == "premium")
+    then
+        $case.adjustPriority(1);
+        $case.addRecommendation("Premium customer - maintain relationship");
+        $case.addTag("premium");
+end
+
+rule "High Risk Customer Flag"
+    salience 90
+    when
+        $case: CaseFacts(customerSegment != null, customerSegment == "high_risk")
+    then
+        $case.addRecommendation("High risk customer - review compliance before contact");
+        $case.addTag("high_risk_segment");
+end
+
+// ==================== COMPLIANCE RULES ====================
+
+rule "Contact Time Window Morning Violation"
+    salience 100
+    when
+        $case: CaseFacts(currentHour != null, currentHour < 8)
+    then
+        $case.setCanContact(false);
+        $case.addViolation("contact_too_early");
+        $case.addRecommendation("Cannot contact before 8:00 AM HKT");
+end
+
+rule "Contact Time Window Evening Violation"
+    salience 100
+    when
+        $case: CaseFacts(currentHour != null, currentHour > 21)
+    then
+        $case.setCanContact(false);
+        $case.addViolation("contact_too_late");
+        $case.addRecommendation("Cannot contact after 9:00 PM HKT");
+end
+
+rule "Daily Contact Limit Exceeded"
+    salience 100
+    when
+        $case: CaseFacts(dailyContactCount != null, dailyContactCount >= 3)
+    then
+        $case.setCanContact(false);
+        $case.addViolation("excessive_frequency");
+        $case.addRecommendation("Maximum 3 contacts per day - wait until tomorrow");
+end
+
+rule "Contact Attempts Limit"
+    salience 100
+    when
+        $case: CaseFacts(contactAttemptsToday != null, contactAttemptsToday >= 3)
+    then
+        $case.setCanContact(false);
+        $case.addViolation("excessive_attempts");
+        $case.addRecommendation("3 contact attempts today - stop further attempts");
+end
+
+rule "Weekend Contact Restriction"
+    salience 95
+    when
+        $case: CaseFacts(currentDay != null, currentDay in ("saturday", "sunday"))
+    then
+        $case.addRecommendation("Weekend - use SMS or email only, no calls");
+        $case.addTag("weekend");
+end
+
+// ==================== STRATEGY RULES ====================
+
+rule "Early Stage SMS"
+    salience 70
+    when
+        $case: CaseFacts(overdueDays != null, overdueDays <= 15,
+                        overdueAmount != null, overdueAmount < 10000)
+    then
+        $case.setRecommendedChannel("sms");
+        $case.setRecommendedScript("early_reminder");
+        $case.addRecommendation("Early stage - gentle SMS reminder");
+end
+
+rule "Early Stage Email"
+    salience 68
+    when
+        $case: CaseFacts(overdueDays != null, overdueDays > 15, overdueDays <= 30,
+                        overdueAmount != null, overdueAmount < 20000)
+    then
+        $case.setRecommendedChannel("email");
+        $case.setRecommendedScript("payment_reminder");
+        $case.addRecommendation("Send email with payment link");
+end
+
+rule "High Value Phone Call"
+    salience 85
+    when
+        $case: CaseFacts(overdueAmount != null, overdueAmount >= 50000,
+                        customerSegment != null, customerSegment in ("VIP", "premium"))
+    then
+        $case.setRecommendedChannel("call");
+        $case.setRecommendedScript("high_value_negotiation");
+        $case.addRecommendation("Personal call with senior collector - negotiation approach");
+end
+
+rule "Standard Phone Contact"
+    salience 65
+    when
+        $case: CaseFacts(overdueDays != null, overdueDays > 30, overdueDays <= 60,
+                        overdueAmount != null, overdueAmount >= 5000)
+    then
+        $case.setRecommendedChannel("call");
+        $case.setRecommendedScript("standard_followup");
+        $case.addRecommendation("Phone call to discuss payment arrangement");
+end
+
+rule "Payment Plan Offer"
+    salience 75
+    when
+        $case: CaseFacts(overdueDays != null, overdueDays > 30, overdueDays < 90,
+                        willingnessScore != null, willingnessScore > 0.6)
+    then
+        $case.setRecommendedAction("offer_payment_plan");
+        $case.addRecommendation("Customer willing - offer structured payment plan");
+end
+
+rule "Legal Notice Required"
+    salience 90
+    when
+        $case: CaseFacts(overdueDays != null, overdueDays > 120,
+                        contactSuccessRate != null, contactSuccessRate < 0.3)
+    then
+        $case.setRecommendedChannel("legal_letter");
+        $case.setRecommendedAction("send_legal_notice");
+        $case.addRecommendation("Multiple contact failures - send legal notice");
+        $case.addTag("legal_notice");
+end
+
+// ==================== RISK ASSESSMENT RULES ====================
+
+rule "High Risk Pattern"
+    salience 88
+    when
+        $case: CaseFacts(overdueDays != null, overdueDays > 120,
+                        contactSuccessRate != null, contactSuccessRate < 0.2)
+    then
+        $case.setRiskLevel("high");
+        $case.addTag("high_risk");
+        $case.addRecommendation("High risk - consider external collection agency");
+end
+
+rule "Medium Risk Pattern"
+    salience 78
+    when
+        $case: CaseFacts(overdueDays != null, overdueDays > 60,
+                        contactSuccessRate != null, contactSuccessRate < 0.5)
+    then
+        $case.setRiskLevel("medium");
+        $case.addTag("medium_risk");
+        $case.addRecommendation("Medium risk - intensify collection efforts");
+end
+
+rule "Lost Contact Detection"
+    salience 85
+    when
+        $case: CaseFacts(daysSinceLastContact != null, daysSinceLastContact > 30,
+                        contactCount != null, contactCount > 10)
+    then
+        $case.addTag("lost_contact");
+        $case.setRecommendedAction("skip_tracing");
+        $case.addRecommendation("Customer unreachable - initiate skip tracing");
+end
+
+rule "Payment Promise Broken"
+    salience 80
+    when
+        $case: CaseFacts(paymentPromiseKept != null, paymentPromiseKept == false)
+    then
+        $case.addTag("promise_broken");
+        $case.adjustPriority(2);
+        $case.addRecommendation("Payment promise broken - escalate approach immediately");
+end
+
+rule "Good Engagement Pattern"
+    salience 70
+    when
+        $case: CaseFacts(contactSuccessRate != null, contactSuccessRate > 0.8,
+                        willingnessScore != null, willingnessScore > 0.7)
+    then
+        $case.addTag("good_engagement");
+        $case.addRecommendation("Good engagement - maintain positive relationship");
+end
+
+rule "Low Credit Score Alert"
+    salience 75
+    when
+        $case: CaseFacts(creditScore != null, creditScore < 500)
+    then
+        $case.addTag("low_credit_score");
+        $case.addRecommendation("Low credit score - assess ability to pay carefully");
+end
+
+// ==================== ASSIGNMENT RULES ====================
+
+rule "Assign to Senior Collector"
+    salience 85
+    when
+        $case: CaseFacts(customerSegment != null, customerSegment == "VIP",
+                        assignedTo == null)
+    then
+        $case.setAssignedTo("senior_collector");
+        $case.addRecommendation("Assign to senior collector for VIP handling");
+end
+
+rule "Assign to Experienced Collector"
+    salience 80
+    when
+        $case: CaseFacts(overdueAmount != null, overdueAmount > 100000,
+                        assignedTo == null)
+    then
+        $case.setAssignedTo("experienced_collector");
+        $case.addRecommendation("Assign to experienced collector - high value case");
+end
+
+rule "Assign to Legal Team"
+    salience 95
+    when
+        $case: CaseFacts(overdueDays != null, overdueDays > 180,
+                        overdueAmount != null, overdueAmount > 50000,
+                        assignedTo == null)
+    then
+        $case.setAssignedTo("legal_team");
+        $case.addRecommendation("Route to legal team for escalation");
+        $case.addTag("legal_escalation");
+end
+
+rule "Assign Standard Collector"
+    salience 50
+    when
+        $case: CaseFacts(assignedTo == null,
+                        overdueAmount != null, overdueAmount < 50000,
+                        overdueDays != null, overdueDays < 90)
+    then
+        $case.setAssignedTo("collector");
+        $case.addRecommendation("Standard collector assignment");
+end

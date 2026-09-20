@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL"
+                  xmlns:camunda="http://camunda.org/schema/1.0/bpmn"
+                  id="Definitions_dispute"
+                  targetNamespace="http://bpmn.io/schema/bpmn">
+
+  <bpmn:process id="dispute_resolution" name="Dispute Resolution" isExecutable="true">
+
+    <bpmn:startEvent id="start" name="Dispute Raised"/>
+    <bpmn:sequenceFlow sourceRef="start" targetRef="investigate"/>
+
+    <bpmn:userTask id="investigate" name="Investigate Dispute"
+                   camunda:candidateGroups="supervisor"/>
+    <bpmn:sequenceFlow sourceRef="investigate" targetRef="resolution_gateway"/>
+
+    <bpmn:exclusiveGateway id="resolution_gateway" name="Valid Dispute?"/>
+
+    <bpmn:sequenceFlow sourceRef="resolution_gateway" targetRef="resolve_favor" name="Yes">
+      <bpmn:conditionExpression>${valid == true}</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+
+    <bpmn:sequenceFlow sourceRef="resolution_gateway" targetRef="reject_dispute" name="No">
+      <bpmn:conditionExpression>${valid == false}</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
+
+    <bpmn:serviceTask id="resolve_favor" name="Resolve in Customer Favor"
+                      camunda:class="com.capco.camunda.delegate.ResolveDisputeDelegate"/>
+    <bpmn:sequenceFlow sourceRef="resolve_favor" targetRef="end_resolved"/>
+
+    <bpmn:userTask id="reject_dispute" name="Reject Dispute"/>
+    <bpmn:sequenceFlow sourceRef="reject_dispute" targetRef="end_rejected"/>
+
+    <bpmn:endEvent id="end_resolved" name="Dispute Resolved"/>
+    <bpmn:endEvent id="end_rejected" name="Dispute Rejected"/>
+
+  </bpmn:process>
+
+</bpmn:definitions>
